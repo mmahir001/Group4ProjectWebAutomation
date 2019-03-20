@@ -11,11 +11,11 @@ import java.util.concurrent.TimeUnit;
 public class MainAPI {
     public WebDriver driver = null;
     @BeforeMethod
-    public void setUp(String url) {
-        System.setProperty("webdriver.chrome.driver", "/Users/muhtasimmahir/Group4ProjectWebAutomation/Generic/driver/chromedriver");
+    public void setUp() {
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.navigate().to(url);
+        driver.navigate().to("https://www.geico.com/");
         driver.manage().window().maximize();
         }
         @AfterMethod
