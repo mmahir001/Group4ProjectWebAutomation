@@ -3,6 +3,8 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="eBay" target="1.5" />
+      <module name="Geico" target="1.5" />
+      <module name="Generic" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
