@@ -20,13 +20,15 @@ import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class MainAPI {
-//    public WebDriver driver = null;
+//    public static WebDriver driver = null;
+//    @Parameters({"url"})
 //    @BeforeMethod
-//    public void setUp(String url) {
-//        System.setProperty("webdriver.chrome.driver", "/Users/muhtasimmahir/Group4ProjectWebAutomation/Generic/driver/chromedriver");
+//    public void setUp(@Optional("https://www.geico.com/") String url) {
+//        System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\chromedriver.exe");
 //        driver = new ChromeDriver();
 //        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//        driver.navigate().to(url);
+//        driver.get(url);
+//        // driver.navigate().to(url);
 //        driver.manage().window().maximize();
 //        }
 //        @AfterMethod
@@ -46,15 +48,16 @@ public class MainAPI {
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
                               String browserVersion, @Optional("http://www.amazon.com") String url) throws IOException {
-//        if (useCloudEnv == true) {
-//            if (cloudEnvName.equalsIgnoreCase("browserstack")) {
-//                getCloudDriver(cloudEnvName, browserstack_username, browserstack_accesskey, os, os_version, browserName, browserVersion);
-//            } else if (cloudEnvName.equalsIgnoreCase("saucelabs")) {
-//                getCloudDriver(cloudEnvName, saucelabs_username, saucelabs_accesskey, os, os_version, browserName, browserVersion);
-//            }
-//        } else {
+        if (useCloudEnv == true) {
+            if (cloudEnvName.equalsIgnoreCase("browserstack")) {
+                getCloudDriver(cloudEnvName, browserstack_username, browserstack_accesskey, os, os_version, browserName, browserVersion);
+            } else if (cloudEnvName.equalsIgnoreCase("saucelabs")) {
+                getCloudDriver(cloudEnvName, saucelabs_username, saucelabs_accesskey, os, os_version, browserName, browserVersion);
+            }
+        } else {
             getLocalDriver(os, browserName);
 
+        }
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.get(url);
@@ -66,9 +69,9 @@ public class MainAPI {
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "../generic/browser-driver/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\chromedriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.chrome.driver", "../generic/browser-driver/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\chromedriver.exe");
             }
             driver = new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("chrome-options")) {
@@ -76,16 +79,16 @@ public class MainAPI {
             options.addArguments("--disable-notifications");
             options.addArguments("--incognito");
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "../generic/browser-driver/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\chromedriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.chrome.driver", "../generic/browser-driver/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\chromedriver.exe");
             }
             driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.gecko.driver", "../generic/browser-driver/geckodriver");
+                System.setProperty("webdriver.gecko.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\geckodriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.gecko.driver", "../generic/browser-driver/geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\geckodriver.exe");
             }
             driver = new FirefoxDriver();
 

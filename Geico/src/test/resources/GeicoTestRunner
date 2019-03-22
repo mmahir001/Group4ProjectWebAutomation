@@ -9,9 +9,9 @@
     <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="30.0"/>
-    <parameter name="url" value="https://www.amazon.com/"/>
+    <parameter name="url" value="https://www.geico.com/"/>
 
-    <test name = "Amazon Home">
+    <test name = "Geico Home">
 
     </test>
 </suite>
