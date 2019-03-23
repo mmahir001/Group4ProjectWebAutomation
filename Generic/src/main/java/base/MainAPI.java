@@ -28,14 +28,14 @@ public class MainAPI {
 //        driver = new ChromeDriver();
 //        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 //        driver.get(url);
-//        // driver.navigate().to(url);
+//         // driver.navigate().to(url);
 //        driver.manage().window().maximize();
 //        }
 //        @AfterMethod
 //        public void cleanUp(){
 //            driver.close();
 //        }
-
+//
     public static WebDriver driver = null;
     public String browserstack_username = "";
     public String browserstack_accesskey = "";
@@ -47,7 +47,7 @@ public class MainAPI {
 
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                              String browserVersion, @Optional("http://www.amazon.com") String url) throws IOException {
+                              String browserVersion, @Optional("http://geico.com") String url) throws IOException {
         if (useCloudEnv == true) {
             if (cloudEnvName.equalsIgnoreCase("browserstack")) {
                 getCloudDriver(cloudEnvName, browserstack_username, browserstack_accesskey, os, os_version, browserName, browserVersion);
@@ -69,9 +69,9 @@ public class MainAPI {
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\chromedriver");
-            } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\chromedriver.exe");
+            } else if (OS.equalsIgnoreCase("Windows")) {
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver1\\chromedriver.exe");
             }
             driver = new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("chrome-options")) {
@@ -79,16 +79,16 @@ public class MainAPI {
             options.addArguments("--disable-notifications");
             options.addArguments("--incognito");
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\chromedriver");
-            } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\chromedriver.exe");
+            } else if (OS.equalsIgnoreCase("Windows")) {
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver1\\chromedriver.exe");
             }
             driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.gecko.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\geckodriver");
-            } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.gecko.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\geckodriver.exe");
+            } else if (OS.equalsIgnoreCase("Windows")) {
+                System.setProperty("webdriver.gecko.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver1\\geckodriver.exe");
             }
             driver = new FirefoxDriver();
 
@@ -181,7 +181,7 @@ public class MainAPI {
      *
      * @param locator: locator technique(cssSelector, name, xpath and id)
      */
-    public void clickOnElem(String locator) {
+    public static void clickOnElem(String locator) {
         try {
             // Check and click by cssSelector
             driver.findElement(By.cssSelector(locator)).click();

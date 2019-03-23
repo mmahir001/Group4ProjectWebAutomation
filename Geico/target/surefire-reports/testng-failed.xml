@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Geico Automation Script ]">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="windows"/>
+  <parameter name="os_version" value="Sierra"/>
+  <parameter name="browserVersion" value="30.0"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="https://www.geico.com/"/>
+  <test thread-count="5" verbose="0" name="Geico Home(failed)">
+    <classes>
+      <class name="Test.LoginPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="testStartQuote"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- Test.LoginPage -->
+      <class name="Test.testPopUp">
+        <methods>
+          <include name="setUp"/>
+          <include name="popUpfix"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- Test.testPopUp -->
+    </classes>
+  </test> <!-- Geico Home(failed) -->
+</suite> <!-- Failed suite [Geico Automation Script ] -->
