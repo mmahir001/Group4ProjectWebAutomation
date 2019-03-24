@@ -2,26 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3d131f9-3904-4cb5-896e-d288f3a48fde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Geico/src/main/java/homePage/PopUpHandeler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geico/src/test/java/Test/testPopUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/driver1/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeDepot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeDepot/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeDepot/src/main/java/pages/SearchBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestSearchBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Geico/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/src/main/java/homePage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/main/java/homePage/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Geico/src/test/java/Test/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/java/Test/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/src/test/resources/GeicoTestRunner" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/resources/GeicoTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/src/test/java/Test/testPopUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/java/Test/testPopUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/src/test/resources/GeicoTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/resources/GeicoTestRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Geico/target/classes/homePage/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/classes/homePage/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/GeicoTestRunner" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/homePage/PopUpHandeler.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/classes/homePage/PopUpHandeler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/GeicoTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/test-classes/GeicoTestRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/Test/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/test-classes/Test/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/Test/testPopUp.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/MainAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/MainAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
     <ignored path="$PROJECT_DIR$/Instagram/target/" />
     <ignored path="$PROJECT_DIR$/Geico/target/" />
+    <ignored path="$PROJECT_DIR$/HomeDepot/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,104 +37,71 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="32" selection-start-column="32" selection-end-column="32" />
+            <state relative-caret-position="-1955">
+              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+              <folding>
+                <element signature="e#6363#6364#0" expanded="true" />
+                <element signature="e#11669#11670#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
+        <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/pages/SearchBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="170">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding>
-                <element signature="e#6179#6180#0" expanded="true" />
-                <element signature="e#11485#11486#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/HomePage.java">
+        <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestSearchBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/PopUpHandeler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-              <folding>
-                <element signature="e#113#114#0" expanded="true" />
-                <element signature="e#137#138#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Geico/src/test/java/Test/testPopUp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="289">
+              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Geico/src/test/java/Test/LoginPage.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="109">
+              <caret line="462" selection-start-line="462" selection-end-line="462" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Geico/pom.xml">
+        <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+            <state relative-caret-position="170">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Geico/src/test/resources/GeicoTestRunner.xml">
+        <entry file="file://$PROJECT_DIR$/HomeDepot/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6052">
-              <caret line="726" column="10" selection-start-line="726" selection-start-column="10" selection-end-line="726" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -153,12 +126,19 @@
         <option value="$PROJECT_DIR$/Instagram/src/test/resources/InstaTestRunner.xml" />
         <option value="$PROJECT_DIR$/Instagram/pom.xml" />
         <option value="$PROJECT_DIR$/Geico/src/main/java/homePage/HomePage.java" />
-        <option value="$PROJECT_DIR$/Geico/src/main/java/homePage/PopUpHandeler.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" />
         <option value="$PROJECT_DIR$/Geico/pom.xml" />
-        <option value="$PROJECT_DIR$/Geico/src/test/resources/GeicoTestRunner.xml" />
         <option value="$PROJECT_DIR$/Geico/src/test/java/Test/testPopUp.java" />
         <option value="$PROJECT_DIR$/Geico/src/test/java/Test/LoginPage.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/homePage/PopUpHandeler.java" />
+        <option value="$PROJECT_DIR$/HomeDepot/pom.xml" />
+        <option value="$PROJECT_DIR$/Geico/src/test/resources/GeicoTestRunner.xml" />
+        <option value="$PROJECT_DIR$/HomeDepot/src/main/resources/HomeDepotTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" />
+        <option value="$PROJECT_DIR$/HomeDepot/src/main/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestHomePage.java" />
+        <option value="$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner" />
+        <option value="$PROJECT_DIR$/HomeDepot/src/main/java/pages/SearchBox.java" />
+        <option value="$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestSearchBox.java" />
       </list>
     </option>
   </component>
@@ -171,30 +151,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Geico" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Geico" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Group4ProjectWebAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -220,66 +177,54 @@
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Geico" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homePage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Geico" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Geico" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -287,13 +232,13 @@
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Geico" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="maven-archiver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,9 +249,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553383560542" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553404015446" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -332,51 +277,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.testPopUp.popUpfix">
-    <configuration name="LoginPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Geico" />
+  <component name="RunManager" selected="TestNG.TestSearchBox.search">
+    <configuration name="HomePage.title" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HomeDepot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.LoginPage" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPage.testStartQuote" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Geico" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.LoginPage" />
-      <option name="METHOD_NAME" value="testStartQuote" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPage.title" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Geico" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.LoginPage" />
+      <option name="PACKAGE_NAME" value="pages" />
+      <option name="MAIN_CLASS_NAME" value="pages.HomePage" />
       <option name="METHOD_NAME" value="title" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -385,33 +296,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testPopUp" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Geico" />
+    <configuration name="SearchBox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HomeDepot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.testPopUp" />
+      <option name="PACKAGE_NAME" value="pages" />
+      <option name="MAIN_CLASS_NAME" value="pages.SearchBox" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testPopUp.popUpfix" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Geico" />
+    <configuration name="SearchBox.searchItems" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HomeDepot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.testPopUp" />
-      <option name="METHOD_NAME" value="popUpfix" />
+      <option name="PACKAGE_NAME" value="pages" />
+      <option name="MAIN_CLASS_NAME" value="pages.SearchBox" />
+      <option name="METHOD_NAME" value="searchItems" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HomeDepot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testPages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testPages" />
+      <option name="MAIN_CLASS_NAME" value="testPages.TestHomePage" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSearchBox.search" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HomeDepot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testPages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testPages" />
+      <option name="MAIN_CLASS_NAME" value="testPages.TestSearchBox" />
+      <option name="METHOD_NAME" value="search" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -421,11 +366,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.testPopUp.popUpfix" />
-        <item itemvalue="TestNG.LoginPage" />
-        <item itemvalue="TestNG.LoginPage.title" />
-        <item itemvalue="TestNG.testPopUp" />
-        <item itemvalue="TestNG.LoginPage.testStartQuote" />
+        <item itemvalue="TestNG.TestSearchBox.search" />
+        <item itemvalue="TestNG.SearchBox.searchItems" />
+        <item itemvalue="TestNG.SearchBox" />
+        <item itemvalue="TestNG.HomePage.title" />
+        <item itemvalue="TestNG.TestHomePage" />
       </list>
     </recent_temporary>
   </component>
@@ -443,42 +388,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testPopUp_popUpfix - 2019.03.23 at 17h 30m 51s.xml">
-      <configuration name="testPopUp.popUpfix" configurationId="TestNG" />
+    <history-entry file="TestHomePage_testHomePage - 2019.03.24 at 00h 24m 22s.xml">
+      <configuration name="TestHomePage.testHomePage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testPopUp - 2019.03.23 at 17h 33m 16s.xml">
-      <configuration name="testPopUp" configurationId="TestNG" />
+    <history-entry file="TestHomePage - 2019.03.24 at 00h 25m 48s.xml">
+      <configuration name="TestHomePage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testPopUp_popUpfix - 2019.03.23 at 17h 34m 15s.xml">
-      <configuration name="testPopUp.popUpfix" configurationId="TestNG" />
+    <history-entry file="HomePage_title - 2019.03.24 at 00h 26m 34s.xml">
+      <configuration name="HomePage.title" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testPopUp_popUpfix - 2019.03.23 at 17h 35m 11s.xml">
-      <configuration name="testPopUp.popUpfix" configurationId="TestNG" />
+    <history-entry file="SearchBox - 2019.03.24 at 00h 32m 41s.xml">
+      <configuration name="SearchBox" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPage_title - 2019.03.23 at 17h 39m 19s.xml">
-      <configuration name="LoginPage.title" configurationId="TestNG" />
+    <history-entry file="TestSearchBox_search - 2019.03.24 at 00h 49m 48s.xml">
+      <configuration name="TestSearchBox.search" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPage - 2019.03.23 at 18h 08m 59s.xml">
-      <configuration name="LoginPage" configurationId="TestNG" />
+    <history-entry file="TestSearchBox_search - 2019.03.24 at 00h 57m 43s.xml">
+      <configuration name="TestSearchBox.search" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPage - 2019.03.23 at 18h 41m 43s.xml">
-      <configuration name="LoginPage" configurationId="TestNG" />
+    <history-entry file="TestSearchBox_search - 2019.03.24 at 01h 02m 12s.xml">
+      <configuration name="TestSearchBox.search" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPage_title - 2019.03.23 at 19h 11m 30s.xml">
-      <configuration name="LoginPage.title" configurationId="TestNG" />
+    <history-entry file="TestSearchBox_search - 2019.03.24 at 01h 02m 34s.xml">
+      <configuration name="TestSearchBox.search" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPage - 2019.03.23 at 19h 12m 39s.xml">
-      <configuration name="LoginPage" configurationId="TestNG" />
+    <history-entry file="SearchBox_searchItems - 2019.03.24 at 01h 03m 28s.xml">
+      <configuration name="SearchBox.searchItems" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testPopUp_popUpfix - 2019.03.23 at 19h 15m 52s.xml">
-      <configuration name="testPopUp.popUpfix" configurationId="TestNG" />
+    <history-entry file="TestSearchBox_search - 2019.03.24 at 01h 07m 17s.xml">
+      <configuration name="TestSearchBox.search" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="17" width="1484" height="767" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1980337" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1980337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -488,15 +433,15 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38267717" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38267717" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44409448" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28188977" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28188977" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32598424" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32440946" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -564,7 +509,7 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6052">
-          <caret line="726" column="10" selection-start-line="726" selection-start-column="10" selection-end-line="726" selection-end-column="10" />
+          <caret line="650" column="10" selection-start-line="650" selection-start-column="10" selection-end-line="650" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -578,65 +523,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="343" selection-start-line="343" selection-end-line="343" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-          <folding>
-            <element signature="e#6179#6180#0" expanded="true" />
-            <element signature="e#11485#11486#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Geico/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/PopUpHandeler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="527">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Geico/src/test/java/Test/testPopUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geico/src/test/resources/GeicoTestRunner.xml">
+    <entry file="file://$PROJECT_DIR$/HomeDepot/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/Test/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="85">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1955">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="e#6363#6364#0" expanded="true" />
+            <element signature="e#11669#11670#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -644,6 +572,116 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/Test/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/PopUpHandeler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/resources">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/resources/GeicoTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/resources/HomeDepotTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="363" selection-start-line="363" selection-end-line="363" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/TestNgMethodUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="462" selection-start-line="462" selection-end-line="462" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="802" selection-start-line="802" selection-end-line="802" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/pages/SearchBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestSearchBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -699,7 +737,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Instagram</last-edited>
+          <last-edited>HomeDepot</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

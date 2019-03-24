@@ -1,5 +1,6 @@
 package base;
 
+import com.beust.jcommander.Parameter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -20,104 +21,104 @@ import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class MainAPI {
-//    public static WebDriver driver = null;
-//    @Parameters({"url"})
-//    @BeforeMethod
-//    public void setUp(@Optional("https://www.geico.com/") String url) {
-//        System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\chromedriver.exe");
-//        driver = new ChromeDriver();
-//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//        driver.get(url);
-//         // driver.navigate().to(url);
-//        driver.manage().window().maximize();
-//        }
+    public static WebDriver driver = null;
+    @Parameters({"url"})
+    @BeforeMethod
+    public void setUp(@Optional("https://www.homedepot.com/")String url) {
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\chromedriver.exe");
+        driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.get(url);
+         // driver.navigate().to(url);
+        driver.manage().window().maximize();
+        }
 //        @AfterMethod
 //        public void cleanUp(){
 //            driver.close();
 //        }
 //
-    public static WebDriver driver = null;
-    public String browserstack_username = "";
-    public String browserstack_accesskey = "";
-    public String saucelabs_username = "";
-    public String saucelabs_accesskey = "";
-
-    @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
-    @BeforeMethod
-
-    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName,
-                      @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                              String browserVersion, @Optional("http://geico.com") String url) throws IOException {
-        if (useCloudEnv == true) {
-            if (cloudEnvName.equalsIgnoreCase("browserstack")) {
-                getCloudDriver(cloudEnvName, browserstack_username, browserstack_accesskey, os, os_version, browserName, browserVersion);
-            } else if (cloudEnvName.equalsIgnoreCase("saucelabs")) {
-                getCloudDriver(cloudEnvName, saucelabs_username, saucelabs_accesskey, os, os_version, browserName, browserVersion);
-            }
-        } else {
-            getLocalDriver(os, browserName);
-
-        }
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
-        driver.get(url);
-        //driver.navigate().to(url);
-        driver.navigate().refresh();
-        driver.manage().window().maximize();
-    }
-
-    public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName) {
-        if (browserName.equalsIgnoreCase("chrome")) {
-            if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\chromedriver.exe");
-            } else if (OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver1\\chromedriver.exe");
-            }
-            driver = new ChromeDriver();
-        } else if (browserName.equalsIgnoreCase("chrome-options")) {
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments("--disable-notifications");
-            options.addArguments("--incognito");
-            if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\chromedriver.exe");
-            } else if (OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver1\\chromedriver.exe");
-            }
-            driver = new ChromeDriver(options);
-        } else if (browserName.equalsIgnoreCase("firefox")) {
-            if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.gecko.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\geckodriver.exe");
-            } else if (OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.gecko.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver1\\geckodriver.exe");
-            }
-            driver = new FirefoxDriver();
-
-        } else if (browserName.equalsIgnoreCase("ie")) {
-            System.setProperty("webdriver.ie.driver", "../generic/browser-driver/IEDriverServer.exe");
-            driver = new InternetExplorerDriver();
-        }
-        return driver;
-    }
-
-
-    public WebDriver getCloudDriver(String envName, String envUsername, String envAccessKey, String os, String os_version, String browserName,
-                                    String browserVersion) throws IOException {
-        DesiredCapabilities cap = new DesiredCapabilities();
-        cap.setCapability("browser", browserName);
-        cap.setCapability("browser_version", browserVersion);
-        cap.setCapability("os", os);
-        cap.setCapability("os_version", os_version);
-        if (envName.equalsIgnoreCase("Saucelabs")) {
-            //resolution for Saucelabs
-            driver = new RemoteWebDriver(new URL("http://" + envUsername + ":" + envAccessKey +
-                    "@ondemand.saucelabs.com:80/wd/hub"), cap);
-        } else if (envName.equalsIgnoreCase("Browserstack")) {
-            cap.setCapability("resolution", "1024x768");
-            driver = new RemoteWebDriver(new URL("http://" + envUsername + ":" + envAccessKey +
-                    "@hub-cloud.browserstack.com/wd/hub"), cap);
-        }
-        return driver;
-    }
+//    public static WebDriver driver = null;
+//    public String browserstack_username = "";
+//    public String browserstack_accesskey = "";
+//    public String saucelabs_username = "";
+//    public String saucelabs_accesskey = "";
+//
+//    @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
+//    @BeforeMethod
+//
+//    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName,
+//                      @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
+//                              String browserVersion, @Optional("http://geico.com") String url) throws IOException {
+//        if (useCloudEnv == true) {
+//            if (cloudEnvName.equalsIgnoreCase("browserstack")) {
+//                getCloudDriver(cloudEnvName, browserstack_username, browserstack_accesskey, os, os_version, browserName, browserVersion);
+//            } else if (cloudEnvName.equalsIgnoreCase("saucelabs")) {
+//                getCloudDriver(cloudEnvName, saucelabs_username, saucelabs_accesskey, os, os_version, browserName, browserVersion);
+//            }
+//        } else {
+//            getLocalDriver(os, browserName);
+//
+//        }
+//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//        driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
+//        driver.get(url);
+//        //driver.navigate().to(url);
+//        driver.navigate().refresh();
+//        driver.manage().window().maximize();
+//    }
+//
+//    public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName) {
+//        if (browserName.equalsIgnoreCase("chrome")) {
+//            if (OS.equalsIgnoreCase("OS X")) {
+//                System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\chromedriver.exe");
+//            } else if (OS.equalsIgnoreCase("Windows")) {
+//                System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver1\\chromedriver.exe");
+//            }
+//            driver = new ChromeDriver();
+//        } else if (browserName.equalsIgnoreCase("chrome-options")) {
+//            ChromeOptions options = new ChromeOptions();
+//            options.addArguments("--disable-notifications");
+//            options.addArguments("--incognito");
+//            if (OS.equalsIgnoreCase("OS X")) {
+//                System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\chromedriver.exe");
+//            } else if (OS.equalsIgnoreCase("Windows")) {
+//                System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver1\\chromedriver.exe");
+//            }
+//            driver = new ChromeDriver(options);
+//        } else if (browserName.equalsIgnoreCase("firefox")) {
+//            if (OS.equalsIgnoreCase("OS X")) {
+//                System.setProperty("webdriver.gecko.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver\\geckodriver.exe");
+//            } else if (OS.equalsIgnoreCase("Windows")) {
+//                System.setProperty("webdriver.gecko.driver", "C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\Generic\\driver1\\geckodriver.exe");
+//            }
+//            driver = new FirefoxDriver();
+//
+//        } else if (browserName.equalsIgnoreCase("ie")) {
+//            System.setProperty("webdriver.ie.driver", "../generic/browser-driver/IEDriverServer.exe");
+//            driver = new InternetExplorerDriver();
+//        }
+//        return driver;
+//    }
+//
+//
+//    public WebDriver getCloudDriver(String envName, String envUsername, String envAccessKey, String os, String os_version, String browserName,
+//                                    String browserVersion) throws IOException {
+//        DesiredCapabilities cap = new DesiredCapabilities();
+//        cap.setCapability("browser", browserName);
+//        cap.setCapability("browser_version", browserVersion);
+//        cap.setCapability("os", os);
+//        cap.setCapability("os_version", os_version);
+//        if (envName.equalsIgnoreCase("Saucelabs")) {
+//            //resolution for Saucelabs
+//            driver = new RemoteWebDriver(new URL("http://" + envUsername + ":" + envAccessKey +
+//                    "@ondemand.saucelabs.com:80/wd/hub"), cap);
+//        } else if (envName.equalsIgnoreCase("Browserstack")) {
+//            cap.setCapability("resolution", "1024x768");
+//            driver = new RemoteWebDriver(new URL("http://" + envUsername + ":" + envAccessKey +
+//                    "@hub-cloud.browserstack.com/wd/hub"), cap);
+//        }
+//        return driver;
+//    }
 
     @AfterMethod
     public void cleanUp() {
