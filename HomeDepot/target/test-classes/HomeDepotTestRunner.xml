@@ -11,7 +11,8 @@
 
     <test name = "HomeDepot Home">
         <classes>
+            <class>testPages.TestHomePage</class>
+            <class>testPages.TestSearchBox</class>
         </classes>
-
     </test>
 </suite>

@@ -14,7 +14,6 @@
 
     <test name = "Geico Home">
         <classes>
-            <class name="Test.testPopUp"/>
             <class name="Test.LoginPage"/>
         </classes>
 

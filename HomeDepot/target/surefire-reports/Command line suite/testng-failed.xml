@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="testPages.TestLogin">
+        <methods>
+          <include name="testClickLogin"/>
+          <include name="setUp"/>
+          <include name="testEnterEmailId"/>
+          <include name="testClickMyAccount"/>
+          <include name="initialize"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- testPages.TestLogin -->
+      <class name="testPages.TestHomePage">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHomePage"/>
+          <include name="initialize"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- testPages.TestHomePage -->
+      <class name="testPages.TestSearchBox">
+        <methods>
+          <include name="search2"/>
+          <include name="setUp"/>
+          <include name="search"/>
+          <include name="search8"/>
+          <include name="search5"/>
+          <include name="search7"/>
+          <include name="search4"/>
+          <include name="search6"/>
+          <include name="cleanUp"/>
+          <include name="search3"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- testPages.TestSearchBox -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
