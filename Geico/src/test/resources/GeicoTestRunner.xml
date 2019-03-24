@@ -14,7 +14,7 @@
 
     <test name = "Geico Home">
         <classes>
-            <class name="Test.LoginPage"/>
+            <class name="Test.TestHomePage"/>
         </classes>
 
     </test>

@@ -17,7 +17,14 @@ public class TestHomePage extends MainAPI {
     @Test
     public void testHomePage(){
         hp.title();
-
+    }
+    @Test
+    public void testMyStore(){
+        hp.myStore();
+    }
+    @Test
+    public void testCheckCart(){
+        hp.checkCart();
     }
 
 

@@ -5,7 +5,7 @@ import homePage.HomePage;
 import homePage.PopUpHandeler;
 import org.testng.annotations.Test;
 
-public class LoginPage extends MainAPI {
+public class TestHomePage extends MainAPI {
     HomePage newHome;
     PopUpHandeler pup;
 
