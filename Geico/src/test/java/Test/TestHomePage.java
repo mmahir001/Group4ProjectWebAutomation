@@ -22,10 +22,10 @@ public class TestHomePage extends MainAPI {
         newHome.startQuote();
 
     }
-//    @Test
-//    public void testPopUp(){
-//        pup.popUp();
-//    }
+    @Test
+    public void testPopUp(){
+        pup.popUp();
+    }
 
 }
 

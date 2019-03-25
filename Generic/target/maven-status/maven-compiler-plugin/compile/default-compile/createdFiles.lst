@@ -1,0 +1,4 @@
+reporting\TestLogger.class
+reporting\ExtentManager.class
+reporting\ExtentTestManager.class
+reporting\ApplicationLog.class

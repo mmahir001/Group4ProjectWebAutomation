@@ -12,10 +12,10 @@ public class HomePage extends MainAPI {
         Assert.assertEquals(st,"The Home Depot");
     }
     public void myStore(){
-        MainAPI.clickOnElem(".MyStore__label");
+        MainAPI.clickOnElement(".MyStore__label");
     }
     public void checkCart(){
-        MainAPI.clickOnElem(".MyCart__label");
+        MainAPI.clickOnElement(".MyCart__labeln");
     }
 
 }
