@@ -120,7 +120,7 @@ import java.util.concurrent.TimeUnit;
         @BeforeMethod
         public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                           @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                                  String browserVersion, @Optional("http://www.instagram.com") String url)throws IOException {
+                                  String browserVersion, @Optional("http://www.amazon.com") String url)throws IOException {
             //System.setProperty("webdriver.chrome.driver", "/Users/peoplentech/eclipse-workspace-March2018/SeleniumProject1/driver/chromedriver");
             if(useCloudEnv==true){
                 if(cloudEnvName.equalsIgnoreCase("browserstack")) {
@@ -139,32 +139,32 @@ import java.util.concurrent.TimeUnit;
         public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName){
             if(browserName.equalsIgnoreCase("chrome")){
                 if(OS.equalsIgnoreCase("OS X")){
-                    System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver");
+                    System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver");
                 }else if(OS.equalsIgnoreCase("Windows")){
-                    System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
+                    System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver.exe");
                 }
                 driver = new ChromeDriver();
             } else if(browserName.equalsIgnoreCase("chrome-options")){
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--disable-notifications");
                 if(OS.equalsIgnoreCase("OS X")){
-                    System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver");
+                    System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver");
                 }else if(OS.equalsIgnoreCase("Windows")){
-                    System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
+                    System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver.exe");
                 }
                 driver = new ChromeDriver(options);
             }
 
             else if(browserName.equalsIgnoreCase("firefox")){
                 if(OS.equalsIgnoreCase("OS X")){
-                    System.setProperty("webdriver.gecko.driver", "../Generic/browser-driver/geckodriver");
+                    System.setProperty("webdriver.gecko.driver", "../Generic/driver/geckodriver");
                 }else if(OS.equalsIgnoreCase("Windows")) {
-                    System.setProperty("webdriver.gecko.driver", "../Generic/browser-driver/geckodriver.exe");
+                    System.setProperty("webdriver.gecko.driver", "../Generic/driver/geckodriver.exe");
                 }
                 driver = new FirefoxDriver();
 
             } else if(browserName.equalsIgnoreCase("ie")) {
-                System.setProperty("webdriver.ie.driver", "../Generic/browser-driver/IEDriverServer.exe");
+                System.setProperty("webdriver.ie.driver", "../Generic/driver/IEDriverServer.exe");
                 driver = new InternetExplorerDriver();
             }
             return driver;
