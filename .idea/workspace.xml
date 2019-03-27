@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3d131f9-3904-4cb5-896e-d288f3a48fde" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazon/src/main/java/pages/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/main/java/pages/MenuPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/testPages/TestMenuPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/testPages/TestMenuPages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -49,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/pages/MenuPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+            <state relative-caret-position="86">
+              <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#780#781#0" expanded="true" />
@@ -67,6 +65,14 @@
                 <element signature="e#1837#1838#0" expanded="true" />
                 <element signature="e#1978#1979#0" expanded="true" />
                 <element signature="e#2000#2001#0" expanded="true" />
+                <element signature="e#2140#2141#0" expanded="true" />
+                <element signature="e#2163#2164#0" expanded="true" />
+                <element signature="e#2603#2604#0" expanded="true" />
+                <element signature="e#2626#2627#0" expanded="true" />
+                <element signature="e#2785#2786#0" expanded="true" />
+                <element signature="e#2815#2816#0" expanded="true" />
+                <element signature="e#3030#3031#0" expanded="true" />
+                <element signature="e#3054#3055#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/testPages/TestMenuPages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+            <state relative-caret-position="398">
+              <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#517#518#0" expanded="true" />
@@ -85,6 +91,12 @@
                 <element signature="e#626#627#0" expanded="true" />
                 <element signature="e#688#689#0" expanded="true" />
                 <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#1431#1432#0" expanded="true" />
+                <element signature="e#1447#1448#0" expanded="true" />
+                <element signature="e#1516#1517#0" expanded="true" />
+                <element signature="e#1556#1557#0" expanded="true" />
+                <element signature="e#1603#1604#0" expanded="true" />
+                <element signature="e#1619#1620#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,8 +191,8 @@
         <option value="$PROJECT_DIR$/Amazon/src/main/java/pages/SearchPage.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" />
-        <option value="$PROJECT_DIR$/Amazon/src/main/java/pages/MenuPage.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/testPages/TestMenuPages.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/main/java/pages/MenuPage.java" />
       </list>
     </option>
   </component>
@@ -334,7 +346,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553651494310" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553702645402" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -361,7 +373,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMenuPages.testClickDeliverTo">
+  <component name="RunManager" selected="TestNG.TestMenuPages.testClickeGiftCard">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="Group4ProjectWebAutomation" />
       <option name="VM_PARAMETERS" />
@@ -409,7 +421,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMenuPages" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMenuPages.testClickBirthday" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -419,7 +431,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="testPages" />
       <option name="MAIN_CLASS_NAME" value="testPages.TestMenuPages" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="testClickBirthday" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -444,7 +457,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMenuPages.testClickHelp" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMenuPages.testClickcongratulations" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -454,7 +467,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testPages" />
       <option name="MAIN_CLASS_NAME" value="testPages.TestMenuPages" />
-      <option name="METHOD_NAME" value="testClickHelp" />
+      <option name="METHOD_NAME" value="testClickcongratulations" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -462,7 +475,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMenuPages.testClickRegistry" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMenuPages.testClickeGiftCard" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -472,7 +485,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testPages" />
       <option name="MAIN_CLASS_NAME" value="testPages.TestMenuPages" />
-      <option name="METHOD_NAME" value="testClickRegistry" />
+      <option name="METHOD_NAME" value="testClickeGiftCard" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -480,7 +493,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMenuPages.testClickSell" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMenuPages.testClickthankyou" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -490,7 +503,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testPages" />
       <option name="MAIN_CLASS_NAME" value="testPages.TestMenuPages" />
-      <option name="METHOD_NAME" value="testClickSell" />
+      <option name="METHOD_NAME" value="testClickthankyou" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -500,11 +513,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestMenuPages.testClickeGiftCard" />
+        <item itemvalue="TestNG.TestMenuPages.testClickcongratulations" />
+        <item itemvalue="TestNG.TestMenuPages.testClickthankyou" />
+        <item itemvalue="TestNG.TestMenuPages.testClickBirthday" />
         <item itemvalue="TestNG.TestMenuPages.testClickDeliverTo" />
-        <item itemvalue="TestNG.TestMenuPages.testClickHelp" />
-        <item itemvalue="TestNG.TestMenuPages.testClickRegistry" />
-        <item itemvalue="TestNG.TestMenuPages.testClickSell" />
-        <item itemvalue="TestNG.TestMenuPages" />
       </list>
     </recent_temporary>
   </component>
@@ -522,39 +535,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMenuPages_testClickRegistry - 2019.03.26 at 21h 20m 46s.xml">
-      <configuration name="TestMenuPages.testClickRegistry" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMenuPages_testClickRegistry - 2019.03.26 at 21h 21m 14s.xml">
-      <configuration name="TestMenuPages.testClickRegistry" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMenuPages_testClickHelp - 2019.03.26 at 21h 25m 19s.xml">
-      <configuration name="TestMenuPages.testClickHelp" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMenuPages_testClickHelp - 2019.03.26 at 21h 25m 54s.xml">
-      <configuration name="TestMenuPages.testClickHelp" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMenuPages_testClickHelp - 2019.03.26 at 21h 26m 46s.xml">
-      <configuration name="TestMenuPages.testClickHelp" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMenuPages_testClickHelp - 2019.03.26 at 21h 28m 41s.xml">
-      <configuration name="TestMenuPages.testClickHelp" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMenuPages_testClickHelp - 2019.03.26 at 21h 30m 11s.xml">
-      <configuration name="TestMenuPages.testClickHelp" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMenuPages_testClickHelp - 2019.03.26 at 21h 41m 29s.xml">
-      <configuration name="TestMenuPages.testClickHelp" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestMenuPages_testClickHelp - 2019.03.26 at 21h 42m 27s.xml">
       <configuration name="TestMenuPages.testClickHelp" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestMenuPages_testClickHelp - 2019.03.26 at 21h 45m 47s.xml">
       <configuration name="TestMenuPages.testClickHelp" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestMenuPages_testClickDeliverTo - 2019.03.26 at 21h 51m 45s.xml">
+      <configuration name="TestMenuPages.testClickDeliverTo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMenuPages_testClickBirthday - 2019.03.26 at 22h 01m 20s.xml">
+      <configuration name="TestMenuPages.testClickBirthday" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMenuPages_testClickBirthday - 2019.03.26 at 22h 03m 06s.xml">
+      <configuration name="TestMenuPages.testClickBirthday" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMenuPages_testClickBirthday - 2019.03.26 at 22h 07m 27s.xml">
+      <configuration name="TestMenuPages.testClickBirthday" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMenuPages_testClickBirthday - 2019.03.27 at 11h 42m 33s.xml">
+      <configuration name="TestMenuPages.testClickBirthday" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMenuPages_testClickthankyou - 2019.03.27 at 11h 47m 58s.xml">
+      <configuration name="TestMenuPages.testClickthankyou" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMenuPages_testClickcongratulations - 2019.03.27 at 11h 52m 27s.xml">
+      <configuration name="TestMenuPages.testClickcongratulations" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMenuPages_testClickeGiftCard - 2019.03.27 at 11h 59m 01s.xml">
+      <configuration name="TestMenuPages.testClickeGiftCard" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11606000" />
+    <option name="totallyTimeSpent" value="13975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="194" y="23" width="1514" height="840" extended-state="0" />
@@ -718,8 +731,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/pages/MenuPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+        <state relative-caret-position="86">
+          <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#780#781#0" expanded="true" />
@@ -736,14 +749,22 @@
             <element signature="e#1837#1838#0" expanded="true" />
             <element signature="e#1978#1979#0" expanded="true" />
             <element signature="e#2000#2001#0" expanded="true" />
+            <element signature="e#2140#2141#0" expanded="true" />
+            <element signature="e#2163#2164#0" expanded="true" />
+            <element signature="e#2603#2604#0" expanded="true" />
+            <element signature="e#2626#2627#0" expanded="true" />
+            <element signature="e#2785#2786#0" expanded="true" />
+            <element signature="e#2815#2816#0" expanded="true" />
+            <element signature="e#3030#3031#0" expanded="true" />
+            <element signature="e#3054#3055#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/testPages/TestMenuPages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+        <state relative-caret-position="398">
+          <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#517#518#0" expanded="true" />
@@ -752,6 +773,12 @@
             <element signature="e#626#627#0" expanded="true" />
             <element signature="e#688#689#0" expanded="true" />
             <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1556#1557#0" expanded="true" />
+            <element signature="e#1603#1604#0" expanded="true" />
+            <element signature="e#1619#1620#0" expanded="true" />
           </folding>
         </state>
       </provider>

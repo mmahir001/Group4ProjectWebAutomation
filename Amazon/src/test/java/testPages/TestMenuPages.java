@@ -1,6 +1,7 @@
 package testPages;
 
 import base.MainAPI;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -56,6 +57,26 @@ public class TestMenuPages extends MainAPI {
     public void testClickDeliverTo()throws Exception{
         mp.clickDeliverTo();
    }
+   @Test
+    public void testClickBirthday()throws Exception{
+        mp.clickBirthday();
+   }
+   @Test
+    public void testClickthankyou(){
+        mp.clickthakyou();
+   }
+   @Test
+    public void testClickcongratulations(){
+        mp.clickcongratulations();
+   }
+   @Test
+    public void testClickeGiftCard(){
+        mp.clickeGiftCard();
+   }
+
+
+
+
 
 
 
