@@ -19,11 +19,25 @@ public class TestLogin extends MainAPI {
     }
     @Test
     public void testClickLogin(){
+        testClickMyAccount();
         login.clickLogin();
     }
     @Test
     public void testEnterEmailId(){
+        testClickLogin();
         login.enterEmailId();
     }
+    @Test
+    public void testEnterPassword(){
+        testEnterEmailId();
+        login.enterPassword();
+    }
+    @Test
+    public void testSingIn(){
+        testEnterPassword();
+        login.clickSignIn();
+    }
+
+
 
 }

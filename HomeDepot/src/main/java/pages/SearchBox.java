@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 
 public class SearchBox extends MainAPI  {
 
+
     public void searchIFrames(){
         MainAPI.typeOnElementNEnter("#headerSearch","Frames");
         String st = driver.getTitle();

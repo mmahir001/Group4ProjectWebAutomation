@@ -15,8 +15,16 @@ public class TestHomePage extends MainAPI {
         hp = PageFactory.initElements(driver, HomePage.class);
     }
     @Test
+    public void testTitle(){
+        hp.title();
+    }
+    @Test
     public void testHomePage(){
         hp.title();
+    }
+    @Test
+    public void testClickMyStore(){
+        hp.clickMyStore();
     }
     @Test
     public void testClickStoreFinder(){
@@ -45,6 +53,14 @@ public class TestHomePage extends MainAPI {
     @Test
     public void testClickTruckOrder(){
         hp.clickTrackOrder();
+    }
+    @Test
+    public void testHelp(){
+        hp.clickHelp();
+    }
+    @Test
+    public void testClickCart(){
+        hp.clickMyCart();
     }
 
 }

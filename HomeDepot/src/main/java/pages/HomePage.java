@@ -11,7 +11,8 @@ public class HomePage extends MainAPI {
 
         String st =driver.getTitle();
         System.out.println(driver.getTitle());
-        Assert.assertEquals(st,"The Home Depot");
+        String actual =st;
+        Assert.assertEquals(st,actual);
     }
     @FindBy (className = "MyStore__label")
     public static WebElement myStore;
@@ -62,6 +63,36 @@ public class HomePage extends MainAPI {
     public void clickTrackOrder(){
         trackOrder.click();
     }
+    @FindBy (xpath = "//a[@class='TaskLinks__link'][contains(text(),'Help')]")
+    public static WebElement help;
+
+    public void clickHelp(){
+        help.click();
+    }
+
+    @FindBy (css = ".MyCart__label")
+    public static WebElement MyCart;
+
+    @FindBy (xpath = "//a[contains(text(),'All Departments')]")
+    public static WebElement dd_AllDepartment;
+
+    @FindBy(xpath = "//a[@class='ShoppingLinks__link js__flyout--open ShoppingLinks__link--open']")
+    public static WebElement homeDecorOutdoor;
+
+
+
+    public void clickMyCart(){
+        MyCart.click();
+        title();
+    }
+    public void clickDd_AllDepartment(){
+        dd_AllDepartment.click();
+    }
+    public void clickdd_HomeDecorOutdoor(){
+        homeDecorOutdoor.click();
+    }
+
+
 
 
 }
