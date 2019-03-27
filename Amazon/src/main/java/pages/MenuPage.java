@@ -50,6 +50,40 @@ public class MenuPage extends MainAPI {
     public void clickWholeFoods(){
         wholeFoods.click();
     }
+    @FindBy(xpath = "//a[@class='nav-a'][contains(text(),'Sell')]")
+    public static WebElement sell;
+
+    public void clickSell(){
+        sell.click();
+
+    }
+    @FindBy(xpath = "//a[contains(text(),'Registry')]")
+    public static WebElement registry;
+
+    public void clickRegistry(){
+        registry.click();
+    }
+    @FindBy(xpath = "//a[@class='nav-a'][contains(text(),'Help')]")
+    public static WebElement help;
+
+    public void clickHelp(){
+        help.click();
+    }
+    @FindBy(xpath = "//span[@id='glow-ingress-line1']")
+    public static WebElement deliverto;
+
+    public void clickDeliverTo(){
+        deliverto.click();
+    }
+
+
+
+
+
+
+
+
+
 
 
 

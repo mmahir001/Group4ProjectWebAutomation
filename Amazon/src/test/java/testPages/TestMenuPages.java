@@ -37,7 +37,31 @@ public class TestMenuPages extends MainAPI {
     @Test
     public void testClickWholeFoods(){
         mp.clickWholeFoods();
+
     }
+    @Test
+    public void testClickSell()throws Exception{
+        mp.clickSell();
+    }
+    @Test
+    public void testClickRegistry()throws Exception{
+        mp.clickRegistry();
+    }
+    @Test
+    public void testClickHelp()throws InterruptedException,NullPointerException{
+        mp.clickHelp();
+        MainAPI.sleepForTwoSec();
+    }
+   @Test
+    public void testClickDeliverTo()throws Exception{
+        mp.clickDeliverTo();
+   }
+
+
+
+
+
+
 
 
 

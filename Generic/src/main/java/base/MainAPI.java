@@ -438,6 +438,10 @@ import java.util.concurrent.TimeUnit;
             Select select = new Select(element);
             select.selectByVisibleText(value);
         }
+        public static void sleepForTwoSec() throws InterruptedException{
+            Thread.sleep(2000);
+
+        }
 
         public static void sleepFor(int sec) throws InterruptedException {
             Thread.sleep(sec * 1000);
