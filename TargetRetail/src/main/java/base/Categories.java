@@ -9,20 +9,13 @@ public class Categories extends MainAPI {
 
     @FindBy (xpath = "//span[contains(text(),'Categories')]")
     public static WebElement categories;
-    public void clickCtagories() throws Exception{
+    public void clickCategories() throws Exception{
         categories.click();
     }
 
-//    @FindBy (xpath = "//div[contains(text(),'Categories')]")
-//    public static WebElement secondcatagories;
-//    public void clickSecondCtagories()throws Exception{
-//        categories.click();
-//    }
-
     @FindBy(xpath = "//div[contains(text(),'Women')]")
     public static WebElement women;
-
-    public void clickWommenTab() throws Exception{
+    public void clickWomenTab() throws Exception{
         Actions actions = new Actions(driver);
         actions.moveToElement(categories).click();
         actions.moveToElement(women).perform();

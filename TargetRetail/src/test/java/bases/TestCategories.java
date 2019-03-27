@@ -8,20 +8,19 @@ import org.testng.annotations.Test;
 
 public class TestCategories extends MainAPI {
     Categories newCat;
+    String catUrl = "https://www.target.com/?clkid=36998e8eN501111e9ba56060acead98a1&lnm=79373&afid=CitizenHawk&ref=tgt_adv_xasd0002";
+
 
     @BeforeMethod
     public void initialize() {
+        driver.navigate().to(catUrl);
         newCat = PageFactory.initElements(driver, Categories.class);
     }
 
-//    @Test
-//    public void testCategories() throws Exception{
-//        newCat.clickCtagories();
-//    }
 
     @Test
-    public void testWomenTab()throws Exception{
-        newCat.clickWommenTab();
+    public void testWomen()throws Exception{
+        newCat.clickWomenTab();
     }
      @Test
     public void testClickMan() throws Exception{
@@ -99,11 +98,29 @@ public class TestCategories extends MainAPI {
     public void testClickGrocery() throws Exception{
         newCat.clickGrocery();
     }
-
-
-
-
+    @Test
+    public void testClickLuggage() throws Exception{
+        newCat.clickLuggage();
     }
+    @Test
+    public void testClickSchoolOfficeSupplies() throws Exception{
+        newCat.clickSchoolOfficeSuppies();
+    }
+    @Test
+    public void testClickPartySupplies() throws Exception{
+        newCat.clickPartySupplies();
+    }
+
+    @Test
+    public void testClickMusicalInstruments() throws Exception{
+        newCat.clickMusicalInstruments();
+    }
+    @Test
+    public void testClickClearance() throws Exception{
+        newCat.clickClearance();
+    }
+
+}
 
 
 
