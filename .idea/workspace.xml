@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3d131f9-3904-4cb5-896e-d288f3a48fde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Generic/sql-driver/mysql-connector-java-8.0.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Instagram/src/main/java/datasource/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Instagram/src/main/java/pages/SignUpPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Instagram/src/main/test/tests/InstaTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/sql-driver/mysql-connector-java-6.0.6-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/src/main/test/java/tests/InstaTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/src/main/test/java/tests/InstaTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/target/classes/pages/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/secret.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/secret.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram/src/main/java/datasource/DataBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram/src/main/java/pages/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram/src/main/test/java/tests/InstaTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram/target/test-classes/InstaTestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram/target/test-classes/tests/InstaTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/target/test-classes/tests/InstaTester.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -22,70 +27,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+        <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+            <state relative-caret-position="825">
+              <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
+        <entry file="file://$PROJECT_DIR$/Generic/src/secret.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Instagram/src/main/java/pages/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Instagram/src/main/java/datasource/DataBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -100,22 +54,107 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="170" selection-start-line="170" selection-end-line="170" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Instagram/src/main/test/java/tests/InstaTester.java">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="480">
+              <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Instagram/src/main/java/pages/SignUpPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="82" column="22" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Instagram/src/main/test/tests/InstaTester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="803">
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#886#887#0" expanded="true" />
+                <element signature="e#930#931#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
+                <element signature="e#1081#1082#0" expanded="true" />
+                <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="e#1079#1080#0" expanded="true" />
+                <element signature="e#1120#1121#0" expanded="true" />
+                <element signature="e#1159#1160#0" expanded="true" />
+                <element signature="e#1206#1207#0" expanded="true" />
+                <element signature="e#1231#1232#0" expanded="true" />
+                <element signature="e#1292#1293#0" expanded="true" />
+                <element signature="e#1333#1334#0" expanded="true" />
+                <element signature="e#1368#1369#0" expanded="true" />
+                <element signature="e#1407#1408#0" expanded="true" />
+                <element signature="e#1456#1457#0" expanded="true" />
+                <element signature="e#1497#1498#0" expanded="true" />
+                <element signature="e#1532#1533#0" expanded="true" />
+                <element signature="e#1573#1574#0" expanded="true" />
+                <element signature="e#1598#1599#0" expanded="true" />
+                <element signature="e#1639#1640#0" expanded="true" />
+                <element signature="e#1694#1695#0" expanded="true" />
+                <element signature="e#1735#1736#0" expanded="true" />
+                <element signature="e#1774#1775#0" expanded="true" />
+                <element signature="e#1815#1816#0" expanded="true" />
+                <element signature="e#1862#1863#0" expanded="true" />
+                <element signature="e#1903#1904#0" expanded="true" />
+                <element signature="e#1944#1945#0" expanded="true" />
+                <element signature="e#1985#1986#0" expanded="true" />
+                <element signature="e#2034#2035#0" expanded="true" />
+                <element signature="e#2075#2076#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2397">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Instagram/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Instagram/src/main/test/resources/InstaTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -152,7 +191,11 @@
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" />
         <option value="$PROJECT_DIR$/Instagram/src/main/java/datasource/DataBase.java" />
         <option value="$PROJECT_DIR$/Instagram/src/main/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/Generic/src/secret.properties" />
         <option value="$PROJECT_DIR$/Instagram/src/main/test/java/tests/InstaTester.java" />
+        <option value="$PROJECT_DIR$/Instagram/src/main/test/resources/InstaTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Instagram/src/main/test/tests/InstaTester.java" />
+        <option value="$PROJECT_DIR$/Instagram/src/main/java/pages/SignUpPage.java" />
       </list>
     </option>
   </component>
@@ -175,37 +218,14 @@
           <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Group4ProjectWebAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Group4ProjectWebAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Instagram" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Instagram" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="685" />
+    <option name="x" value="879" />
     <option name="y" value="23" />
-    <option name="width" value="995" />
+    <option name="width" value="801" />
     <option name="height" value="972" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -271,111 +291,18 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="databases" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="reporting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Instagram" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datasource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553480200488" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553717526684" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -408,7 +335,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/src/main/test/resources/InstaTestRunner.xml">
+  <component name="RunManager" selected="Application.ConnectToSqlDB">
+    <configuration name="ConnectToMongoDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="databases.ConnectToMongoDB" />
+      <module name="Generic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="databases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectToSqlDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="databases.ConnectToSqlDB" />
+      <module name="Generic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="databases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InstaTester.ClickDirectory" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Instagram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.InstaTester" />
+      <option name="METHOD_NAME" value="ClickDirectory" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InstaTester.ClickLogIn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Instagram" />
       <extension name="coverage">
@@ -427,34 +398,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstaTester.title" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Instagram" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.InstaTester" />
-      <option name="METHOD_NAME" value="title" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/muhtasimmahir/Group4ProjectWebAutomation/Instagram/src/test/resources/InstaTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Instagram" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Instagram/src/test/resources/InstaTestRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/src/main/test/resources/InstaTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Instagram" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Instagram/src/main/test/resources/InstaTestRunner.xml" />
@@ -467,10 +410,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConnectToSqlDB" />
+        <item itemvalue="Application.ConnectToMongoDB" />
+        <item itemvalue="TestNG.InstaTester.ClickDirectory" />
         <item itemvalue="TestNG./Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/src/main/test/resources/InstaTestRunner.xml" />
         <item itemvalue="TestNG.InstaTester.ClickLogIn" />
-        <item itemvalue="TestNG.InstaTester.title" />
-        <item itemvalue="TestNG./Users/muhtasimmahir/Group4ProjectWebAutomation/Instagram/src/test/resources/InstaTestRunner.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -488,42 +432,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_muhtasimmahir_Group4ProjectWebAutomation_Instagram_src_test_resources_InstaTestRunner_xml - 2019.03.21 at 19h 33m 16s.xml">
-      <configuration name="/Users/muhtasimmahir/Group4ProjectWebAutomation/Instagram/src/test/resources/InstaTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_muhtasimmahir_Group4ProjectWebAutomation_Instagram_src_test_resources_InstaTestRunner_xml - 2019.03.21 at 19h 34m 14s.xml">
-      <configuration name="/Users/muhtasimmahir/Group4ProjectWebAutomation/Instagram/src/test/resources/InstaTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InstaTester_title - 2019.03.24 at 15h 23m 30s.xml">
-      <configuration name="InstaTester.title" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InstaTester_title - 2019.03.24 at 15h 23m 48s.xml">
-      <configuration name="InstaTester.title" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_muhtasimmahir_Group4ProjectWebAutomation_Instagram_src_test_resources_InstaTestRunner_xml - 2019.03.24 at 15h 28m 27s.xml">
-      <configuration name="/Users/muhtasimmahir/Group4ProjectWebAutomation/Instagram/src/test/resources/InstaTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_muhtasimmahir_Group4ProjectWebAutomation_Instagram_src_test_resources_InstaTestRunner_xml - 2019.03.24 at 15h 29m 18s.xml">
-      <configuration name="/Users/muhtasimmahir/Group4ProjectWebAutomation/Instagram/src/test/resources/InstaTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InstaTester_title - 2019.03.24 at 16h 37m 36s.xml">
-      <configuration name="InstaTester.title" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InstaTester_title - 2019.03.24 at 17h 06m 10s.xml">
-      <configuration name="InstaTester.title" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Instagram_src_main_test_resources_InstaTestRunner_xml - 2019.03.24 at 17h 17m 41s.xml">
+    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Instagram_src_main_test_resources_InstaTestRunner_xml - 2019.03.27 at 00h 15m 16s.xml">
       <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/src/main/test/resources/InstaTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Instagram_src_main_test_resources_InstaTestRunner_xml - 2019.03.24 at 17h 45m 46s.xml">
+    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Instagram_src_main_test_resources_InstaTestRunner_xml - 2019.03.27 at 00h 26m 06s.xml">
       <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/src/main/test/resources/InstaTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Instagram_src_main_test_resources_InstaTestRunner_xml - 2019.03.27 at 00h 28m 08s.xml">
+      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/src/main/test/resources/InstaTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Instagram_src_main_test_resources_InstaTestRunner_xml - 2019.03.27 at 00h 28m 41s.xml">
+      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/src/main/test/resources/InstaTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Instagram_src_main_test_resources_InstaTestRunner_xml - 2019.03.27 at 00h 30m 01s.xml">
+      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/src/main/test/resources/InstaTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Instagram_src_main_test_resources_InstaTestRunner_xml - 2019.03.27 at 00h 36m 42s.xml">
+      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/src/main/test/resources/InstaTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Instagram_src_main_test_resources_InstaTestRunner_xml - 2019.03.27 at 00h 46m 33s.xml">
+      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/src/main/test/resources/InstaTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Instagram_src_main_test_resources_InstaTestRunner_xml - 2019.03.27 at 14h 47m 24s.xml">
+      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/src/main/test/resources/InstaTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Instagram_src_main_test_resources_InstaTestRunner_xml - 2019.03.27 at 15h 41m 18s.xml">
+      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/src/main/test/resources/InstaTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InstaTester_ClickDirectory - 2019.03.27 at 15h 51m 24s.xml">
+      <configuration name="InstaTester.ClickDirectory" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="685" y="23" width="995" height="972" extended-state="0" />
+    <frame x="879" y="23" width="801" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26757607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26086956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -533,7 +477,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -541,12 +485,12 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32954547" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.10388248" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.13043478" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -584,9 +528,6 @@
     <entry file="file://$PROJECT_DIR$/Generic/driver/chromedriver" />
     <entry file="file://$PROJECT_DIR$/Generic/Generic.iml" />
     <entry file="file://$PROJECT_DIR$/Instagram/Instagram.iml" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/secret.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -611,14 +552,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" />
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" />
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" />
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" />
+    <entry file="file://$PROJECT_DIR$/Instagram/src/main/java/datasource/DataBase.java" />
+    <entry file="file://$PROJECT_DIR$/Instagram/src/main/java/pages/HomePage.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+        <state relative-caret-position="1245">
+          <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram/src/main/test/java/tests/MainPageTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -627,84 +589,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Instagram/src/main/test/resources/InstaTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="300">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Instagram/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+        <state relative-caret-position="288">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Instagram/src/main/java/pages/SignUpPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Instagram/src/main/test/java/tests/InstaTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="143">
+          <caret line="82" column="22" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Instagram/src/main/java/pages/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/Instagram/src/main/test/tests/InstaTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="803">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#1333#1334#0" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1497#1498#0" expanded="true" />
+            <element signature="e#1532#1533#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+            <element signature="e#1598#1599#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+            <element signature="e#1735#1736#0" expanded="true" />
+            <element signature="e#1774#1775#0" expanded="true" />
+            <element signature="e#1815#1816#0" expanded="true" />
+            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1903#1904#0" expanded="true" />
+            <element signature="e#1944#1945#0" expanded="true" />
+            <element signature="e#1985#1986#0" expanded="true" />
+            <element signature="e#2034#2035#0" expanded="true" />
+            <element signature="e#2075#2076#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Instagram/src/main/java/datasource/DataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -715,20 +665,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/secret.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="170" selection-start-line="170" selection-end-line="170" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2397">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -784,7 +738,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Instagram</last-edited>
+          <last-edited>Generic</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -797,7 +751,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
+          <last-edited>mysql-connector-java-8.0.15</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
