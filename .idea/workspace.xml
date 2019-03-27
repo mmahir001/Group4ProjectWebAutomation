@@ -2,49 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3d131f9-3904-4cb5-896e-d288f3a48fde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeDepot/src/main/java/databases/ConnectToMongoDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeDepot/src/main/java/databases/ConnectToSqlDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeDepot/src/main/java/databases/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/src/main/java/homePage/PopUpHandeler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/main/java/homePage/PopUpHandeler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/src/test/java/Test/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/java/Test/TestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/src/test/java/Test/testPopUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/java/Test/testPopUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/Geico-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/Geico-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/classes/homePage/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/classes/homePage/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/classes/homePage/PopUpHandeler.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/classes/homePage/PopUpHandeler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/GeicoTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/test-classes/GeicoTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/Test/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/MainAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/MainAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeDepot/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/src/main/java/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/main/java/pages/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/src/main/java/pages/SearchBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/main/java/pages/SearchBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/HomeDepot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/HomeDepot-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/classes/pages/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/classes/pages/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/junitreports/TEST-testPages.TestHomePage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/junitreports/TEST-testPages.TestHomePage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/junitreports/TEST-testPages.TestLogin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/junitreports/TEST-testPages.TestLogin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/junitreports/TEST-testPages.TestSearchBox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/junitreports/TEST-testPages.TestSearchBox.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestHomePage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -60,15 +21,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
-              <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
@@ -80,18 +32,56 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="247">
+              <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#326#327#0" expanded="true" />
                 <element signature="e#395#396#0" expanded="true" />
                 <element signature="e#437#438#0" expanded="true" />
                 <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#858#859#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#946#947#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1030#1031#0" expanded="true" />
+                <element signature="e#1066#1067#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/pages/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+                <element signature="e#943#944#0" expanded="true" />
+                <element signature="e#1113#1114#0" expanded="true" />
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1303#1304#0" expanded="true" />
+                <element signature="e#1326#1327#0" expanded="true" />
+                <element signature="e#1509#1510#0" expanded="true" />
+                <element signature="e#1538#1539#0" expanded="true" />
+                <element signature="e#1706#1707#0" expanded="true" />
+                <element signature="e#1730#1731#0" expanded="true" />
+                <element signature="e#1869#1870#0" expanded="true" />
+                <element signature="e#1894#1895#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="149" column="156" selection-start-line="149" selection-start-column="156" selection-end-line="149" selection-end-column="156" />
+            <state relative-caret-position="264">
+              <caret line="441" column="26" lean-forward="true" selection-start-line="441" selection-start-column="26" selection-end-line="441" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HomeDepot/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+            <state relative-caret-position="221">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -143,8 +133,6 @@
         <option value="$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestLogin.java" />
         <option value="$PROJECT_DIR$/Geico/src/test/resources/GeicoTestRunner.xml" />
         <option value="$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner" />
-        <option value="$PROJECT_DIR$/HomeDepot/pom.xml" />
-        <option value="$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestHomePage.java" />
         <option value="$PROJECT_DIR$/Geico/pom.xml" />
         <option value="$PROJECT_DIR$/Geico/src/test/java/Test/testPopUp.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" />
@@ -153,10 +141,12 @@
         <option value="$PROJECT_DIR$/Geico/src/test/java/Test/TestHomePage.java" />
         <option value="$PROJECT_DIR$/HomeDepot/src/main/java/pages/SearchBox.java" />
         <option value="$PROJECT_DIR$/Geico/src/main/java/homePage/PopUpHandeler.java" />
-        <option value="$PROJECT_DIR$/HomeDepot/src/main/java/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/HomeDepot/src/main/java/pages/Login.java" />
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
+        <option value="$PROJECT_DIR$/HomeDepot/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" />
+        <option value="$PROJECT_DIR$/HomeDepot/src/main/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestHomePage.java" />
       </list>
     </option>
   </component>
@@ -176,11 +166,11 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-5" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="996" />
     <option name="y" value="3" />
-    <option name="width" value="957" />
-    <option name="height" value="997" />
+    <option name="width" value="923" />
+    <option name="height" value="1023" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -195,6 +185,41 @@
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -204,7 +229,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553540240877" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553651895177" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -240,7 +265,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestHomePage.testHomePage">
+  <component name="RunManager" selected="TestNG.TestHomePage.testClickTruckOrder">
+    <configuration name="TestHomePage.testClickStoreFinder" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HomeDepot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testPages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testPages" />
+      <option name="MAIN_CLASS_NAME" value="testPages.TestHomePage" />
+      <option name="METHOD_NAME" value="testClickStoreFinder" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHomePage.testClickTruckOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HomeDepot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testPages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testPages" />
+      <option name="MAIN_CLASS_NAME" value="testPages.TestHomePage" />
+      <option name="METHOD_NAME" value="testClickTruckOrder" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestHomePage.testHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HomeDepot" />
       <extension name="coverage">
@@ -252,24 +313,6 @@
       <option name="PACKAGE_NAME" value="testPages" />
       <option name="MAIN_CLASS_NAME" value="testPages.TestHomePage" />
       <option name="METHOD_NAME" value="testHomePage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestHomePage.testMyStore" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HomeDepot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testPages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testPages" />
-      <option name="MAIN_CLASS_NAME" value="testPages.TestHomePage" />
-      <option name="METHOD_NAME" value="testMyStore" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -313,31 +356,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLogin.testClickLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HomeDepot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testPages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testPages" />
-      <option name="MAIN_CLASS_NAME" value="testPages.TestLogin" />
-      <option name="METHOD_NAME" value="testClickLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestHomePage.testClickTruckOrder" />
+        <item itemvalue="TestNG.TestHomePage.testClickStoreFinder" />
         <item itemvalue="TestNG.TestHomePage.testHomePage" />
         <item itemvalue="TestNG.TestHomePage.testStartQuote" />
         <item itemvalue="TestNG.TestHomePage.title" />
-        <item itemvalue="TestNG.TestLogin.testClickLogin" />
-        <item itemvalue="TestNG.TestHomePage.testMyStore" />
       </list>
     </recent_temporary>
   </component>
@@ -355,12 +380,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHomePage_testCheckCart - 2019.03.24 at 17h 39m 20s.xml">
-      <configuration name="TestHomePage.testCheckCart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage_testMyStore - 2019.03.24 at 17h 54m 35s.xml">
-      <configuration name="TestHomePage.testMyStore" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestLogin_testClickLogin - 2019.03.24 at 18h 10m 17s.xml">
       <configuration name="TestLogin.testClickLogin" configurationId="TestNG" />
     </history-entry>
@@ -385,13 +404,19 @@
     <history-entry file="TestHomePage_testHomePage - 2019.03.25 at 14h 57m 53s.xml">
       <configuration name="TestHomePage.testHomePage" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestHomePage_testHomePage - 2019.03.26 at 19h 55m 42s.xml">
+      <configuration name="TestHomePage.testHomePage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage_testClickStoreFinder - 2019.03.26 at 21h 51m 07s.xml">
+      <configuration name="TestHomePage.testClickStoreFinder" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16912752" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49773756" visible="true" weight="0.18724832" />
+      <window_info id="Structure" order="1" sideWeight="0.5022625" side_tool="true" weight="0.18724832" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -400,7 +425,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37393767" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37393767" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44334278" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -413,7 +438,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.19932885" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.060402684" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -698,32 +723,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeDepot/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="706">
           <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeDepot/Extent-Report/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2550" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
@@ -733,30 +742,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HomeDepot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="149" column="156" selection-start-line="149" selection-start-column="156" selection-end-line="149" selection-end-column="156" />
+        <state relative-caret-position="264">
+          <caret line="441" column="26" lean-forward="true" selection-start-line="441" selection-start-column="26" selection-end-line="441" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
+            <element signature="e#1538#1539#0" expanded="true" />
+            <element signature="e#1706#1707#0" expanded="true" />
+            <element signature="e#1730#1731#0" expanded="true" />
+            <element signature="e#1869#1870#0" expanded="true" />
+            <element signature="e#1894#1895#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="247">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#326#327#0" expanded="true" />
             <element signature="e#395#396#0" expanded="true" />
             <element signature="e#437#438#0" expanded="true" />
             <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -19,13 +19,32 @@ public class TestHomePage extends MainAPI {
         hp.title();
     }
     @Test
-    public void testMyStore(){
-        hp.myStore();
+    public void testClickStoreFinder(){
+        hp.clickStoreFinder();
     }
     @Test
-    public void testCheckCart(){
-        hp.checkCart();
+    public void testClickTruckTollRent(){
+        hp.clickTruckToolRent();
     }
-
+    @Test
+    public void testClickForThePro(){
+        hp.clickFotThePro();
+    }
+    @Test
+    public void testClickGiftCard(){
+        hp.clickGiftCard();
+    }
+    @Test
+    public void testClickCreditServices(){
+        hp.clickCreditServices();
+    }
+    @Test
+    public void testClickFavorites(){
+        hp.clickFavorites();
+    }
+    @Test
+    public void testClickTruckOrder(){
+        hp.clickTrackOrder();
+    }
 
 }
