@@ -33,7 +33,7 @@
                 <version>3.0.0-M3</version>
                 <configuration>
                     <!--<suiteXmlFiles>-->
-                    <!--<suiteXmlFiles>HomeDepotTestRunner.xml</suiteXmlFiles>-->
+                    <!--<suiteXmlFiles></suiteXmlFiles>-->
                     <!--</suiteXmlFiles>-->
                 </configuration>
             </plugin>

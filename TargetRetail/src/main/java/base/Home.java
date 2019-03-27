@@ -18,9 +18,11 @@ public class Home extends MainAPI {
     @FindBy(xpath = "//span[contains(text(),'Categories')]")
     WebElement Categories;
 
-    @FindBy(css = "#secondary")
-    WebElement deals;
-
+    @FindBy (xpath = "//a[@id='secondary']")
+    public static WebElement deals;
+    public void clickDeals(){
+        deals.click();
+    }
     @FindBy(xpath = "//a[@id='cart']")
     WebElement cart;
 
