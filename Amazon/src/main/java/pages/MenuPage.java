@@ -17,14 +17,6 @@ import java.util.List;
 public class MenuPage extends MainAPI {
 
 
-
-    public void title(){
-      String st = driver.getTitle();
-        System.out.println(st);
-        Assert.assertEquals(st, "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more");
-
-    }
-
     @FindBy(id ="nav-your-amazon")
     public static WebElement yourAmazonTab;
 
@@ -64,7 +56,7 @@ public class MenuPage extends MainAPI {
         registry.click();
     }
     @FindBy(xpath = "//a[@class='nav-a'][contains(text(),'Help')]")
-    public static WebElement help;
+    WebElement help;
 
     public void clickHelp(){
         help.click();
@@ -76,7 +68,7 @@ public class MenuPage extends MainAPI {
         deliverto.click();
     }
     @FindBy(xpath = "//a[contains(text(),'Birthdays')]" )
-    public static WebElement birthday;
+    WebElement birthday;
 
     public void clickBirthday(){
         birthday.click();
@@ -99,6 +91,106 @@ public class MenuPage extends MainAPI {
     public void clickeGiftCard(){
         eGiftCard.click();
     }
+    @FindBy(xpath = "//span[contains(text(),'Mail')]")
+    public static WebElement Mail;
+
+    public void clickMail(){
+        Mail.click();
+    }
+    @FindBy(xpath = "//i[@class='hm-icon nav-sprite']")
+    public static WebElement hamburgerTab;
+
+    @FindBy(xpath = "//div[@id='hmenu-container']//li[2]//a[1]")
+    public static WebElement primeVideo;
+
+
+
+    public void clickPrimeVideo(){
+
+        hamburgerTab.click();
+        primeVideo.click();
+    }
+    @FindBy(xpath = "//ul[@class='hmenu hmenu-visible']//li[3]//a[1]")
+    public static WebElement amazonMusic;
+
+    public void clickamazonMusic(){
+        hamburgerTab.click();
+        amazonMusic.click();
+    }
+    @FindBy(xpath = "//ul[contains(@class,'hmenu-visible')]//li[4]//a[1]")
+    public static WebElement echoAndAlexa;
+
+    public void clickechoAndAlexa(){
+        hamburgerTab.click();
+        echoAndAlexa.click();
+
+    }
+    @FindBy(xpath = "//div[contains(text(),'Fire Tablets')]")
+    public static WebElement fireTablets;
+
+    public void clickfireTablets(){
+        hamburgerTab.click();
+        fireTablets.click();
+    }
+    @FindBy(xpath = "//ul[contains(@class,'hmenu-visible')]//li[6]//a[1]")
+    public static WebElement fireTv;
+
+    public void clickfireTv(){
+        hamburgerTab.click();
+        fireTv.click();
+    }
+    @FindBy(xpath = "//div[contains(text(),'Kindle E-readers & Books')]")
+    public static WebElement Kindle;
+
+    public void clickKindle(){
+        hamburgerTab.click();
+        Kindle.click();
+
+    }
+    @FindBy(xpath = "//div[contains(text(),'Appstore for Android')]")
+    public static WebElement appstore;
+
+    public void clickappstore(){
+        hamburgerTab.click();
+        appstore.click();
+    }
+    @FindBy(xpath = "//div[contains(text(),'Clothing, Shoes, Jewelry & Watches')]")
+    public static WebElement clothing;
+
+    public void clickclothing(){
+        hamburgerTab.click();
+        clothing.click();
+    }
+    @FindBy(xpath = "//ul[contains(@class,'hmenu-visible')]//div[contains(text(),'AmazonFresh')]")
+    public static WebElement amazonFresh;
+
+    public void clickamazonFresh(){
+        hamburgerTab.click();
+        amazonFresh.click();
+    }
+    @FindBy(xpath = "//div[contains(text(),'Books & Audible')]")
+    public static WebElement books;
+
+    public void clickbooks(){
+        hamburgerTab.click();
+        books.click();
+    }
+    @FindBy(xpath = "//div[contains(text(),'Movies, Music & Games')]")
+    public static WebElement moviesMusic;
+
+    public void clickmoviesMusic(){
+        hamburgerTab.click();
+        moviesMusic.click();
+    }
+    @FindBy(xpath = "//div[contains(text(),'Electronics, Computers & Office')]")
+    public static WebElement electronics;
+
+    public void clickelectronics(){
+        hamburgerTab.click();
+        electronics.click();
+    }
+
+
 
 
 
