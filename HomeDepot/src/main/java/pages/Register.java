@@ -37,7 +37,7 @@ public class Register extends MainAPI {
      public void clickMyAccount()throws NullPointerException{
          myAccount.click();
          clickRegister.click();
-        // typeEmailId.sendKeys("mtsharif@gmail.com");
+         typeEmailId.sendKeys("mtsharif@gmail.com");
          typePassword.sendKeys("abcd1234");
          zipCode.sendKeys("11217");
          phoneNumber.sendKeys("345123543");

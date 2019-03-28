@@ -17,6 +17,5 @@ public class TestRegister extends MainAPI {
     @Test
     public void registerAccount() throws  Exception{
         register.clickMyAccount();
-
     }
 }

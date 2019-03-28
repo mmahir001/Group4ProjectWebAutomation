@@ -1,6 +1,7 @@
 package testPages;
 
 import base.MainAPI;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -62,5 +63,22 @@ public class TestHomePage extends MainAPI {
     public void testClickCart(){
         hp.clickMyCart();
     }
+    @Test
+    public void testClickAllDepartment(){
+        hp.clickDd_AllDepartment();
+    }
+    @Test
+    public void testClickdd_Appliances(){
+        hp.clickDd_Appliances();
+    }
+    @Test
+    public void clickWallDecor(){
+        hp.clickWallDecor();
+    }
+    @Test
+    public void testWallAccents()throws Exception{
+        hp.clickWallAccents();
+    }
+
 
 }

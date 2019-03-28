@@ -2,18 +2,22 @@ package pages;
 
 import base.MainAPI;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import javax.swing.*;
+
 public class HomePage extends MainAPI {
     public void title() {
 
-        String st =driver.getTitle();
+        String actual = driver.getTitle();
         System.out.println(driver.getTitle());
-        String actual =st;
-        Assert.assertEquals(st,actual);
+        String expected = "The Home Depot";
+        Assert.assertEquals(expected, actual);
     }
+
     @FindBy (className = "MyStore__label")
     public static WebElement myStore;
 
@@ -73,24 +77,51 @@ public class HomePage extends MainAPI {
     @FindBy (css = ".MyCart__label")
     public static WebElement MyCart;
 
+    public void clickMyCart(){
+        MyCart.click();
+
+    }
+
     @FindBy (xpath = "//a[contains(text(),'All Departments')]")
     public static WebElement dd_AllDepartment;
 
-    @FindBy(xpath = "//a[@class='ShoppingLinks__link js__flyout--open ShoppingLinks__link--open']")
-    public static WebElement homeDecorOutdoor;
-
-
-
-    public void clickMyCart(){
-        MyCart.click();
-        title();
-    }
     public void clickDd_AllDepartment(){
         dd_AllDepartment.click();
     }
-    public void clickdd_HomeDecorOutdoor(){
-        homeDecorOutdoor.click();
+    @FindBy(xpath = "//li[@class='MainFlyout__item']//a[@title='Appliances'][contains(text(),'Appliances')]")
+    public static WebElement dd_Appliances;
+
+    public void clickDd_Appliances(){
+        dd_AllDepartment.click();
+        dd_Appliances.click();
     }
+
+    @FindBy(xpath = "//a[contains(text(),'Home Decor & Furniture')]")
+    public static WebElement homeDecorOutdoor;
+
+    @FindBy(xpath = "//a[@id='home-decor']")
+    public static WebElement homeDecor;
+
+    public void clickWallDecor(){
+        homeDecorOutdoor.click();
+        homeDecor.click();
+    }
+//    public void clickdd_HomeDecorOutdoor(){
+//        homeDecorOutdoor.click();
+//    }
+    @FindBy(xpath = "//a[contains(text(),'Wall Accents')]")
+    public static WebElement wallAccents;
+
+    public void  clickWallAccents(){
+
+        Actions action = new Actions(driver);
+        action.moveToElement(homeDecorOutdoor).click().perform();
+        action.moveToElement(homeDecor).perform();
+        wallAccents.click();
+
+    }
+
+
 
 
 
