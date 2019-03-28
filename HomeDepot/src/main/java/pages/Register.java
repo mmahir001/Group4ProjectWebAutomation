@@ -4,16 +4,17 @@ import base.MainAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import java.util.WeakHashMap;
-
 public class Register extends MainAPI {
 
 
-     @FindBy(xpath = "//div[@class='MyAccount__label SimpleFlyout__link--bold']")
+     @FindBy(xpath = "//a[@id='headerMyAccount']//div[@class='MyAccount__label SimpleFlyout__link--bold'][contains(text(),'My Account')]")
     public static WebElement myAccount;
 
      @FindBy(xpath = "//span[contains(text(),'Register')]")
      public static WebElement clickRegister;
+
+     @FindBy(xpath = "//div[@class='tab--selected']")
+     public static WebElement creatAccoutTab;
 
      @FindBy(xpath = "//div[@class='createAccountModalForm']//input[@id='email_id']")
      public static WebElement typeEmailId;
@@ -34,7 +35,7 @@ public class Register extends MainAPI {
 
 
 
-     public void clickMyAccount()throws NullPointerException{
+     public String clickMyAccount(){
          myAccount.click();
          clickRegister.click();
          typeEmailId.sendKeys("mtsharif@gmail.com");
@@ -43,6 +44,9 @@ public class Register extends MainAPI {
          phoneNumber.sendKeys("345123543");
          clickCheckBox.click();
          clickCreatAccount.click();
+         String text = driver.getTitle();
+         System.out.println(text);
+         return text;
 
      }
 //public void clickMyAccount() {

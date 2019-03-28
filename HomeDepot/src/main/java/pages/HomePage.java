@@ -18,110 +18,146 @@ public class HomePage extends MainAPI {
         Assert.assertEquals(expected, actual);
     }
 
-    @FindBy (className = "MyStore__label")
+    @FindBy (xpath = "//span[@class='MyStore__label']")
     public static WebElement myStore;
 
-    public void clickMyStore(){
+    public String  clickMyStore(){
         myStore.click();
+        String text = driver.getTitle();
+        return text;
     }
 
     @FindBy(xpath = "//a[@class='TaskLinks__link'][contains(text(),'Store Finder')]")
     public static WebElement storeFinder;
 
-    public void clickStoreFinder(){
+    public String clickStoreFinder(){
         storeFinder.click();
+        String text =storeFinder.getText();
+        return text;
     }
+
     @FindBy (xpath = "//a[@class='TaskLinks__link'][contains(text(),'Truck & Tool Rental')]")
     public static WebElement truckToolRent;
 
-    public void clickTruckToolRent(){
+    public String clickTruckToolRent(){
         truckToolRent.click();
+        String text =storeFinder.getText();
+        return text;
+
+
     }
     @FindBy (xpath = "//a[@class='TaskLinks__link'][contains(text(),'For the Pro')]")
     public static WebElement forThePro;
 
-    public void clickFotThePro(){
+    public String clickForThePro(){
         forThePro.click();
+        String text =forThePro.getText();
+        return text;
+
     }
     @FindBy(xpath = "//a[@class='TaskLinks__link'][contains(text(),'Gift Cards')]")
     public static WebElement giftCard;
 
-    public void clickGiftCard(){
+    public String clickGiftCard(){
         giftCard.click();
+        String text =giftCard.getText();
+        return text;
     }
     @FindBy(xpath = "//a[@class='TaskLinks__link'][contains(text(),'Credit Services')]")
     public static WebElement creditServices;
 
-    public void clickCreditServices(){
+    public String clickCreditServices(){
         creditServices.click();
+        String text =creditServices.getText();
+        return text;
     }
     @FindBy (xpath = "//a[@class='TaskLinks__link'][contains(text(),'Favorites')]")
     public static WebElement favorites;
 
-    public void clickFavorites(){
+    public String clickFavorites(){
         favorites.click();
+        String text =favorites.getText();
+        return text;
     }
-    @FindBy (xpath = "//a[@id='headerOrderStatus']")
+    @FindBy (xpath = "//a[@id='headerOrderStatus'][contains(text(),'Track Order')]")
     public static WebElement trackOrder;
 
-    public void clickTrackOrder(){
+    public String clickTrackOrder(){
         trackOrder.click();
+        String text =trackOrder.getText();
+        return text;
     }
     @FindBy (xpath = "//a[@class='TaskLinks__link'][contains(text(),'Help')]")
     public static WebElement help;
 
-    public void clickHelp(){
+    public String clickHelp(){
         help.click();
+        String text =help.getText();
+        return text;
     }
 
-    @FindBy (css = ".MyCart__label")
-    public static WebElement MyCart;
+    @FindBy (xpath = "//span[@class='MyCart__label'][contains(text(),'Cart')]")
+    public static WebElement myCart;
 
-    public void clickMyCart(){
-        MyCart.click();
-
+    public String clickMyCart(){
+        myCart.click();
+        String text =myCart.getText();
+        return text;
     }
 
     @FindBy (xpath = "//a[contains(text(),'All Departments')]")
     public static WebElement dd_AllDepartment;
 
-    public void clickDd_AllDepartment(){
+    public String clickDd_AllDepartment(){
         dd_AllDepartment.click();
+        String text =dd_AllDepartment.getText();
+        return text;
     }
     @FindBy(xpath = "//li[@class='MainFlyout__item']//a[@title='Appliances'][contains(text(),'Appliances')]")
     public static WebElement dd_Appliances;
 
-    public void clickDd_Appliances(){
+    public String clickDd_Appliances(){
         dd_AllDepartment.click();
         dd_Appliances.click();
+        String text =dd_Appliances.getText();
+        return text;
     }
 
     @FindBy(xpath = "//a[contains(text(),'Home Decor & Furniture')]")
     public static WebElement homeDecorOutdoor;
 
-    @FindBy(xpath = "//a[@id='home-decor']")
+    @FindBy(xpath = "//a[@id='home-decor'][contains(text(),'Home Decor')]")
     public static WebElement homeDecor;
 
-    public void clickWallDecor(){
+    public String clickHomeDecor(){
         homeDecorOutdoor.click();
         homeDecor.click();
+        String text =driver.getTitle();
+        return text;
     }
-//    public void clickdd_HomeDecorOutdoor(){
-//        homeDecorOutdoor.click();
-//    }
+
     @FindBy(xpath = "//a[contains(text(),'Wall Accents')]")
     public static WebElement wallAccents;
 
-    public void  clickWallAccents(){
+    public String clickWallAccents(){
 
         Actions action = new Actions(driver);
         action.moveToElement(homeDecorOutdoor).click().perform();
         action.moveToElement(homeDecor).perform();
-        wallAccents.click();
-
+        //homeDecorOutdoor.click();
+        action.moveToElement(wallAccents).click();
+        String text =wallAccents.getText();
+        return text;
     }
+    @FindBy(xpath = "//a[@id='furniture'][contains(text(),'Furniture')]")
+    public static WebElement furniture;
 
-
+    public String clickFurniture(){
+        homeDecorOutdoor.click();
+        furniture.click();
+        String text = driver.getTitle();
+        return  text;
+    }
 
 
 

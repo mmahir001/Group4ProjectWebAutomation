@@ -13,8 +13,8 @@
 
     <test name = "HomeDepot Home">
         <classes>
-            <class name="testPages.TestHomePage"/>
-            <class name="testPages.TestLogin"/>
+            <!--<class name="testPages.TestHomePage"/>-->
+            <!--<class name="testPages.TestLogin"/>-->
             <class name="testPages.TestRegister"/>
         </classes>
     </test>

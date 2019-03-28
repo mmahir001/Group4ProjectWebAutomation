@@ -8,6 +8,12 @@
       <change beforePath="$PROJECT_DIR$/HomeDepot/src/main/java/pages/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/main/java/pages/Register.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestHomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/classes/pages/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/classes/pages/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/test-classes/HomeDepotTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/test-classes/HomeDepotTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/test-classes/testPages/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/test-classes/testPages/TestHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/test-classes/testPages/TestRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/test-classes/testPages/TestRegister.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -25,12 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/pages/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="340">
               <caret line="22" column="93" selection-start-line="22" selection-start-column="93" selection-end-line="22" selection-end-column="93" />
-              <folding>
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -38,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            <state relative-caret-position="408">
+              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#435#436#0" expanded="true" />
@@ -49,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestRegister.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="391">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#327#328#0" expanded="true" />
@@ -63,45 +65,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="78" column="49" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
+            <state relative-caret-position="247">
+              <caret line="106" column="46" lean-forward="true" selection-start-line="106" selection-start-column="46" selection-end-line="106" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#542#543#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
-                <element signature="e#946#947#0" expanded="true" />
-                <element signature="e#981#982#0" expanded="true" />
-                <element signature="e#1030#1031#0" expanded="true" />
-                <element signature="e#1066#1067#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
-                <element signature="e#1134#1135#0" expanded="true" />
-                <element signature="e#1321#1322#0" expanded="true" />
-                <element signature="e#1353#1354#0" expanded="true" />
-                <element signature="e#1405#1406#0" expanded="true" />
-                <element signature="e#1447#1448#0" expanded="true" />
-                <element signature="e#1499#1500#0" expanded="true" />
-                <element signature="e#1538#1539#0" expanded="true" />
-                <element signature="e#1582#1583#0" expanded="true" />
-                <element signature="e#1602#1603#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/pages/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="134" column="38" selection-start-line="134" selection-start-column="38" selection-end-line="134" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/pages/Register.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="714">
+              <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,42 +106,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1180">
+            <state relative-caret-position="6494">
               <caret line="441" column="26" selection-start-line="441" selection-start-column="26" selection-end-line="441" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/pages/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="117" column="54" selection-start-line="117" selection-start-column="54" selection-end-line="117" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
-                <element signature="e#787#788#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#1001#1002#0" expanded="true" />
-                <element signature="e#1162#1163#0" expanded="true" />
-                <element signature="e#1195#1196#0" expanded="true" />
-                <element signature="e#1352#1353#0" expanded="true" />
-                <element signature="e#1384#1385#0" expanded="true" />
-                <element signature="e#1558#1559#0" expanded="true" />
-                <element signature="e#1596#1597#0" expanded="true" />
-                <element signature="e#1755#1756#0" expanded="true" />
-                <element signature="e#1788#1789#0" expanded="true" />
-                <element signature="e#1918#1919#0" expanded="true" />
-                <element signature="e#1952#1953#0" expanded="true" />
-                <element signature="e#2096#2097#0" expanded="true" />
-                <element signature="e#2124#2125#0" expanded="true" />
-                <element signature="e#2432#2433#0" expanded="true" />
-                <element signature="e#2472#2473#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -205,12 +157,12 @@
         <option value="$PROJECT_DIR$/HomeDepot/Extent-Report/ExtentReport.html" />
         <option value="$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestLogin.java" />
         <option value="$PROJECT_DIR$/HomeDepot/src/main/java/pages/SearchBox.java" />
-        <option value="$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" />
         <option value="$PROJECT_DIR$/HomeDepot/src/main/java/pages/Login.java" />
-        <option value="$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestHomePage.java" />
-        <option value="$PROJECT_DIR$/HomeDepot/src/main/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner.xml" />
         <option value="$PROJECT_DIR$/HomeDepot/src/main/java/pages/Register.java" />
         <option value="$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestRegister.java" />
+        <option value="$PROJECT_DIR$/HomeDepot/src/main/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestHomePage.java" />
       </list>
     </option>
   </component>
@@ -231,10 +183,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="996" />
-    <option name="y" value="3" />
-    <option name="width" value="923" />
-    <option name="height" value="1023" />
+    <option name="x" value="995" />
+    <option name="y" value="2" />
+    <option name="width" value="924" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -242,6 +194,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,16 +253,31 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testPages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553734103133" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553811703353" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebAutomationProjectGroup4" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -344,8 +313,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestRegister.registerAccount">
-    <configuration name="TestHomePage.clickWellDecor" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestHomePage.testclickHomeDecor">
+    <configuration name="TestHomePage.testClickCreditServices" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HomeDepot" />
       <extension name="coverage">
         <pattern>
@@ -355,7 +324,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testPages" />
       <option name="MAIN_CLASS_NAME" value="testPages.TestHomePage" />
-      <option name="METHOD_NAME" value="clickWellDecor" />
+      <option name="METHOD_NAME" value="testClickCreditServices" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -363,7 +332,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomePage.testClickAllDepartment" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHomePage.testClickFurniture" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HomeDepot" />
       <extension name="coverage">
         <pattern>
@@ -373,7 +342,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testPages" />
       <option name="MAIN_CLASS_NAME" value="testPages.TestHomePage" />
-      <option name="METHOD_NAME" value="testClickAllDepartment" />
+      <option name="METHOD_NAME" value="testClickFurniture" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -381,7 +350,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomePage.testClickdd_Appliances" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHomePage.testClickMyStore" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HomeDepot" />
       <extension name="coverage">
         <pattern>
@@ -391,7 +360,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testPages" />
       <option name="MAIN_CLASS_NAME" value="testPages.TestHomePage" />
-      <option name="METHOD_NAME" value="testClickdd_Appliances" />
+      <option name="METHOD_NAME" value="testClickMyStore" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -417,7 +386,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRegister.registerAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHomePage.testclickHomeDecor" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HomeDepot" />
       <extension name="coverage">
         <pattern>
@@ -426,8 +395,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testPages" />
-      <option name="MAIN_CLASS_NAME" value="testPages.TestRegister" />
-      <option name="METHOD_NAME" value="registerAccount" />
+      <option name="MAIN_CLASS_NAME" value="testPages.TestHomePage" />
+      <option name="METHOD_NAME" value="testclickHomeDecor" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -437,11 +406,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestRegister.registerAccount" />
+        <item itemvalue="TestNG.TestHomePage.testclickHomeDecor" />
+        <item itemvalue="TestNG.TestHomePage.testClickFurniture" />
         <item itemvalue="TestNG.TestHomePage.testWallAccents" />
-        <item itemvalue="TestNG.TestHomePage.clickWellDecor" />
-        <item itemvalue="TestNG.TestHomePage.testClickdd_Appliances" />
-        <item itemvalue="TestNG.TestHomePage.testClickAllDepartment" />
+        <item itemvalue="TestNG.TestHomePage.testClickCreditServices" />
+        <item itemvalue="TestNG.TestHomePage.testClickMyStore" />
       </list>
     </recent_temporary>
   </component>
@@ -459,42 +428,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHomePage_testClickAllDepartment - 2019.03.27 at 16h 42m 47s.xml">
-      <configuration name="TestHomePage.testClickAllDepartment" configurationId="TestNG" />
+    <history-entry file="TestHomePage_testclickHomeDecor - 2019.03.28 at 18h 00m 04s.xml">
+      <configuration name="TestHomePage.testclickHomeDecor" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_testClickdd_Appliances - 2019.03.27 at 16h 47m 36s.xml">
-      <configuration name="TestHomePage.testClickdd_Appliances" configurationId="TestNG" />
+    <history-entry file="TestHomePage_testclickHomeDecor - 2019.03.28 at 18h 04m 16s.xml">
+      <configuration name="TestHomePage.testclickHomeDecor" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_clickWellDecor - 2019.03.27 at 16h 49m 50s.xml">
-      <configuration name="TestHomePage.clickWellDecor" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage_clickWellDecor - 2019.03.27 at 16h 54m 09s.xml">
-      <configuration name="TestHomePage.clickWellDecor" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage_clickWellDecor - 2019.03.27 at 16h 58m 38s.xml">
-      <configuration name="TestHomePage.clickWellDecor" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage_testWallAccents - 2019.03.27 at 20h 08m 16s.xml">
+    <history-entry file="TestHomePage_testWallAccents - 2019.03.28 at 18h 05m 46s.xml">
       <configuration name="TestHomePage.testWallAccents" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_testWallAccents - 2019.03.27 at 20h 10m 36s.xml">
+    <history-entry file="TestHomePage_testWallAccents - 2019.03.28 at 18h 07m 53s.xml">
       <configuration name="TestHomePage.testWallAccents" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_testWallAccents - 2019.03.27 at 20h 19m 59s.xml">
+    <history-entry file="TestHomePage_testWallAccents - 2019.03.28 at 18h 09m 25s.xml">
       <configuration name="TestHomePage.testWallAccents" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_testWallAccents - 2019.03.27 at 20h 21m 33s.xml">
-      <configuration name="TestHomePage.testWallAccents" configurationId="TestNG" />
+    <history-entry file="TestHomePage_testClickFurniture - 2019.03.28 at 18h 16m 14s.xml">
+      <configuration name="TestHomePage.testClickFurniture" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRegister_registerAccount - 2019.03.27 at 20h 47m 37s.xml">
-      <configuration name="TestRegister.registerAccount" configurationId="TestNG" />
+    <history-entry file="TestHomePage_testClickFurniture - 2019.03.28 at 18h 19m 42s.xml">
+      <configuration name="TestHomePage.testClickFurniture" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage_testClickFurniture - 2019.03.28 at 18h 20m 37s.xml">
+      <configuration name="TestHomePage.testClickFurniture" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage_testClickFurniture - 2019.03.28 at 18h 21m 16s.xml">
+      <configuration name="TestHomePage.testClickFurniture" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage_testclickHomeDecor - 2019.03.28 at 18h 22m 02s.xml">
+      <configuration name="TestHomePage.testclickHomeDecor" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49773756" visible="true" weight="0.18724832" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49773756" visible="true" weight="0.18993288" />
       <window_info id="Structure" order="1" sideWeight="0.5022625" side_tool="true" weight="0.18724832" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -504,7 +473,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37393767" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37393767" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44334278" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,7 +492,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49773756" visible="true" weight="0.18724832" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49773756" visible="true" weight="0.18993288" />
       <window_info id="Structure" order="1" sideWeight="0.5022625" side_tool="true" weight="0.18724832" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -671,33 +640,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/MongoDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" />
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java" />
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" />
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/MongoDatabase.java" />
     <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/databases/ConnectToMongoDB.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -799,16 +746,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1180">
+        <state relative-caret-position="6494">
           <caret line="441" column="26" selection-start-line="441" selection-start-column="26" selection-end-line="441" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -816,51 +756,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/pages/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/resources/HomeDepotTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="117" column="54" selection-start-line="117" selection-start-column="54" selection-end-line="117" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1352#1353#0" expanded="true" />
-            <element signature="e#1384#1385#0" expanded="true" />
-            <element signature="e#1558#1559#0" expanded="true" />
-            <element signature="e#1596#1597#0" expanded="true" />
-            <element signature="e#1755#1756#0" expanded="true" />
-            <element signature="e#1788#1789#0" expanded="true" />
-            <element signature="e#1918#1919#0" expanded="true" />
-            <element signature="e#1952#1953#0" expanded="true" />
-            <element signature="e#2096#2097#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-            <element signature="e#2432#2433#0" expanded="true" />
-            <element signature="e#2472#2473#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="16" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/pages/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="340">
           <caret line="22" column="93" selection-start-line="22" selection-start-column="93" selection-end-line="22" selection-end-column="93" />
-          <folding>
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="408">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#435#436#0" expanded="true" />
@@ -869,66 +782,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestHomePage.java">
+    <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestRegister.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="78" column="49" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
+        <state relative-caret-position="391">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1030#1031#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1321#1322#0" expanded="true" />
-            <element signature="e#1353#1354#0" expanded="true" />
-            <element signature="e#1405#1406#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1499#1500#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="e#1582#1583#0" expanded="true" />
-            <element signature="e#1602#1603#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/pages/Register.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="714">
+          <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestRegister.java">
+    <entry file="file://$PROJECT_DIR$/HomeDepot/src/main/java/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="162">
+          <caret line="134" column="38" selection-start-line="134" selection-start-column="38" selection-end-line="134" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeDepot/src/test/java/testPages/TestHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="106" column="46" lean-forward="true" selection-start-line="106" selection-start-column="46" selection-end-line="106" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
           </folding>
         </state>
       </provider>

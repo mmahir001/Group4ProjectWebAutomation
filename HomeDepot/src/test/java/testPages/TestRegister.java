@@ -2,6 +2,7 @@ package testPages;
 
 import base.MainAPI;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.Login;
@@ -15,7 +16,11 @@ public class TestRegister extends MainAPI {
     }
 
     @Test
-    public void registerAccount() throws  Exception{
-        register.clickMyAccount();
+    public void CreatAccount() throws  Exception{
+
+        String actual = register.clickMyAccount();
+        String expected = "The Home Depot";
+        Assert.assertEquals (actual,expected);
     }
+
 }
