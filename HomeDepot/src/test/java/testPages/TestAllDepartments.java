@@ -1,6 +1,7 @@
 package testPages;
 
 import base.MainAPI;
+import org.omg.CORBA.PUBLIC_MEMBER;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -22,24 +23,54 @@ public class TestAllDepartments extends MainAPI {
         Assert.assertEquals (actual,expected);
     }
     @Test
-    public void testClickdd_Appliances(){ ;
+    public void testHoverAppliances(){ ;
         String actual = ad.clickDd_Appliances();
         String expected = "Appliances at The Home Depot";
         Assert.assertEquals (actual,expected);
     }
     @Test
-    public void testdd_applienceSpecialBuys(){
-        String actual = ad.dd_AppliencesSpecialBuys();
+    public void clickElectrical (){
+        String actual = ad.clickElectrical();
+        String expected = "The Home Depot";
+        Assert.assertEquals (actual,expected);
+    }
+    @Test
+    public void testHoverOverapplienceSpecialBuys(){
+        String actual = ad.HoverOverAppliencesSpecialBuys();
         String expected = "Appliance Special Buys";
         Assert.assertEquals(actual,expected);
     }
     @Test
-    public void testclickdd_bathroomFaucets(){
-        String actual = ad.dd_bathroomFaucets();
+    public void testHoverOverbathroomFaucets(){
+        String actual = ad.HoverOverbathroomFaucets();
         String expected = "Bathroom Sink Faucets";
         Assert.assertEquals(actual,expected);
     }
+    @Test
+    public void testHoverOverCustomBlinds(){
+        String actual = ad.HoverOverCustomBlinds();
+        String expected = "Custom Blinds";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void testHoverOverBlinds() {
+        String actual = ad.HoverOverBlinds();
+        String expected = "Blinds";
+        Assert.assertEquals(actual, expected);
+    }
+    @Test
+    public void testHoverOverWire(){
+        String actual = ad.HoverOverWire();
+        String expected = "Wire";
+        Assert.assertEquals(actual, expected);
+    }
+    @Test
+    public void testHoverOverGateKits(){
+        String actual = ad.HoverOverGateKits();
+        String expected = "Gate Kits";
+        Assert.assertEquals(actual, expected);
 
+    }
 
 
 }

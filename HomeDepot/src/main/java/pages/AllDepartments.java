@@ -27,6 +27,64 @@ public class AllDepartments extends MainAPI {
     }
     @FindBy(xpath = "//li[@class='MainFlyout__item']//a[@title='Blinds & Window Treatment'][contains(text(),'Blinds & Window Treatment')]")
     WebElement blindWindowTreatment;
+    @FindBy(xpath = "//a[@title='Blinds'][contains(text(),'Blinds')]")
+    WebElement blinds;
+    @FindBy(xpath = "//a[@title='Custom Blinds'][contains(text(),'Custom Blinds')]")
+    WebElement customBlinds;
+    @FindBy(xpath = "//li[@class='MainFlyout__item']//a[@title='Electrical'][contains(text(),'Electrical')]")
+    WebElement electrical;
+    @FindBy(xpath = "//a[@title='Wire'][contains(text(),'Wire')]")
+    WebElement wire;
+    @FindBy(xpath = "//a[@title='Hardware'][contains(text(),'Hardware')]")
+    WebElement hardWare;
+    @FindBy(xpath = "//a[@title='Gate Hardware']")
+    WebElement gateHardware;
+    @FindBy(xpath = "//a[@title='Gate Kits']")
+    WebElement gateKits;
+
+    public String HoverOverGateKits(){
+        Actions action = new Actions(driver);
+        action.moveToElement(dd_AllDepartment).perform();
+        action.moveToElement(hardWare).perform();
+        action.moveToElement(gateHardware).perform();
+        action.moveToElement(gateKits).click();
+        String text = gateKits.getText();
+        return text;
+    }
+
+    public String clickElectrical() {
+        Actions action = new Actions(driver);
+        action.moveToElement(dd_AllDepartment).perform();
+        action.moveToElement(electrical).click();
+        String text = driver.getTitle();
+        return text;
+    }
+    public String HoverOverWire() {
+        Actions action = new Actions(driver);
+        action.moveToElement(dd_AllDepartment).perform();
+        action.moveToElement(electrical).perform();
+        action.moveToElement(wire).click();
+        String text = wire.getText();
+        return text;
+    }
+
+        public String HoverOverCustomBlinds(){
+        Actions action = new Actions(driver);
+        action.moveToElement(dd_AllDepartment).perform();
+        action.moveToElement(blindWindowTreatment).perform();
+        action.moveToElement(blinds).perform();
+        action.moveToElement(customBlinds).click();
+        String text = customBlinds.getText();
+        return text;
+    }
+    public String HoverOverBlinds(){
+        Actions action = new Actions(driver);
+        action.moveToElement(dd_AllDepartment).perform();
+        action.moveToElement(blindWindowTreatment).perform();
+        action.moveToElement(blinds).click();
+        String text = blinds.getText();
+        return text;
+    }
 
     ///////// *******************Select dropDown Item from All Departments **************
 
@@ -35,7 +93,7 @@ public class AllDepartments extends MainAPI {
     @FindBy(xpath = "//a[contains(text(),'Appliance Special Buys')]")
     public static WebElement apSpecialText;
 
-    public String dd_AppliencesSpecialBuys(){
+    public String HoverOverAppliencesSpecialBuys(){
         Actions action = new Actions(driver);
         action.moveToElement(dd_AllDepartment).perform();
         action.moveToElement(dd_Appliances).perform();
@@ -51,7 +109,7 @@ public class AllDepartments extends MainAPI {
     public static WebElement bathroomSinkFacets;
 
 
-    public String dd_bathroomFaucets(){
+    public String HoverOverbathroomFaucets(){
         Actions action = new Actions(driver);
         action.moveToElement(dd_AllDepartment).perform();
         action.moveToElement(bathFaucets).perform();
@@ -60,6 +118,7 @@ public class AllDepartments extends MainAPI {
         String text = bathroomSinkFacets.getText();
         return text;
     }
+
 
 
 }
