@@ -8,6 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import javax.swing.*;
+import java.util.logging.XMLFormatter;
 
 public class HomePage extends MainAPI {
     public void title() {
@@ -119,7 +120,7 @@ public class HomePage extends MainAPI {
     public String clickDd_Appliances(){
         dd_AllDepartment.click();
         dd_Appliances.click();
-        String text =dd_Appliances.getText();
+        String text =driver.getTitle();
         return text;
     }
 
@@ -158,6 +159,50 @@ public class HomePage extends MainAPI {
         String text = driver.getTitle();
         return  text;
     }
+    @FindBy(xpath = "//a[@id='kitchen-and-dining'][contains(text(),'Kitchen & Dining')]")
+    public static WebElement kitchenDining;
+
+    public String clickKitchenDining(){
+        homeDecorOutdoor.click();
+        kitchenDining.click();
+        String text = driver.getTitle();
+        return text;
+    }
+
+
+    ///////// *******************Select dropDown Item from All Departments **************
+
+    @FindBy(xpath = "//a[@title='Appliance Special Buys']")
+    public static WebElement applienceSpecialBuys;
+    @FindBy(xpath = "//a[contains(text(),'Appliance Special Buys')]")
+    public static WebElement apSpecialText;
+
+    public String dd_AppliencesSpecialBuys(){
+        Actions action = new Actions(driver);
+        action.moveToElement(dd_AllDepartment).perform();
+        action.moveToElement(dd_Appliances).perform();
+        action.moveToElement(applienceSpecialBuys).click();
+        String text = apSpecialText.getText();
+        return text;
+    }
+    @FindBy(xpath = "//li[@class='MainFlyout__item']//a[@title='Bath & Faucets'][contains(text(),'Bath & Faucets')]")
+    public static WebElement bathFaucets;
+    @FindBy(xpath = "//a[@title='Bathroom Faucets']")
+    public static WebElement bathroomFacets;
+    @FindBy(xpath = "//a[@title='Bathroom Sink Faucets'][contains(text(),'Bathroom Sink Faucets')]")
+    public static WebElement bathroomSinkFacets;
+
+
+    public String dd_bathroomFaucets(){
+        Actions action = new Actions(driver);
+        action.moveToElement(dd_AllDepartment).perform();
+        action.moveToElement(bathFaucets).perform();
+        action.moveToElement(bathroomFacets).perform();
+        action.moveToElement(bathroomSinkFacets).click();
+        String text = bathroomSinkFacets.getText();
+        return text;
+    }
+
 
 
 

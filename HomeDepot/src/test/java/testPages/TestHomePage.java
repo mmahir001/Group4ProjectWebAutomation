@@ -93,7 +93,7 @@ public class TestHomePage extends MainAPI {
     @Test
     public void testClickdd_Appliances(){ ;
         String actual = hp.clickDd_Appliances();
-        String expected = "Appliancesl";
+        String expected = "Appliances at The Home Depot";
         Assert.assertEquals (actual,expected);
     }
     @Test
@@ -112,6 +112,24 @@ public class TestHomePage extends MainAPI {
     public void testClickFurniture(){
         String actual = hp.clickFurniture();
         String expected = "Shop Furniture at The Home Depot";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void testClickKitchenDining(){
+        String actual = hp.clickKitchenDining();
+        String expected = "Shop Kitchenware at The Home Depot";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void testdd_applienceSpecialBuys(){
+        String actual = hp.dd_AppliencesSpecialBuys();
+        String expected = "Appliance Special Buys";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void testclickdd_bathroomFaucets(){
+        String actual = hp.dd_bathroomFaucets();
+        String expected = "Bathroom Sink Faucets";
         Assert.assertEquals(actual,expected);
     }
 
