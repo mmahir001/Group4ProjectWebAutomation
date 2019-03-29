@@ -16,7 +16,7 @@ public class TestHomePage extends HomePage {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         HomePage = PageFactory.initElements(driver, HomePage.class);
-        setUrl("http://www.Netflix.com"); }
+        setURL("http://www.Netflix.com"); }
     @Test
     public void testURL() {
         TestLogger.log(getClass().getSimpleName()+ ": "+ convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));

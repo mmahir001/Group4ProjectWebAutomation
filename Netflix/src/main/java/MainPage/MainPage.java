@@ -1,5 +1,5 @@
 package MainPage;
-import base.MainAPI
+import base.MainAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
