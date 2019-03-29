@@ -8,17 +8,17 @@ import org.openqa.selenium.support.FindBy;
 public class HomeDecorFurniture extends MainAPI {
 
     @FindBy(xpath = "//a[contains(text(),'Home Decor & Furniture')]")
-    public static WebElement homeDecorOutdoor;
+    WebElement homeDecorOutdoor;
     @FindBy(xpath = "//a[@id='home-decor'][contains(text(),'Home Decor')]")
-    public static WebElement homeDecor;
+    WebElement homeDecor;
     @FindBy(xpath = "//a[contains(text(),'Wall Accents')]")
-    public static WebElement wallAccents;
+    WebElement wallAccents;
     @FindBy(xpath = "//a[@id='furniture'][contains(text(),'Furniture')]")
-    public static WebElement furniture;
+    WebElement furniture;
     @FindBy(xpath = "//a[contains(text(),'Dining Chairs')]")
     WebElement diningChairs;
     @FindBy(xpath = "//a[@id='kitchen-and-dining'][contains(text(),'Kitchen & Dining')]")
-    public static WebElement kitchenDining;
+    WebElement kitchenDining;
     @FindBy(xpath = "//a[@id='bedding-and-bath'][contains(text(),'Bedding & Bath')]")
     WebElement beddingBath;
     @FindBy(xpath = "//a[@id='lighting']")
@@ -29,6 +29,11 @@ public class HomeDecorFurniture extends MainAPI {
     WebElement shopByRoom;
     @FindBy(xpath = "//a[@id='savings']")
     WebElement saving;
+    @FindBy(xpath = "//a[contains(text(),'Cookware Sets')]")
+    WebElement cookwareSets;
+    @FindBy(xpath = "//a[@class='homeDecorFurniture__endpoint'][contains(text(),'Bath Towels')]")
+    WebElement bathTowels;
+
 
 
 
@@ -103,8 +108,20 @@ public class HomeDecorFurniture extends MainAPI {
         return text;
     }
 
-
-
-    @FindBy(xpath = "//div[@class='homeDecorFurniture__bayName']//a[@class='homeDecorFurniture__endpoint'][contains(text(),'Cookware')]")
-    public static WebElement cookware;
+    public String HoverOverCookwareSets(){
+        Actions action = new Actions(driver);
+        action.moveToElement(homeDecorOutdoor).perform();
+        action.moveToElement(kitchenDining).perform();
+        action.moveToElement(cookwareSets).click();
+        String text = cookwareSets.getText();
+        return text;
+    }
+    public String HoverOverCottonBlanket(){
+        Actions action = new Actions(driver);
+        action.moveToElement(homeDecorOutdoor).click().perform();
+        action.moveToElement(beddingBath).perform();
+        action.moveToElement(bathTowels).click();
+        String text = driver.getTitle();
+        return text;
+    }
 }

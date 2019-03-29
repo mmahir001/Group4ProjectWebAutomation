@@ -75,6 +75,18 @@ public class TestHomeDecorFurniture extends MainAPI {
         String expected = "Specials & Offers at The Home Depot";
         Assert.assertEquals(actual,expected);
     }
+    @Test
+    public void testHoverOverCookwareSets(){
+        String actual = hdf.HoverOverCookwareSets();
+        String expected = "Cookware Sets";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void testHoverOverCottonBlanket(){
+        String actual = hdf.HoverOverCottonBlanket();
+        String expected = "The Home Depot";
+        Assert.assertEquals(actual,expected);
+    }
 
 
 

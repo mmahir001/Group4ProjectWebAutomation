@@ -9,22 +9,9 @@ public class AllDepartments extends MainAPI {
 
 
     @FindBy(xpath = "//a[contains(text(),'All Departments')]")
-    public static WebElement dd_AllDepartment;
-
-    public String clickDd_AllDepartment(){
-        dd_AllDepartment.click();
-        String text =dd_AllDepartment.getText();
-        return text;
-    }
+    WebElement dd_AllDepartment;
     @FindBy(xpath = "//li[@class='MainFlyout__item']//a[@title='Appliances'][contains(text(),'Appliances')]")
-    public static WebElement dd_Appliances;
-
-    public String clickDd_Appliances(){
-        dd_AllDepartment.click();
-        dd_Appliances.click();
-        String text =driver.getTitle();
-        return text;
-    }
+    WebElement dd_Appliances;
     @FindBy(xpath = "//li[@class='MainFlyout__item']//a[@title='Blinds & Window Treatment'][contains(text(),'Blinds & Window Treatment')]")
     WebElement blindWindowTreatment;
     @FindBy(xpath = "//a[@title='Blinds'][contains(text(),'Blinds')]")
@@ -41,6 +28,29 @@ public class AllDepartments extends MainAPI {
     WebElement gateHardware;
     @FindBy(xpath = "//a[@title='Gate Kits']")
     WebElement gateKits;
+    @FindBy(xpath = "//a[@title='Appliance Special Buys']")
+    WebElement applienceSpecialBuys;
+    @FindBy(xpath = "//a[contains(text(),'Appliance Special Buys')]")
+    WebElement apSpecialText;
+    @FindBy(xpath = "//li[@class='MainFlyout__item']//a[@title='Bath & Faucets'][contains(text(),'Bath & Faucets')]")
+    public static WebElement bathFaucets;
+    @FindBy(xpath = "//a[@title='Bathroom Faucets']")
+    public static WebElement bathroomFacets;
+    @FindBy(xpath = "//a[@title='Bathroom Sink Faucets'][contains(text(),'Bathroom Sink Faucets')]")
+    public static WebElement bathroomSinkFacets;
+
+    public String clickDd_AllDepartment(){
+        dd_AllDepartment.click();
+        String text =dd_AllDepartment.getText();
+        return text;
+    }
+
+    public String clickDd_Appliances(){
+        dd_AllDepartment.click();
+        dd_Appliances.click();
+        String text =driver.getTitle();
+        return text;
+    }
 
     public String HoverOverGateKits(){
         Actions action = new Actions(driver);
@@ -88,11 +98,6 @@ public class AllDepartments extends MainAPI {
 
     ///////// *******************Select dropDown Item from All Departments **************
 
-    @FindBy(xpath = "//a[@title='Appliance Special Buys']")
-    public static WebElement applienceSpecialBuys;
-    @FindBy(xpath = "//a[contains(text(),'Appliance Special Buys')]")
-    public static WebElement apSpecialText;
-
     public String HoverOverAppliencesSpecialBuys(){
         Actions action = new Actions(driver);
         action.moveToElement(dd_AllDepartment).perform();
@@ -101,13 +106,6 @@ public class AllDepartments extends MainAPI {
         String text = apSpecialText.getText();
         return text;
     }
-    @FindBy(xpath = "//li[@class='MainFlyout__item']//a[@title='Bath & Faucets'][contains(text(),'Bath & Faucets')]")
-    public static WebElement bathFaucets;
-    @FindBy(xpath = "//a[@title='Bathroom Faucets']")
-    public static WebElement bathroomFacets;
-    @FindBy(xpath = "//a[@title='Bathroom Sink Faucets'][contains(text(),'Bathroom Sink Faucets')]")
-    public static WebElement bathroomSinkFacets;
-
 
     public String HoverOverbathroomFaucets(){
         Actions action = new Actions(driver);
