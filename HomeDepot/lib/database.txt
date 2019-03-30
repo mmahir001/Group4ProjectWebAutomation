@@ -1,0 +1,12 @@
+mysql> SELECT * FROM search;
++----+---------------+
+| ID | items         |
++----+---------------+
+|  1 | My Store      |
+|  2 | Gift Cards    |
+|  3 | Truck to Tent |
+|  4 | Favourites    |
+|  5 | My Cart       |
+|  6 | Help          |
++----+---------------+
+6 rows in set (0.00 sec)

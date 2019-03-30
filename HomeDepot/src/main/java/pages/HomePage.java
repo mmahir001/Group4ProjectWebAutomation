@@ -5,15 +5,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-import org.testng.annotations.Test;
 import reporting.TestLogger;
-import utility.DataReader;
-
-import javax.swing.*;
+import utility.Readxls;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.XMLFormatter;
-
 public class HomePage extends MainAPI {
     public void title() {
 
@@ -22,10 +17,8 @@ public class HomePage extends MainAPI {
         String expected = "The Home Depot";
         Assert.assertEquals(expected, actual);
     }
-
     @FindBy (xpath = "//span[@class='MyStore__label']")
     public static WebElement myStore;
-
     @FindBy(xpath = "//a[@class='TaskLinks__link'][contains(text(),'Gift Cards')]")
     public static WebElement giftCard;
     @FindBy(xpath = "//a[@class='TaskLinks__link'][contains(text(),'Store Finder')]")
@@ -54,9 +47,6 @@ public class HomePage extends MainAPI {
     WebElement SpecialOfferce;
     @FindBy(xpath = "//a[contains(text(),'Local Ad')]")
     WebElement localAd;
-
-
-
     public String  clickMyStore(){
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         myStore.click();
@@ -150,14 +140,10 @@ public class HomePage extends MainAPI {
         return text;
     }
 
-
-
-
-
-    public List webElementList(){
+    public List webElementList() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         List<WebElement> webElements = new ArrayList<>();
-        webElements.add(myStore);
+        webElements.add(creditServices);
         webElements.add(myCart);
         webElements.add(help);
         webElements.add(favorites);
@@ -170,19 +156,16 @@ public class HomePage extends MainAPI {
         System.out.println(list);
         return list;
     }
-    DataReader xlData = new DataReader("C:\\Users\\mdths\\Desktop\\homedepot.xlsx");
+    Readxls xlData = new Readxls("C:\\Users\\mdths\\IdeaProjects\\Group4ProjectWebAutomation\\HomeDepot\\lib\\homedepot.xlsx");
     public List expectedWebElement(){
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         int rowcount = xlData.getRowCount("Sheet1");
         List<String> expect = new ArrayList<>();
         for(int i = 1; i <= rowcount; i++){
-            expect.add(xlData.getCellData("Sheet1","ABOUT",i));
+            expect.add(xlData.getCellData("Sheet1","Credit Services",i));
         }
         System.out.println(expect);
         return expect;
     }
-
-
-
 
 }

@@ -1,13 +1,11 @@
 package testPages;
 
 import base.MainAPI;
-import org.omg.CORBA.PUBLIC_MEMBER;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.AllDepartments;
-import pages.HomePage;
 
 public class TestAllDepartments extends MainAPI {
     AllDepartments ad;

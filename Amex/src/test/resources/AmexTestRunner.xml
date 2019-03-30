@@ -13,7 +13,8 @@
 
     <test name = "Amex Home">
         <classes>
-            <class name="TestSearchPages.TestCards"/>
+            <!--<class name="TestSearchPages.TestCards"/>-->
+            <class name="TestSearchPages.TestDatabase"/>
         </classes>
     </test>
 </suite>
