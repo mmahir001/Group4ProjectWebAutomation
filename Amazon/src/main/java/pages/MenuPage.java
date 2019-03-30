@@ -301,6 +301,27 @@ public class MenuPage extends MainAPI {
 
 
     }
+    @FindBy(xpath = "//div[contains(text(),'Toys, Kids & Baby')]")
+    public static WebElement toys_kids_baby;
+
+    public String clicktoys_kids_baby(){
+        hamburgerTab.click();
+        toys_kids_baby.click();
+        String text = toys_kids_baby.getText();
+        return text;
+
+
+    }
+    @FindBy(xpath = "//ul[@class='hmenu hmenu-visible hmenu-translateX']//li[21]//a[1]")
+    public static  WebElement handmade;
+
+    public String clickhandmade(){
+        hamburgerTab.click();
+        handmade.click();
+        String text = handmade.getText();
+        return text;
+
+    }
 
 
 

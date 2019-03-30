@@ -7,6 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.MenuPage;
+import reporting.TestLogger;
 
 public class TestMenuPages extends MainAPI {
 
@@ -19,6 +20,7 @@ public class TestMenuPages extends MainAPI {
 
     @Test
     public void testTitle(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         String st = driver.getTitle();
         Assert.assertEquals(st, "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more");
     }
@@ -48,7 +50,7 @@ public class TestMenuPages extends MainAPI {
     @Test
     public void testClickWholeFoods(){
         mp.clickWholeFoods();
-        String actual =mp.clickWholeFoods();
+        String actual = mp.clickWholeFoods();
         String expected = "Whole Foods";
         Assert.assertEquals(actual,expected);
 
@@ -64,7 +66,7 @@ public class TestMenuPages extends MainAPI {
     @Test
     public void testClickregistry(){
         mp.clickregistry();
-        String actual =mp.clickregistry();
+        String actual = mp.clickregistry();
         String expected = "Registry";
         Assert.assertEquals(actual,expected);
     }
@@ -108,7 +110,7 @@ public class TestMenuPages extends MainAPI {
    }
     @Test
     public void testClickechoAndAlexa(){
-        String actual= mp.clickechoAndAlexa();
+        String actual = mp.clickechoAndAlexa();
         String expected = "";
         Assert.assertEquals(actual,expected);
 
@@ -131,7 +133,7 @@ public class TestMenuPages extends MainAPI {
     @Test
     public void testClickKindle(){
         String actual = mp.clickKindle();
-        String expected = "";
+        String expected = "Kindle for Kids Bundle";
         Assert.assertEquals(actual,expected);
 
     }
@@ -200,6 +202,19 @@ public class TestMenuPages extends MainAPI {
     public void beauty_health(){
         String actual = mp.clickbeauty_health();
         String expected = "Beauty & Health";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void toys_kids_baby(){
+        String actual = mp.clicktoys_kids_baby();
+        String expected = "Toys, Kids & Baby";
+        Assert.assertEquals(actual,expected);
+
+    }
+    @Test
+    public void handmade(){
+        String actual = mp.clickhandmade();
+        String expected = "hmenu hmenu-visible hmenu-translateX";
         Assert.assertEquals(actual,expected);
     }
 
