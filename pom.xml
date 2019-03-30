@@ -12,6 +12,7 @@
         <module>Generic</module>
         <module>Geico</module>
         <module>HomeDepot</module>
+        <module>Amex</module>
     </modules>
 
 
