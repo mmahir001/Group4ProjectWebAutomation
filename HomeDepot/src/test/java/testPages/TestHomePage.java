@@ -86,13 +86,6 @@ public class TestHomePage extends MainAPI {
         String expected = "Cart";
         Assert.assertEquals (actual,expected);
     }
-
-    @Test
-    public void webElementName() throws Exception {
-        List actual = hp.webElementList();
-        List expected = hp.expectedWebElement();
-        Assert.assertEquals(actual,expected);
-    }
     @Test
     public void TestHoverHover(){
         String actual = hp.hoveroversheds();
@@ -118,6 +111,13 @@ public class TestHomePage extends MainAPI {
         Assert.assertEquals (actual,expected);
     }
 
+/////////////////////////////////////xlsx ///////////////////////////
+    @Test
+    public void webElementName() throws Exception {
+        List actual = hp.webElementList();
+        List expected = hp.expectedWebElement();
+        Assert.assertEquals(actual,expected);
+    }
 
 
 

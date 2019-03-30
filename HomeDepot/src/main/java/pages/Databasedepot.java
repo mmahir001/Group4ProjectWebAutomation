@@ -21,9 +21,9 @@ public class Databasedepot extends MainAPI{
             List<String> search = new ArrayList<>();
             search.add("My Store");
             search.add("Gift Cards");
-            search.add("Truck to Tent");
+            search.add("Truck Order");
             search.add("Favourites");
-            search.add("My Cart");
+            search.add("Cart");
             search.add("Help");
             return search;
         }
@@ -59,7 +59,7 @@ public class Databasedepot extends MainAPI{
             List<WebElement> search = new ArrayList<>();
             search.add(myStore);
             search.add(giftCard);
-            search.add(trackOrder);
+            search.add(truckToolRent);
             search.add(favorites);
             search.add(myCart);
             search.add(help);

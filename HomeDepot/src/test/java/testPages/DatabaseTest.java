@@ -22,8 +22,8 @@ public class DatabaseTest extends MainAPI {
     @Test
     public void webElementName() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        List <String> actual = databasedepot.getUserDatafromDB();
-        List expected = databasedepot.getHeadersValue1();
+        List <String> actual = databasedepot.getHeadersValue1();
+        List expected = databasedepot.getUserDatafromDB();
         Assert.assertEquals(actual,expected);
 
     }

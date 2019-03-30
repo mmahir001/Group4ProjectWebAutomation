@@ -1,14 +1,9 @@
 package pages;
 
 import base.MainAPI;
-import databases.ConnectToSqlDB;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
-import utility.DataReader;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class Register extends MainAPI {
 
