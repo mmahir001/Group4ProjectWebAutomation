@@ -1,37 +1,68 @@
 package pages;
 
 import base.MainAPI;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 public class Login extends MainAPI {
 
-    public void clickMyAccount() {
-        MainAPI.clickOnElement("//div[@class='headerMyAccountTitle MyAccount__status hide show--sm']//div[@class='MyAccount__label SimpleFlyout__link--bold'][contains(text(),'My Account')]");
-    }
-    public void clickLogin(){
+    @FindBy(xpath = "//a[@id='headerMyAccount']//div[@class='MyAccount__label SimpleFlyout__link--bold'][contains(text(),'My Account')]")
+    WebElement clickMyAccount;
+    @FindBy(xpath = "//span[contains(text(),'Sign in')]")
+    WebElement clickSignIn;
+    @FindBy(xpath = "//div[@class='tab--selected']")
+    WebElement SignInButton;
+    @FindBy(xpath = "//div[@class='login-popup__model']//input[@id='email_id']")
+    WebElement enterEmail;
+    @FindBy(xpath = "//input[@id='password']")
+    WebElement enterPassword;
+    @FindBy(xpath = "//span[@class='bttn__content'][contains(text(),'Sign In')]")
+    WebElement clickSignInButton;
 
-        MainAPI.clickOnElement("//span[contains(text(),'Sign in')]");
+    public void loginMyAccount(){
+        clickMyAccount.click();
+        clickSignIn.click();
+        SignInButton.click();
+        enterEmail.sendKeys("mtsharif@gmail.com");
+        enterPassword.sendKeys("adcf125");
+        clickSignInButton.click();
     }
-    public void enterEmailId(){
-        //CSS Locator
-        MainAPI.typeOnElementNEnter("#email_id","mtsharif92@gmail.com");
+    public void loginMyAccountWrongEmail(){
+        clickMyAccount.click();
+        clickSignIn.click();
+        SignInButton.click();
+        enterEmail.sendKeys("mtsharif");
+        System.out.println("Email Address in not valid");
+        enterPassword.sendKeys("adcf125");
+        clickSignInButton.click();
     }
-    public void enterPassword(){
-        MainAPI.typeOnElementNEnter("//input[@id='password']","abcd12345");
+    public void loginMyAccountWithoutEmail() {
+        clickMyAccount.click();
+        clickSignIn.click();
+        SignInButton.click();
+        enterEmail.sendKeys("");
+        enterPassword.sendKeys("adcf125");
+        clickSignInButton.click();
+        System.out.println("Please Enter the Email Address");
     }
-    public void clickSignIn(){
-        //CSS Locator
-        MainAPI.clickOnElement("//span[@class='bttn__content'][contains(text(),'Sign In')]");
+    public void loginMyAccountWithoutPasssword() {
+        clickMyAccount.click();
+        clickSignIn.click();
+        SignInButton.click();
+        enterEmail.sendKeys("mtsharif@gmail.com");
+        enterPassword.sendKeys("");
+        clickSignInButton.click();
+        System.out.println("Please Enter the Password");
     }
-
-    public void login(){
-        clickMyAccount();
-        clickLogin();
-        enterEmailId();
-        enterPassword();
-        clickSignIn();
-
+    public void loginMyAccountWithoutEmailPasssword() {
+        clickMyAccount.click();
+        clickSignIn.click();
+        SignInButton.click();
+        enterEmail.sendKeys("");
+        enterPassword.sendKeys("");
+        clickSignInButton.click();
+        System.out.println("YOU must have to Enter the Email and Password to Login");
     }
-
 
 
 }

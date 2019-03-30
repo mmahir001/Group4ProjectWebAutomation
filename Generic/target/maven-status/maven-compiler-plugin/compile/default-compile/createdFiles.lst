@@ -1,4 +1,7 @@
-reporting\TestLogger.class
+databases\User.class
 reporting\ExtentManager.class
 reporting\ExtentTestManager.class
 reporting\ApplicationLog.class
+reporting\TestLogger.class
+databases\ConnectToMongoDB.class
+databases\ConnectToSqlDB.class

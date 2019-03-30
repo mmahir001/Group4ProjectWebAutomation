@@ -1,8 +1,14 @@
 package pages;
 
 import base.MainAPI;
+import databases.ConnectToSqlDB;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
+import utility.DataReader;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Register extends MainAPI {
 
@@ -38,6 +44,7 @@ public class Register extends MainAPI {
      public String clickMyAccount(){
          myAccount.click();
          clickRegister.click();
+         creatAccoutTab.click();
          typeEmailId.sendKeys("mtsharif@gmail.com");
          typePassword.sendKeys("abcd1234");
          zipCode.sendKeys("11217");
@@ -45,11 +52,9 @@ public class Register extends MainAPI {
          clickCheckBox.click();
          clickCreatAccount.click();
          String text = driver.getTitle();
-         System.out.println(text);
          return text;
 
      }
-//public void clickMyAccount() {
-//    MainAPI.clickOnElement("//div[@class='headerMyAccountTitle MyAccount__status hide show--sm']//div[@class='MyAccount__label SimpleFlyout__link--bold'][contains(text(),'My Account')]");
-//}
+
+
 }

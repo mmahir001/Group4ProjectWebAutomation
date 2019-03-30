@@ -8,6 +8,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.SearchBox;
+import reporting.TestLogger;
+
+import java.util.List;
 
 public class TestHomePage extends MainAPI {
     HomePage hp;
@@ -85,6 +88,13 @@ public class TestHomePage extends MainAPI {
         Assert.assertEquals (actual,expected);
     }
 
+    @Test
+    public void webElementName(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        List actual = hp.webElementList();
+        List expected = hp.expectedWebElement();
+        Assert.assertEquals(actual,expected);
+    }
 
 
 }

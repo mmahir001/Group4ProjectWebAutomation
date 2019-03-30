@@ -13,30 +13,28 @@ public class TestLogin extends MainAPI {
     public void initialize() {
         login = PageFactory.initElements(driver, Login.class);
     }
+
     @Test
-    public void testClickMyAccount(){
-        login.clickMyAccount();
+    public void testLogin(){
+        login.loginMyAccount();
     }
     @Test
-    public void testClickLogin(){
-        testClickMyAccount();
-        login.clickLogin();
+    public void testWrongEmailLogin(){
+        login.loginMyAccountWrongEmail();
     }
     @Test
-    public void testEnterEmailId(){
-        testClickLogin();
-        login.enterEmailId();
+    public void testWithoutEmailLogin(){
+        login.loginMyAccountWithoutEmail();
     }
     @Test
-    public void testEnterPassword(){
-        testEnterEmailId();
-        login.enterPassword();
+    public void testWithoutPasswordLogin(){
+        login.loginMyAccountWithoutPasssword();
     }
     @Test
-    public void testSingIn(){
-        testEnterPassword();
-        login.clickSignIn();
+    public void testWithoutEmailandPass(){
+        login.loginMyAccountWithoutEmailPasssword();
     }
+
 
 
 
