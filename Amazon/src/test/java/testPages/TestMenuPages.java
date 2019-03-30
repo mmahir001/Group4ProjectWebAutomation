@@ -26,107 +26,182 @@ public class TestMenuPages extends MainAPI {
     @Test
     public void testClickAmazonTab(){
         mp.clickYourAmazonTab();
+        String actual = mp.clickYourAmazonTab();
+        String expected = "";
+        Assert.assertEquals(actual,expected);
     }
 
     @Test
     public void testClickTodayDeal(){
         mp.clickTodayDeal();
+        String actual = mp.clickTodayDeal();
+        String expected = "Today's Deals";
+        Assert.assertEquals(actual,expected);
     }
     @Test
     public void testClickGiftCards(){
         mp.clickgiftCards();
+        String actual = mp.clickgiftCards();
+        String expected = "Gift Cards";
+        Assert.assertEquals(actual,expected);
     }
     @Test
     public void testClickWholeFoods(){
         mp.clickWholeFoods();
+        String actual =mp.clickWholeFoods();
+        String expected = "Whole Foods";
+        Assert.assertEquals(actual,expected);
+
 
     }
     @Test
-    public void testClickSell()throws Exception{
-        mp.clickSell();
+    public void testClickorders(){
+        mp.clickorders();
+        String actual = mp.clickorders();
+        String expected = "Orders";
+        Assert.assertEquals(actual,expected);
     }
     @Test
-    public void testClickRegistry()throws Exception{
-        mp.clickRegistry();
+    public void testClickregistry(){
+        mp.clickregistry();
+        String actual =mp.clickregistry();
+        String expected = "Registry";
+        Assert.assertEquals(actual,expected);
     }
     @Test
-    public void testClickHelp()throws InterruptedException,NullPointerException{
-        mp.clickHelp();
-        MainAPI.sleepForTwoSec();
+    public void testClickprime(){
+        String actual = mp.clickprime();
+        String expected = "Try Prime";
+        Assert.assertEquals(actual,expected);
     }
    @Test
-    public void testClickDeliverTo()throws Exception{
-        mp.clickDeliverTo();
+    public void testClickdeliverTo()throws Exception{
+       String actual =  mp.clickdeliverTo();
+       String expected = "Deliver to";
+       Assert.assertEquals(actual,expected);
    }
    @Test
-    public void testClickbirthday(){
-        mp.clickBirthday();
+    public void testClickcart(){
+        String actual = mp.clickcart();
+       String expected = "";
+       Assert.assertEquals(actual,expected);
    }
    @Test
     public void testClickthankyou(){
-        mp.clickthakyou();
+        String actual = mp.clickthakyou();
+       String expected = "";
+       Assert.assertEquals(actual,expected);
    }
    @Test
-    public void testClickcongratulations() {
-       mp.clickcongratulations();
+    public void testClicget_to_know() {
+       String actual = mp.clickget_to_know();
+       String expected = "";
+       Assert.assertEquals(actual,expected);
+
    }
 
-    @Test
+   @Test
     public void testClickPrimeVideo(){
-        mp.clickPrimeVideo();
-    }
-    @Test
-    public void testClickAmazonMusic(){
-        mp.clickamazonMusic();
-    }
+        String actual = mp.clickPrimeVideo();
+       String expected = "Prime Video";
+       Assert.assertEquals(actual,expected);
+   }
     @Test
     public void testClickechoAndAlexa(){
-        mp.clickechoAndAlexa();
+        String actual= mp.clickechoAndAlexa();
+        String expected = "";
+        Assert.assertEquals(actual,expected);
 
     }
     @Test
     public void testClickechoFireTablets(){
-        mp.clickfireTablets();
+        String actual = mp.clickfireTablets();
+        String expected = "Fire Tablets";
+        Assert.assertEquals(actual,expected);
+
     }
     @Test
     public void testClickfireTv(){
-        mp.clickfireTv();
+        String actual = mp.clickfireTv();
+        String expected = "Fire TV Recast";
+        Assert.assertEquals(actual,expected);
+
+
     }
     @Test
     public void testClickKindle(){
-        mp.clickKindle();
+        String actual = mp.clickKindle();
+        String expected = "";
+        Assert.assertEquals(actual,expected);
+
     }
     @Test
     public void testClickappstore(){
-        mp.clickappstore();
+        String actual = mp.clickappstore();
+        String expected = "Appstore for Android";
+        Assert.assertEquals(actual,expected);
+
     }
     @Test
     public void testclickclothing(){
-        mp.clickclothing();
+        String actual = mp.clickclothing();
+        String expected = "Clothing, Shoes, Jewelry & Watches";
+        Assert.assertEquals(actual,expected);
     }
     @Test
     public void testclickamazonFresh(){
-        mp.clickamazonFresh();
+       String actual =  mp.clickamazonFresh();
+        String expected = "";
+        Assert.assertEquals(actual,expected);
     }
     @Test
     public void testclickbooks(){
-        mp.clickbooks();
+        String actual = mp.clickbooks();
+        String expected = "Books & Audible";
+        Assert.assertEquals(actual,expected);
     }
     @Test
     public void testclickmoviesMusic(){
-        mp.clickmoviesMusic();
+        String actual = mp.clickmoviesMusic();
+        String expected = "Movies, Music & Games";
+        Assert.assertEquals(actual,expected);
     }
     @Test
     public void testclickelectronics(){
-        mp.clickelectronics();
+        String actual = mp.clickelectronics();
+        String expected = "Electronics, Computers & Office";
+        Assert.assertEquals(actual,expected);
     }
-
-
-
-
-
-
-
+    @Test
+    public void testalexa(){
+        String actual = mp.clickalexa();
+        String expected = "";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void testhome_garden(){
+       String actual =  mp.clickhome_garden();
+        String expected = "Home, Garden & Tools";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void testpet_suplies(){
+        String actual = mp.clickpet_supplies();
+        String expected = "";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void testfood_grocery(){
+        String actual = mp.clickfood_grocery();
+        String expected = "Food & Grocery";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void beauty_health(){
+        String actual = mp.clickbeauty_health();
+        String expected = "Beauty & Health";
+        Assert.assertEquals(actual,expected);
+    }
 
 
 
