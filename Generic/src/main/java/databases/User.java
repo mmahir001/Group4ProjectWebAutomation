@@ -1,42 +1,42 @@
 package databases;
 
 public class User {
-    String stName;
-    String stID;
-    String stDOB;
+    String item_name;
+//    String stID;
+//    String stDOB;
 
     public User(){}
-    public User(String stName, String stID){
-        this.stName = stName;
-        this.stID = stID;
+    public User(String item_name){
+        this.item_name = item_name;
+        // this.stID = stID;
     }
-    public User(String stName, String stID, String stDOB){
-        this.stName = stName;
-        this.stID = stID;
-        this.stDOB = stDOB;
-
-    }
-    public String getStName() {
-        return stName;
-    }
-
-    public void setStName(String stName) {
-        this.stName = stName;
+    //    public User(String stName, String stID, String stDOB){
+//        this.stName = stName;
+//        this.stID = stID;
+//        this.stDOB = stDOB;
+//
+//    }
+    public String getItem_name() {
+        return item_name;
     }
 
-    public String getStID() {
-        return stID;
+    public void setItem_name(String item_name) {
+        this.item_name = item_name;
     }
 
-    public void setStID(String stID) {
-        this.stID = stID;
-    }
-
-    public String getStDOB() {
-        return stDOB;
-    }
-
-    public void setStDOB(String stDOB) {
-        this.stDOB = stDOB;
-    }
+//    public String getStID() {
+//        return stID;
+//    }
+//
+//    public void setStID(String stID) {
+//        this.stID = stID;
+//    }
+//
+//    public String getStDOB() {
+//        return stDOB;
+//    }
+//
+//    public void setStDOB(String stDOB) {
+//        this.stDOB = stDOB;
+//    }
 }
