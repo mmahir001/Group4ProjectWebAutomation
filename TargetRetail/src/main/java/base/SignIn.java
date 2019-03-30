@@ -6,22 +6,22 @@ import org.openqa.selenium.support.FindBy;
 public class SignIn extends MainAPI {
 
 
-    @FindBy(xpath = "//a[@class='AccountLink-gx13jw-0 ijGzHk Link-sc-1khjl8b-0 jvxzGg']")
+    @FindBy(id = "#account")
     WebElement clickSignIn1;
 
-    @FindBy(xpath = "//div[contains(text(),'Sign in')]")
+    @FindBy(css = ".Row-uds8za-0 kjjHUt")
     WebElement clickSignIn2;
 
-    @FindBy(xpath ="//input[@id='username']")
+    @FindBy(id = "#username")
     WebElement enterEmailAddress;
 
-    @FindBy(xpath = "//input[@id='password']")
+    @FindBy(id = "#password")
     WebElement enterPassword;
 
-    @FindBy(xpath = "//div[@class='sc-TOsTZ cpnEzn']")
+    @FindBy(css = ".sc-TOsTZ cpnEzn")
     WebElement clickKeepSignedButton;
 
-    @FindBy(xpath = "//button[@id='login']")
+    @FindBy(id = "#id=\"login\"")
      WebElement clicksSgnInSubmit;
 
     public void loginMyAccount(){
