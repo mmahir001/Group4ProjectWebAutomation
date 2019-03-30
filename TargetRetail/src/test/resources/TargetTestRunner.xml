@@ -16,7 +16,7 @@
             <!--<class name="bases.TestHome"/>-->
             <!--<class name="bases.TestSignIn"/>-->
             <!--<class name="bases.TestCategories"/>-->
-            <class name="bases.TestSearchBox"/>
+            <!--<class name="bases.TestSearchBox"/>-->
         </classes>
     </test>
 

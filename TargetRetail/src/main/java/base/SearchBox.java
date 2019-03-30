@@ -6,6 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class SearchBox  extends MainAPI{
 
@@ -13,6 +14,7 @@ public class SearchBox  extends MainAPI{
     WebElement searchBox;
 
     public void searchGoldTableLamp(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         MainAPI.typeOnElementNEnter("#search","gold table lamp");
         String st = driver.getTitle();
         System.out.println(st);
