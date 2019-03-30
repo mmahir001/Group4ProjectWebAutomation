@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3d131f9-3904-4cb5-896e-d288f3a48fde" name="Default Changelist" comment="" />
+    <list default="true" id="b3d131f9-3904-4cb5-896e-d288f3a48fde" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Netflix/src/test/java/ExcelSheetSearchMovies/TestSearchMoviesXcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix/src/main/java/ExcelSheetSearchMovies/TestSearchMoviesXcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix/src/test/java/ExcelSheetSearchMovies/TestSearchMoviesXcel.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
     <ignored path="$PROJECT_DIR$/Instagram/target/" />
@@ -13,17 +17,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="16062" />
+    <option name="totalTimeSeconds" value="16534" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Netflix/src/test/java/GoogleSheetLoginTest/TestSigninWithGoogleSheet.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Netflix/src/test/java/ExcelSheetSearchMovies/TestSearchMoviesXcel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,6 +83,7 @@
         <option value="$PROJECT_DIR$/Generic/src/main/java/excelutility/XlsxExcelReader.java" />
         <option value="$PROJECT_DIR$/Netflix/src/main/java/GoogleSheet/SigninWithGoogleSheet.java" />
         <option value="$PROJECT_DIR$/Netflix/src/test/java/GoogleSheetLoginTest/TestSigninWithGoogleSheet.java" />
+        <option value="$PROJECT_DIR$/Netflix/src/main/java/ExcelSheetSearchMovies/TestSearchMoviesXcel.java" />
       </list>
     </option>
   </component>
@@ -82,18 +96,13 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Group4ProjectWebAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-18" />
-    <option name="y" value="25" />
+    <option name="x" value="667" />
+    <option name="y" value="222" />
     <option name="width" value="689" />
     <option name="height" value="738" />
   </component>
@@ -114,11 +123,6 @@
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="Netflix" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -149,16 +153,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ProfileSelectionPage" type="462c0819:PsiDirectoryNode" />
+              <item name="ExcelSheetSearchMovies" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
@@ -182,16 +177,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="GoogleSheetLoginTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestHomePage" type="462c0819:PsiDirectoryNode" />
+              <item name="ExcelSheetSearchMovies" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -201,7 +187,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553969320850" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553974789002" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -217,11 +203,11 @@
       <recent name="databases" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shaq\Desktop\Group4ProjectWebAutomation\Netflix\src\main\java\ExcelSheetSearchMovies" />
       <recent name="C:\Users\Shaq\Desktop\Group4ProjectWebAutomation\Netflix\src\test\java\GoogleSheetLoginTest" />
       <recent name="C:\Users\Shaq\Desktop\Group4ProjectWebAutomation\Netflix\src\main\java\GoogleSheet" />
       <recent name="C:\Users\Shaq\Desktop\Group4ProjectWebAutomation\Netflix\src\test\java\TestSignInPage" />
       <recent name="C:\Users\Shaq\Desktop\Group4ProjectWebAutomation\Netflix\src\main\java\SignInPage" />
-      <recent name="C:\Users\Shaq\Desktop\Group4ProjectWebAutomation\Netflix\src\test\java\TestProfileSelectionPage" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -284,10 +270,9 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-18" y="25" width="689" height="738" extended-state="0" />
-    <editor active="true" />
+    <frame x="667" y="222" width="689" height="738" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38791734" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38791734" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -302,7 +287,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" visible="true" weight="0.3371901" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.32850242" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32850242" />
@@ -310,7 +295,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.09757943" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.21482602" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -379,19 +364,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/GoogleSheetReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Netflix/Netflix.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Netflix/Netflix.iml" />
     <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1485">
@@ -554,6 +527,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Netflix/src/main/java/ExcelSheetSearchMovies/TestSearchMoviesXcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Netflix/src/test/java/GoogleSheetLoginTest/TestSigninWithGoogleSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Netflix/src/main/java/GoogleSheet/SigninWithGoogleSheet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -564,10 +554,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Netflix/src/test/java/GoogleSheetLoginTest/TestSigninWithGoogleSheet.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/GoogleSheetReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="1350">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Netflix/src/test/java/ExcelSheetSearchMovies/TestSearchMoviesXcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,4 +1,4 @@
-package ExcelSheetSearchMovies;
+package ExcelSheet;
 import ExcelSheet.SearchMoviesExcel;
 import HomePage.HomePage;
 import MainPage.MainPage;
