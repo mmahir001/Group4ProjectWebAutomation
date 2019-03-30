@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3d131f9-3904-4cb5-896e-d288f3a48fde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Netflix/src/main/java/GoogleSheet/SigninWithGoogleSheet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/Generic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/excelutility/XlsxExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/excelutility/XlsxExcelReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix/Netflix.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b3d131f9-3904-4cb5-896e-d288f3a48fde" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
     <ignored path="$PROJECT_DIR$/Instagram/target/" />
@@ -23,17 +13,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="15820" />
+    <option name="totalTimeSeconds" value="16062" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Netflix/src/main/java/GoogleSheet/SigninWithGoogleSheet.java">
+        <entry file="file://$PROJECT_DIR$/Netflix/src/test/java/GoogleSheetLoginTest/TestSigninWithGoogleSheet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+            <state relative-caret-position="189">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,6 +69,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/excelutility/XlsxExcelReader.java" />
         <option value="$PROJECT_DIR$/Netflix/src/main/java/GoogleSheet/SigninWithGoogleSheet.java" />
+        <option value="$PROJECT_DIR$/Netflix/src/test/java/GoogleSheetLoginTest/TestSigninWithGoogleSheet.java" />
       </list>
     </option>
   </component>
@@ -191,6 +182,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="GoogleSheetLoginTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="TestHomePage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -201,7 +201,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553969079840" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553969320850" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -217,11 +217,11 @@
       <recent name="databases" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shaq\Desktop\Group4ProjectWebAutomation\Netflix\src\test\java\GoogleSheetLoginTest" />
       <recent name="C:\Users\Shaq\Desktop\Group4ProjectWebAutomation\Netflix\src\main\java\GoogleSheet" />
       <recent name="C:\Users\Shaq\Desktop\Group4ProjectWebAutomation\Netflix\src\test\java\TestSignInPage" />
       <recent name="C:\Users\Shaq\Desktop\Group4ProjectWebAutomation\Netflix\src\main\java\SignInPage" />
       <recent name="C:\Users\Shaq\Desktop\Group4ProjectWebAutomation\Netflix\src\test\java\TestProfileSelectionPage" />
-      <recent name="C:\Users\Shaq\Desktop\Group4ProjectWebAutomation\Netflix\src\main\java\ProfileSelectionPage" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -285,6 +285,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-18" y="25" width="689" height="738" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38791734" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -557,6 +558,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Netflix/src/test/java/GoogleSheetLoginTest/TestSigninWithGoogleSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
