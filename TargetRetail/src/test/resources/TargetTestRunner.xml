@@ -13,8 +13,8 @@
 
     <test name = "Target Home Page">
         <classes>
-            <!--<class name="bases.TestHome"/>-->
-            <class name="bases.TestSignIn"/>
+            <class name="bases.TestHome"/>
+            <!--<class name="bases.TestSignIn"/>-->
             <!--<class name="bases.TestCategories"/>-->
         </classes>
     </test>
