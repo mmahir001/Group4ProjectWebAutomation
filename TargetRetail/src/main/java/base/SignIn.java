@@ -6,33 +6,73 @@ import org.openqa.selenium.support.FindBy;
 public class SignIn extends MainAPI {
 
 
-    @FindBy(id = "#account")
-    public static WebElement account;
+    @FindBy(xpath = "//a[@class='AccountLink-gx13jw-0 ijGzHk Link-sc-1khjl8b-0 jvxzGg']")
+    WebElement clickSignIn1;
 
-    @FindBy(css = ".Row-uds8za-0 kjjHUt")
-    public static WebElement signIn;
+    @FindBy(xpath = "//div[contains(text(),'Sign in')]")
+    WebElement clickSignIn2;
 
-    @FindBy(id = "username")
-    public static WebElement emailAddress;
+    @FindBy(xpath ="//input[@id='username']")
+    WebElement enterEmailAddress;
 
-    @FindBy(id = "#password")
-    public static WebElement password;
+    @FindBy(xpath = "//input[@id='password']")
+    WebElement enterPassword;
 
-    @FindBy(id = "#login")
-    public static WebElement signInSubmit;
+    @FindBy(xpath = "//div[@class='sc-TOsTZ cpnEzn']")
+    WebElement clickKeepSignedButton;
 
+    @FindBy(xpath = "//button[@id='login']")
+     WebElement clicksSgnInSubmit;
 
-    public void signInMyAccount() {
-        account.click();
-        signIn.click();
+    public void loginMyAccount(){
+        clickSignIn1.click();
+        clickSignIn2.click();
+        enterEmailAddress.sendKeys("nancy@gmail.com");
+        enterPassword.sendKeys("abcd1234");
+        clickKeepSignedButton.click();
+        clicksSgnInSubmit.click();
     }
-    public void invalidAccountSignIn(String email, String pwd) {
-        signInMyAccount();
-        emailAddress.sendKeys("nancy@gmail.com");
-        password.sendKeys("abcd1234");
 
-        }
+    public void loginMyAccountWrongEmail(){
+        clickSignIn1.click();
+        clickSignIn2.click();
+        enterEmailAddress.sendKeys("nancy");
+        System.out.println("Email Address in not valid");
+        enterPassword.sendKeys("adcf125");
+        clickKeepSignedButton.click();
+        clicksSgnInSubmit.click();
     }
+    public void loginMyAccountWithoutEmail() {
+        clickSignIn1.click();
+        clickSignIn2.click();
+        enterEmailAddress.sendKeys("");
+        enterPassword.sendKeys("adcf125");
+        clickKeepSignedButton.click();
+        clicksSgnInSubmit.click();
+        System.out.println("Please Enter the Email Address");
+    }
+    public void loginMyAccountWithoutPasssword() {
+        clickSignIn1.click();
+        clickSignIn2.click();
+        enterEmailAddress.sendKeys("nancy@gmail.com");
+        enterPassword.sendKeys("");
+        clickKeepSignedButton.click();
+        clicksSgnInSubmit.click();
+        System.out.println("Please Enter the Password");
+    }
+    public void loginMyAccountWithoutEmailPasssword() {
+        clickSignIn1.click();
+        clickSignIn2.click();
+        enterEmailAddress.sendKeys("");
+        enterPassword.sendKeys("");
+        clickKeepSignedButton.click();
+        clicksSgnInSubmit.click();
+        System.out.println("YOU must have to Enter the Email and Password to Login");
+    }
+
+
+
+}
 
 
 

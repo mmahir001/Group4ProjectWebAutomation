@@ -23,50 +23,65 @@ public class TestHome extends MainAPI {
     }
     @Test
     public void navigateToCart() {
-        home.clickCart();
-        String actule = home.clickCart();
-        String expected = "Target : Expect More. Pay Less.";
-        Assert.assertEquals(actule,expected);
+        String actual = home.clickCart();
+        String expected = "cart 0 items";
+        Assert.assertEquals(actual,expected);
 
     }
     @Test
     public void navigateToSearch() {
-        home.clickSearchBox();
-        String actule =home.clickSearchBox();
+        String actual =home.clickSearchBox();
         String expected = "Target : Expect More. Pay Less.";
-        Assert.assertEquals(actule,expected);
+        Assert.assertEquals(actual,expected);
     }
 
     @Test
     public void navigateToSignIn() {
-        home.clickSignIn();
+        String actual = home.clickSignIn();
+        String expected = "my account\n" +
+                "Sign in";
+        Assert.assertEquals(actual,expected);
     }
     @Test
-    public void navigateToTreading() {
-        home.clickTreading();
+    public void navigateToTreding() {
+        String actual = home.clickTreading();
+        String expected = "Trending";
+        Assert.assertEquals(actual,expected);
     }
     @Test
     public void navigateToDeals() {
-        home.clickDeals();
+        String actual =home.clickDeals();
+        String expected = "Deals";
+        Assert.assertEquals(actual,expected);
     }
     @Test
     public void navigateToFindStore() {
-        home.clickFindStore();
+        String actual =home.clickFindStore();
+        String expected = "Find Stores";
+        Assert.assertEquals(actual,expected);
     }
     @Test
     public void navigateToTargetGiftCard() {
-        home.clickTargetGiftCard();
+        String actual =home.clickTargetGiftCard();
+        String expected = "Gift Cards";
+        Assert.assertEquals(actual,expected);
     }
     @Test
     public void navigateToWeeklyAd() {
-        home.clickWeeklyAd();
+        String actual =home.clickWeeklyAd();
+        String expected = "Weekly Ad";
+        Assert.assertEquals(actual,expected);
     }
     @Test
     public void navigateToRegistriesLists() {
-        home.clickRegistriesList();
+        String actual =home.clickRegistriesList();
+        String expected = "Registries List";
+        Assert.assertEquals(actual,expected);
     }
     @Test
     public void navigateToOrder() {
-        home.clickOrder();
+        String actual =home.clickOrder();
+        String expected = "Order";
+        Assert.assertEquals(actual,expected);
     }
 }
