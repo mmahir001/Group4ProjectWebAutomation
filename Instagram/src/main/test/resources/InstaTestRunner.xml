@@ -15,6 +15,7 @@
         <classes>
             <!--<class name="title.AmazonHome"/>-->
             <class name="tests.InstaTester"/>
+            <!--<class name="tests.LogInTester"/>-->
         </classes>
     </test>
 

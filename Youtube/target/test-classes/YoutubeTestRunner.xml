@@ -9,13 +9,14 @@
     <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="30.0"/>
-    <parameter name="url" value="https://www.instagram.com/"/>
+    <parameter name="url" value="https://www.youtube.com/"/>
 
-    <test name = "Instagram Home Page">
+    <test name = "Youtube Home Page">
         <classes>
-            <!--<class name="title.AmazonHome"/>-->
-            <class name="tests.InstaTester"/>
-            <!--<class name="tests.LogInTester"/>-->
+
+            <class name="youtubeTests.HomepageTester"/>
+            <!--<class name="youtubeTests.SearchTester"/>-->
+
         </classes>
     </test>
 

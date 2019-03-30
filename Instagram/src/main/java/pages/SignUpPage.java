@@ -1,11 +1,13 @@
 package pages;
 
+import base.MainAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import javax.xml.xpath.XPath;
 
-public class SignUpPage {
+public class SignUpPage extends MainAPI {
+
 
     @FindBy(xpath = "//input[@name='emailOrPhone']")
     WebElement phoneOrEmail;
@@ -38,69 +40,107 @@ public class SignUpPage {
     @FindBy(xpath = "//button[@type='submit']")
     WebElement SignUpButton;
 
-    public void ClickSignUp(){SignUpButton.click();}
+    public String ClickSignUp(){
+        SignUpButton.click();
+        String text = SignUpButton.getText();
+        return text;}
 
     @FindBy(xpath = "//a[contains(text(),'Log in')]")
     WebElement LoginButton;
 
-    public void ClickLogin(){LoginButton.click();}
+    public String ClickLogin(){
+        LoginButton.click();
+        String text = LoginButton.getText();
+        return text;}
 
     @FindBy(xpath = "//a[contains(text(),'About us')]")
     WebElement AboutUsPage;
 
-    public void ClickAboutUs(){AboutUsPage.click();}
+    public String ClickAboutUs(){
+        AboutUsPage.click();
+        String text = AboutUsPage.getText();
+        return text;}
 
-    @FindBy(xpath = "//a[contains(text(),'Support')]")
+    @FindBy(xpath = "/html[1]/body[1]/span[1]/section[1]/footer[1]/div[1]/nav[1]/ul[1]/li[2]/a[1]")
     WebElement Support;
 
-    public void ClickSupport(){Support.click();}
+    public void ClickSupport(){
+        Support.click();
+        }
 
     @FindBy(xpath = "//a[contains(text(),'Press')]")
     WebElement Press;
 
-    public void ClickPress(){Press.click();}
+    public String ClickPress(){
+        Press.click();
+        String text = Press.getText();
+        return text;}
 
     @FindBy(xpath = "//a[contains(text(),'API')]")
     WebElement API;
 
-    public void ClickAPI(){API.click();}
+    public String ClickAPI(){
+        API.click();
+        String text = API.getText();
+        return text;}
 
     @FindBy(xpath = "//a[contains(text(),'Jobs')]")
     WebElement Jobs;
 
-    public void ClickJobs(){Jobs.click();}
+    public String ClickJobs(){
+        Jobs.click();
+        String text =Jobs.getText();
+        return text;}
 
     @FindBy(xpath = "//a[contains(text(),'Privacy')]")
     WebElement Privacy;
 
-    public void ClickPrivacy(){Privacy.click();}
+    public String ClickPrivacy(){
+        Privacy.click();
+        String text = Privacy.getText();
+        return text;}
 
-    @FindBy(xpath = "//a[@class='l93RR _vfM2']")
+    @FindBy(xpath = "/html[1]/body[1]/span[1]/section[1]/footer[1]/div[1]/nav[1]/ul[1]/li[7]/a[1]")
     WebElement Terms;
 
-    public void ClickTerms(){Terms.click();}
+    public void ClickTerms(){
+        Terms.click();
+        }
 
     @FindBy(xpath = "//a[contains(text(),'Directory')]")
     WebElement Directory;
 
-    public void ClickDirectory(){Directory.click();}
+    public String ClickDirectory(){
+        Directory.click();
+        String text = Directory.getText();
+        return text;}
 
     @FindBy(xpath = "//a[contains(text(),'Profiles')]")
     WebElement Profiles;
 
-    public void ClickProfiles(){Profiles.click();}
+    public String ClickProfiles(){
+        Profiles.click();
+        String text = Profiles.getText();
+        return text;}
 
     @FindBy(xpath = "//a[contains(text(),'Hashtags')]")
     WebElement Hashtags;
 
-    public void ClickHashtags(){Hashtags.click();}
+    public String ClickHashtags(){
+        Hashtags.click();
+        String text = Hashtags.getText();
+        return text;}
 
     @FindBy(xpath = "//select[@class='hztqj']")
     WebElement Language;
 
-    public void ClickLanguage(){Language.click();}
+    public void ClickLanguage(){
+        Language.click();
+        }
+
 
 }
+
 
 
 

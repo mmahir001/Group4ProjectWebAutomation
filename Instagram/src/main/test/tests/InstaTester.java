@@ -45,66 +45,90 @@ public class InstaTester extends MainAPI {
 
     @Test
     public void ClickSignUp(){
-        signUpPage.ClickSignUp();
+        String actual = signUpPage.ClickSignUp();
+        String expected = "Sign up";
+        Assert.assertEquals(actual,expected);
     }
 
     @Test
     public void ClickLogIn(){
-        signUpPage.ClickLogin();
+        String actual = signUpPage.ClickLogin();
+        String expected = "Log in";
+        Assert.assertEquals(actual,expected);
     }
 
     @Test
     public void ClickAboutUs(){
-        signUpPage.ClickAboutUs();
+        String actual = signUpPage.ClickAboutUs();
+        String expected = "ABOUT US";
+        Assert.assertEquals(actual,expected);
     }
 
     @Test
     public void ClickSupport(){
         signUpPage.ClickSupport();
+
     }
 
     @Test
     public void ClickPress(){
-        signUpPage.ClickPress();
+        String actual = signUpPage.ClickPress();
+        String expected = "WordPress.com VIP";
+        Assert.assertEquals(actual,expected);
     }
 
     @Test
     public void ClickAPI(){
-        signUpPage.ClickAPI();
+        String actual = signUpPage.ClickAPI();
+        String expected = "API Endpoints";
+        Assert.assertEquals(actual,expected);
     }
 
     @Test
     public void ClickJobs(){
-        signUpPage.ClickJobs();
+        String actual = signUpPage.ClickJobs();
+        String expected = "Jobs";
+        Assert.assertEquals(actual,expected);
+
     }
 
     @Test
     public void ClickPrivacy(){
-        signUpPage.ClickPrivacy();
+        String actual = signUpPage.ClickPrivacy();
+        String expected = "Privacy and Safety Center";
+        Assert.assertEquals(actual,expected);
     }
 
     @Test
     public void ClickTerms(){
         signUpPage.ClickTerms();
+
     }
 
     @Test
     public void ClickDirectory(){
-        signUpPage.ClickDirectory();
+        String actual = signUpPage.ClickDirectory();
+        String expected = "DIRECTORY";
+        Assert.assertEquals(actual,expected);
     }
 
     @Test
     public void ClickProfiles(){
-        signUpPage.ClickProfiles();
+        String actual = signUpPage.ClickProfiles();
+        String expected = "PROFILES";
+        Assert.assertEquals(actual,expected);
     }
 
     @Test
     public void ClickHashtags(){
-        signUpPage.ClickHashtags();
+        String actual = signUpPage.ClickHashtags();
+        String expected = "HASHTAGS";
+        Assert.assertEquals(actual,expected);
     }
 
     @Test
     public void ClickLanguage(){
         signUpPage.ClickLanguage();
+
     }
 }
