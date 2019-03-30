@@ -90,11 +90,36 @@ public class TestHomePage extends MainAPI {
 
     @Test
     public void webElementName(){
-        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         List actual = hp.webElementList();
         List expected = hp.expectedWebElement();
         Assert.assertEquals(actual,expected);
     }
+    @Test
+    public void TestHoverHover(){
+        String actual = hp.hoveroversheds();
+        String expected = "Sheds";
+        Assert.assertEquals (actual,expected);
+    }
+    @Test
+    public void TestHoverOverCarpet(){
+        String actual = hp.hoveroverCarpet();
+        String expected = "Carpet";
+        Assert.assertEquals (actual,expected);
+    }
+    @Test
+    public void TestClickSpecialOffers(){
+        String actual = hp.clickSpecialOffer();
+        String expected = "Specials & Offers";
+        Assert.assertEquals (actual,expected);
+    }
+    @Test
+    public void TestLocalAd(){
+        String actual = hp.clickLocalAd();
+        String expected = "Local Ad";
+        Assert.assertEquals (actual,expected);
+    }
+
+
 
 
 }

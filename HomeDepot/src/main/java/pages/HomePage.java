@@ -44,62 +44,114 @@ public class HomePage extends MainAPI {
     public static WebElement help;
     @FindBy (xpath = "//span[@class='MyCart__label'][contains(text(),'Cart')]")
     public static WebElement myCart;
+    @FindBy(xpath = "//a[@data-id='homeServices']")
+    WebElement homeService;
+    @FindBy(xpath = "//a[@class='list__link diyFlyout__level3link'][contains(text(),'Sheds')]")
+    WebElement sheds;
+    @FindBy(xpath = "//a[contains(text(),'Carpet')]")
+    WebElement carpet;
+    @FindBy(xpath = "//a[@class='ShoppingLinks__link'][contains(text(),'Specials & Offers')]")
+    WebElement SpecialOfferce;
+    @FindBy(xpath = "//a[contains(text(),'Local Ad')]")
+    WebElement localAd;
+
 
 
     public String  clickMyStore(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         myStore.click();
         String text = driver.getTitle();
         return text;
     }
     public String clickStoreFinder(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         storeFinder.click();
         String text =storeFinder.getText();
         return text;
     }
     public String clickTruckToolRent(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         truckToolRent.click();
         String text =storeFinder.getText();
         return text;
     }
     public String clickForThePro(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         forThePro.click();
         String text =forThePro.getText();
         return text;
     }
     public String clickGiftCard(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         giftCard.click();
         String text =giftCard.getText();
         return text;
     }
     public String clickCreditServices(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         creditServices.click();
         String text =creditServices.getText();
         return text;
     }
 
     public String clickFavorites(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         favorites.click();
         String text =favorites.getText();
         return text;
     }
 
     public String clickTrackOrder(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         trackOrder.click();
         String text =trackOrder.getText();
         return text;
     }
 
     public String clickHelp(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         help.click();
         String text =help.getText();
         return text;
     }
 
     public String clickMyCart(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         myCart.click();
         String text =myCart.getText();
         return text;
     }
+    public String hoveroversheds(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Actions action = new Actions(driver);
+        action.moveToElement(homeService).click().perform();
+        action.moveToElement(sheds).click();
+        String text = sheds.getText();
+        return text;
+    }
+    public String hoveroverCarpet(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Actions action = new Actions(driver);
+        action.moveToElement(homeService).click().perform();
+        action.moveToElement(carpet).click();
+        String text = carpet.getText();
+        return text;
+    }
+    public String clickSpecialOffer(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        SpecialOfferce.click();
+        String text = SpecialOfferce.getText();
+        return text;
+    }
+    public String clickLocalAd(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        localAd.click();
+        String text = localAd.getText();
+        return text;
+    }
+
+
+
 
 
     public List webElementList(){

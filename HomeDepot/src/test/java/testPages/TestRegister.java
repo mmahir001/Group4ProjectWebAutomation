@@ -19,12 +19,55 @@ public class TestRegister extends MainAPI {
     }
 
     @Test
-    public void CreateAccount() throws  Exception{
+    public void TestCreateAccount() throws  Exception{
 
-        String actual = register.clickMyAccount();
+        String actual = register.createAccount();
         String expected = "The Home Depot";
         Assert.assertEquals (actual,expected);
     }
+    @Test
+    public void TestCreateAccountWithoutEmail(){
+        String actual = register.creatAccountwithoutemail();
+        String expected = "The Home Depot";
+        Assert.assertEquals (actual,expected);
+    }
+    @Test
+    public void TestOrderAndPurchases(){
+        String actual = register.clickOrderandPurchases();
+        String expected = "Orders & Purchases";
+        Assert.assertEquals (actual,expected);
+    }
+    @Test
+    public void TestClickMyCreditCard() throws Exception {
+        String actual = register.clickMyCreditCard();
+        String expected = "My Credit Card Account";
+        Assert.assertEquals (actual,expected);
+    }
+    @Test
+    public void TestAccountProfile(){
+        String actual = register.clickAccountProfile();
+        String expected = "Account Profile";
+        Assert.assertEquals (actual,expected);
+    }
+    @Test
+    public void TestFavorites(){
+        String actual = register.clickFavorites();
+        String expected = "Favorites";
+        Assert.assertEquals (actual,expected);
+    }
+    @Test
+    public void TestFindList() throws Exception {
+        String actual = register.clickFindList();
+        String expected = "Find a List";
+        Assert.assertEquals (actual,expected);
+    }
+    @Test
+    public void TestMySubscriptions(){
+        String actual = register.clickMySubscriptions();
+        String expected = "My Subscriptions";
+        Assert.assertEquals (actual,expected);
+    }
+
 
 
 }

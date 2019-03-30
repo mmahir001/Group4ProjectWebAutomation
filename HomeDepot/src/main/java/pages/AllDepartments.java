@@ -4,6 +4,7 @@ import base.MainAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class AllDepartments extends MainAPI {
 
@@ -40,12 +41,14 @@ public class AllDepartments extends MainAPI {
     public static WebElement bathroomSinkFacets;
 
     public String clickDd_AllDepartment(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         dd_AllDepartment.click();
         String text =dd_AllDepartment.getText();
         return text;
     }
 
     public String clickDd_Appliances(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         dd_AllDepartment.click();
         dd_Appliances.click();
         String text =driver.getTitle();
@@ -53,6 +56,7 @@ public class AllDepartments extends MainAPI {
     }
 
     public String HoverOverGateKits(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions action = new Actions(driver);
         action.moveToElement(dd_AllDepartment).perform();
         action.moveToElement(hardWare).perform();
@@ -63,6 +67,7 @@ public class AllDepartments extends MainAPI {
     }
 
     public String clickElectrical() {
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions action = new Actions(driver);
         action.moveToElement(dd_AllDepartment).perform();
         action.moveToElement(electrical).click();
@@ -70,6 +75,7 @@ public class AllDepartments extends MainAPI {
         return text;
     }
     public String HoverOverWire() {
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions action = new Actions(driver);
         action.moveToElement(dd_AllDepartment).perform();
         action.moveToElement(electrical).perform();
@@ -79,6 +85,7 @@ public class AllDepartments extends MainAPI {
     }
 
         public String HoverOverCustomBlinds(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions action = new Actions(driver);
         action.moveToElement(dd_AllDepartment).perform();
         action.moveToElement(blindWindowTreatment).perform();
@@ -88,6 +95,7 @@ public class AllDepartments extends MainAPI {
         return text;
     }
     public String HoverOverBlinds(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions action = new Actions(driver);
         action.moveToElement(dd_AllDepartment).perform();
         action.moveToElement(blindWindowTreatment).perform();
@@ -99,6 +107,7 @@ public class AllDepartments extends MainAPI {
     ///////// *******************Select dropDown Item from All Departments **************
 
     public String HoverOverAppliencesSpecialBuys(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions action = new Actions(driver);
         action.moveToElement(dd_AllDepartment).perform();
         action.moveToElement(dd_Appliances).perform();
@@ -108,6 +117,7 @@ public class AllDepartments extends MainAPI {
     }
 
     public String HoverOverbathroomFaucets(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions action = new Actions(driver);
         action.moveToElement(dd_AllDepartment).perform();
         action.moveToElement(bathFaucets).perform();

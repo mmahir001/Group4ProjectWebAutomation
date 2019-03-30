@@ -3,6 +3,7 @@ package pages;
 import base.MainAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class Login extends MainAPI {
 
@@ -20,6 +21,7 @@ public class Login extends MainAPI {
     WebElement clickSignInButton;
 
     public void loginMyAccount(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickMyAccount.click();
         clickSignIn.click();
         SignInButton.click();
@@ -28,6 +30,7 @@ public class Login extends MainAPI {
         clickSignInButton.click();
     }
     public void loginMyAccountWrongEmail(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickMyAccount.click();
         clickSignIn.click();
         SignInButton.click();
@@ -37,6 +40,7 @@ public class Login extends MainAPI {
         clickSignInButton.click();
     }
     public void loginMyAccountWithoutEmail() {
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickMyAccount.click();
         clickSignIn.click();
         SignInButton.click();
@@ -46,6 +50,7 @@ public class Login extends MainAPI {
         System.out.println("Please Enter the Email Address");
     }
     public void loginMyAccountWithoutPasssword() {
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickMyAccount.click();
         clickSignIn.click();
         SignInButton.click();
@@ -55,6 +60,7 @@ public class Login extends MainAPI {
         System.out.println("Please Enter the Password");
     }
     public void loginMyAccountWithoutEmailPasssword() {
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickMyAccount.click();
         clickSignIn.click();
         SignInButton.click();

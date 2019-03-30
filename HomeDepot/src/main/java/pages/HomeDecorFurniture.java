@@ -4,6 +4,7 @@ import base.MainAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class HomeDecorFurniture extends MainAPI {
 
@@ -38,6 +39,7 @@ public class HomeDecorFurniture extends MainAPI {
 
 
     public String clickBeddingBath(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homeDecorOutdoor.click();
         beddingBath.click();
         //String text = beddingBath.getText();
@@ -45,18 +47,21 @@ public class HomeDecorFurniture extends MainAPI {
         return text;
     }
     public String clickLighting(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homeDecorOutdoor.click();
         lighting.click();
         String text = driver.getTitle();
         return text;
     }
     public String clickshopByRoom(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homeDecorOutdoor.click();
         shopByRoom.click();
         String text = driver.getTitle();
         return text;
     }
     public String clickSaving(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homeDecorOutdoor.click();
         saving.click();
         String text = driver.getTitle();
@@ -64,6 +69,7 @@ public class HomeDecorFurniture extends MainAPI {
     }
 
     public String clickHomeDecor(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions action = new Actions(driver);
         action.moveToElement(homeDecorOutdoor).click().perform();
         action.moveToElement(homeDecor).click();
@@ -71,12 +77,14 @@ public class HomeDecorFurniture extends MainAPI {
         return text;
     }
     public String clickWindowTreatment(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homeDecorOutdoor.click();
         windowTreatment.click();
         String text = driver.getTitle();
         return text;
     }
     public String clickKitchenDining() {
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions action = new Actions(driver);
         action.moveToElement(homeDecorOutdoor).click().perform();
         action.moveToElement(kitchenDining).click();
@@ -85,6 +93,7 @@ public class HomeDecorFurniture extends MainAPI {
     }
 
     public String HoverOverWallAccents(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions action = new Actions(driver);
         action.moveToElement(homeDecorOutdoor).click().perform();
         action.moveToElement(homeDecor).perform();
@@ -93,6 +102,7 @@ public class HomeDecorFurniture extends MainAPI {
         return text;
     }
     public String HoverOverFurniture(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions action = new Actions(driver);
         action.moveToElement(homeDecorOutdoor).click().perform();
         action.moveToElement(furniture).click();
@@ -100,6 +110,7 @@ public class HomeDecorFurniture extends MainAPI {
         return  text;
     }
     public String HoverOverDiningChairs() {
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions action = new Actions(driver);
         action.moveToElement(homeDecorOutdoor).click().perform();
         action.moveToElement(furniture).perform();
@@ -109,6 +120,7 @@ public class HomeDecorFurniture extends MainAPI {
     }
 
     public String HoverOverCookwareSets(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions action = new Actions(driver);
         action.moveToElement(homeDecorOutdoor).perform();
         action.moveToElement(kitchenDining).perform();
@@ -117,6 +129,7 @@ public class HomeDecorFurniture extends MainAPI {
         return text;
     }
     public String HoverOverCottonBlanket(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions action = new Actions(driver);
         action.moveToElement(homeDecorOutdoor).click().perform();
         action.moveToElement(beddingBath).perform();

@@ -11,6 +11,9 @@ import org.testng.annotations.Test;
 public class SearchBox extends MainAPI  {
 
 
+    @FindBy(xpath = "//input[@id='headerSearch']")
+    WebElement searchBox;
+    
     public void searchIFrames(){
         MainAPI.typeOnElementNEnter("#headerSearch","Frames");
         String st = driver.getTitle();
