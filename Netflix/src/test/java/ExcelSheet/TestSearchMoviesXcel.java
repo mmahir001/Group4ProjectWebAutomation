@@ -30,7 +30,7 @@ public class TestSearchMoviesXcel extends SearchMoviesExcel {
         TestSignInPage = PageFactory.initElements(driver, TestSignInPage.class);
         ProfileSelectionPage = PageFactory.initElements(driver, ProfileSelectionPage.class);
         TestProfileSelectionPage = PageFactory.initElements(driver, TestProfileSelectionPage.class);
-        setUrl("https://www.netflix.com/");
+        //setUrl("https://www.netflix.com/");
         HomePage.clickSignInButton();
         TestSignInPage.testSignInButtonOnSignInPage();
         TestProfileSelectionPage.testSelectProfile(); }

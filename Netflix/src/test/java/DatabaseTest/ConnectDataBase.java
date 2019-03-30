@@ -10,12 +10,12 @@ import reporting.TestLogger;
 
 import java.util.List;
 
-public class DatabaseTest extends MainAPI {
-    ConnectDB connectDB;
+public class ConnectDataBase extends MainAPI {
+    Databases.ConnectDB connectDB;
 
     @BeforeMethod
     public void setUp() {
-        connectDB = PageFactory.initElements(driver, ConnectDB.class);
+        connectDB = PageFactory.initElements(driver, Databases.ConnectDB.class);
     }
 
     @Test
