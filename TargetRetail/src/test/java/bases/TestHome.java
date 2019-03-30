@@ -24,7 +24,7 @@ public class TestHome extends MainAPI {
     @Test
     public void navigateToCart() {
         String actual = home.clickCart();
-        String expected = "cart 0 items";
+        String expected = "Target : Expect More. Pay Less.";
         Assert.assertEquals(actual,expected);
 
     }
@@ -80,6 +80,7 @@ public class TestHome extends MainAPI {
     }
     @Test
     public void navigateToOrder() {
+        home.clickOrder();
         String actual =home.clickOrder();
         String expected = "Order";
         Assert.assertEquals(actual,expected);

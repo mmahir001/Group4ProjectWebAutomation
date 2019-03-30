@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3d131f9-3904-4cb5-896e-d288f3a48fde" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TargetRetail/src/main/java/base/SearchBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSearchBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TargetRetail/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/src/main/java/base/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/src/main/java/base/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/classes/base/SignIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/classes/base/SignIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TargetRetail/src/main/java/base/Categories.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/src/main/java/base/Categories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TargetRetail/src/main/java/base/SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/src/main/java/base/SignIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TargetRetail/src/test/resources/TargetTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/src/test/resources/TargetTestRunner.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -18,20 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestCategories.java">
+        <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/SearchBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="351">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,10 +44,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSearchBox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#905#906#0" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#1223#1224#0" expanded="true" />
+                <element signature="e#1267#1268#0" expanded="true" />
+                <element signature="e#1305#1306#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestHome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="1076">
+              <caret line="75" column="45" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/Categories.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="110" column="5" lean-forward="true" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/resources/TargetTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -93,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/SignIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,18 +165,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/xml/XmlSuite.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1905">
-              <caret line="173" selection-start-line="173" selection-end-line="173" />
-              <folding>
-                <element signature="e#5677#5678#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -162,13 +189,15 @@
         <option value="$PROJECT_DIR$/TargetRetail/pom.xml" />
         <option value="$PROJECT_DIR$/TargetRetail/Extent-Report/ExtentReport.html" />
         <option value="$PROJECT_DIR$/TargetRetail/src/test/java/bases/test1.java" />
-        <option value="$PROJECT_DIR$/TargetRetail/src/main/java/base/Categories.java" />
         <option value="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestCategories.java" />
+        <option value="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSignIn.java" />
+        <option value="$PROJECT_DIR$/TargetRetail/src/main/java/base/Home.java" />
+        <option value="$PROJECT_DIR$/TargetRetail/src/main/java/base/Categories.java" />
+        <option value="$PROJECT_DIR$/TargetRetail/src/main/java/base/SignIn.java" />
         <option value="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestHome.java" />
         <option value="$PROJECT_DIR$/TargetRetail/src/test/resources/TargetTestRunner.xml" />
-        <option value="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSignIn.java" />
-        <option value="$PROJECT_DIR$/TargetRetail/src/main/java/base/SignIn.java" />
-        <option value="$PROJECT_DIR$/TargetRetail/src/main/java/base/Home.java" />
+        <option value="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSearchBox.java" />
+        <option value="$PROJECT_DIR$/TargetRetail/src/main/java/base/SearchBox.java" />
       </list>
     </option>
   </component>
@@ -188,10 +217,10 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="473" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="455" />
     <option name="y" value="23" />
-    <option name="width" value="967" />
+    <option name="width" value="985" />
     <option name="height" value="821" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -285,7 +314,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553927110968" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553933356201" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -344,24 +373,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHome.navigateToSignIn" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TargetRetail" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bases" />
-      <option name="MAIN_CLASS_NAME" value="bases.TestHome" />
-      <option name="METHOD_NAME" value="navigateToSignIn" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestHome.navigateToTargetGiftCard" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TargetRetail" />
       <extension name="coverage">
@@ -373,6 +384,24 @@
       <option name="PACKAGE_NAME" value="bases" />
       <option name="MAIN_CLASS_NAME" value="bases.TestHome" />
       <option name="METHOD_NAME" value="navigateToTargetGiftCard" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSearchBox.search" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TargetRetail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bases" />
+      <option name="MAIN_CLASS_NAME" value="bases.TestSearchBox" />
+      <option name="METHOD_NAME" value="search" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -393,10 +422,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" />
+        <item itemvalue="TestNG.TestSearchBox.search" />
         <item itemvalue="TestNG.TestHome.navigateToSearch" />
         <item itemvalue="TestNG.TestHome.navigateToCart" />
         <item itemvalue="TestNG.TestHome.navigateToTargetGiftCard" />
-        <item itemvalue="TestNG.TestHome.navigateToSignIn" />
       </list>
     </recent_temporary>
   </component>
@@ -421,50 +450,50 @@
       <workItem from="1553711282861" duration="14312000" />
       <workItem from="1553729570208" duration="6408000" />
       <workItem from="1553741469830" duration="4481000" />
-      <workItem from="1553906919758" duration="18300000" />
+      <workItem from="1553906919758" duration="24583000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.03.30 at 00h 33m 47s.xml">
-      <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.03.30 at 00h 52m 01s.xml">
-      <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.03.30 at 01h 11m 53s.xml">
-      <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.03.30 at 01h 28m 02s.xml">
-      <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.03.30 at 01h 42m 05s.xml">
-      <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHome_navigateToTargetGiftCard - 2019.03.30 at 01h 43m 51s.xml">
-      <configuration name="TestHome.navigateToTargetGiftCard" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHome_navigateToCart - 2019.03.30 at 01h 44m 37s.xml">
-      <configuration name="TestHome.navigateToCart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHome_navigateToSearch - 2019.03.30 at 01h 44m 59s.xml">
-      <configuration name="TestHome.navigateToSearch" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.03.30 at 01h 52m 33s.xml">
       <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.03.30 at 01h 58m 53s.xml">
       <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.03.30 at 02h 25m 35s.xml">
+      <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.03.30 at 03h 48m 03s.xml">
+      <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.03.30 at 03h 52m 39s.xml">
+      <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.03.30 at 03h 59m 10s.xml">
+      <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.03.30 at 04h 01m 55s.xml">
+      <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSearchBox_search - 2019.03.30 at 04h 04m 24s.xml">
+      <configuration name="TestSearchBox.search" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.03.30 at 04h 06m 14s.xml">
+      <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.03.30 at 04h 09m 23s.xml">
+      <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72272000" />
+    <option name="totallyTimeSpent" value="78555000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="455" y="23" width="985" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.051502146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26935312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -474,12 +503,12 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.62947065" visible="true" weight="0.32771084" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.62947065" visible="true" weight="0.32647464" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.16872428" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.12620027" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.14266118" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4994012" weight="0.32921812" />
@@ -495,12 +524,43 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19617225" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.62947065" weight="0.32771084" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.16872428" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.14266118" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4994012" weight="0.32921812" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.03188098" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Generic/driver/chromedriver" />
     <entry file="file://$PROJECT_DIR$/Generic/Generic.iml" />
     <entry file="file://$PROJECT_DIR$/target/pom.xml" />
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
@@ -793,33 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/Categories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="110" column="5" lean-forward="true" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/resources/TargetTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSignIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -842,20 +875,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/SignIn.java">
+    <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/Categories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/Home.java">
+    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestHome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="1076">
+          <caret line="75" column="45" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/SignIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSearchBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#1267#1268#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/SearchBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/resources/TargetTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>

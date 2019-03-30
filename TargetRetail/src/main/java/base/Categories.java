@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import reporting.TestLogger;
 
 public class Categories extends MainAPI {
 
@@ -11,11 +12,15 @@ public class Categories extends MainAPI {
     public static WebElement categories;
     public void clickCategories() throws Exception{
         categories.click();
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
+
     }
 
     @FindBy(xpath = "//div[contains(text(),'Women')]")
     public static WebElement women;
     public void clickWomenTab() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions actions = new Actions(driver);
         actions.moveToElement(categories).click();
         actions.moveToElement(women).perform();

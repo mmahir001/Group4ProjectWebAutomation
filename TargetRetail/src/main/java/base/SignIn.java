@@ -2,6 +2,7 @@ package base;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class SignIn extends MainAPI {
 
@@ -25,6 +26,7 @@ public class SignIn extends MainAPI {
      WebElement clicksSgnInSubmit;
 
     public void loginMyAccount(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickSignIn1.click();
         clickSignIn2.click();
         enterEmailAddress.sendKeys("nancy@gmail.com");
@@ -34,6 +36,7 @@ public class SignIn extends MainAPI {
     }
 
     public void loginMyAccountWrongEmail(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickSignIn1.click();
         clickSignIn2.click();
         enterEmailAddress.sendKeys("nancy");
@@ -43,6 +46,7 @@ public class SignIn extends MainAPI {
         clicksSgnInSubmit.click();
     }
     public void loginMyAccountWithoutEmail() {
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickSignIn1.click();
         clickSignIn2.click();
         enterEmailAddress.sendKeys("");
@@ -52,6 +56,7 @@ public class SignIn extends MainAPI {
         System.out.println("Please Enter the Email Address");
     }
     public void loginMyAccountWithoutPasssword() {
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickSignIn1.click();
         clickSignIn2.click();
         enterEmailAddress.sendKeys("nancy@gmail.com");
@@ -61,6 +66,7 @@ public class SignIn extends MainAPI {
         System.out.println("Please Enter the Password");
     }
     public void loginMyAccountWithoutEmailPasssword() {
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickSignIn1.click();
         clickSignIn2.click();
         enterEmailAddress.sendKeys("");
@@ -69,8 +75,6 @@ public class SignIn extends MainAPI {
         clicksSgnInSubmit.click();
         System.out.println("YOU must have to Enter the Email and Password to Login");
     }
-
-
 
 }
 
