@@ -7,7 +7,7 @@ import reporting.TestLogger;
 
 public class Cards extends MainAPI{
 
-    @FindBy(xpath = "//label[@id='label-cards']")
+    @FindBy(xpath = "//label[@class='axp-global-header__Tabs__closedLabel___6gvWH axp-global-header__dls__navLink___1AA5H axp-global-header__dls__caret___uhF7c']//span[contains(text(),'Cards')]")
     WebElement cards;
     @FindBy(xpath = "//a[contains(text(),'Credit Card Offers')]")
     WebElement cardOffers;

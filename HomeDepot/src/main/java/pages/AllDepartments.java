@@ -34,11 +34,11 @@ public class AllDepartments extends MainAPI {
     @FindBy(xpath = "//a[contains(text(),'Appliance Special Buys')]")
     WebElement apSpecialText;
     @FindBy(xpath = "//li[@class='MainFlyout__item']//a[@title='Bath & Faucets'][contains(text(),'Bath & Faucets')]")
-    public static WebElement bathFaucets;
+    WebElement bathFaucets;
     @FindBy(xpath = "//a[@title='Bathroom Faucets']")
-    public static WebElement bathroomFacets;
+    WebElement bathroomFacets;
     @FindBy(xpath = "//a[@title='Bathroom Sink Faucets'][contains(text(),'Bathroom Sink Faucets')]")
-    public static WebElement bathroomSinkFacets;
+    WebElement bathroomSinkFacets;
 
     public String clickDd_AllDepartment(){
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -46,7 +46,6 @@ public class AllDepartments extends MainAPI {
         String text =dd_AllDepartment.getText();
         return text;
     }
-
     public String clickDd_Appliances(){
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         dd_AllDepartment.click();
@@ -54,7 +53,6 @@ public class AllDepartments extends MainAPI {
         String text =driver.getTitle();
         return text;
     }
-
     public String HoverOverGateKits(){
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions action = new Actions(driver);
@@ -65,7 +63,6 @@ public class AllDepartments extends MainAPI {
         String text = gateKits.getText();
         return text;
     }
-
     public String clickElectrical() {
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions action = new Actions(driver);
@@ -83,7 +80,6 @@ public class AllDepartments extends MainAPI {
         String text = wire.getText();
         return text;
     }
-
         public String HoverOverCustomBlinds(){
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions action = new Actions(driver);
@@ -103,7 +99,6 @@ public class AllDepartments extends MainAPI {
         String text = blinds.getText();
         return text;
     }
-
     ///////// *******************Select dropDown Item from All Departments **************
 
     public String HoverOverAppliencesSpecialBuys(){

@@ -19,7 +19,6 @@ public class Login extends MainAPI {
     WebElement enterPassword;
     @FindBy(xpath = "//span[@class='bttn__content'][contains(text(),'Sign In')]")
     WebElement clickSignInButton;
-
     public void loginMyAccount(){
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickMyAccount.click();

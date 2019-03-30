@@ -8,7 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import reporting.TestLogger;
-
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -17,7 +16,6 @@ import java.util.List;
 public class SearchFromdb extends MainAPI {
 
    // Databasedepot db = new Databasedepot();
-
     public static ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
     public static void insertDataIntoDB() {
         List<String> list = getHeaderValue();
@@ -41,10 +39,8 @@ public class SearchFromdb extends MainAPI {
         System.out.println(list);
         return list;
     }
-
     @FindBy(xpath = "//input[@id='headerSearch']")
     public static WebElement searchBox;
-
     @FindBy(xpath = "//*[@class='SearchBox__buttonIcon']")
     public static WebElement searchButton;
 
@@ -83,26 +79,6 @@ public class SearchFromdb extends MainAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+" "+ value);
         Assert.assertEquals(value,value);
     }
-
-//    public void searchItemsAndSubmitButton(WebDriver driver1)throws Exception, IOException, SQLException, ClassNotFoundException{
-//        List<String> list = db.getUserDatafromDB();
-//        for(int i=0; i<list.size(); i++) {
-//            searchFor(list.get(i));
-//            submitSearchButton();
-//            clearInput();
-//        }
-//    }
-//
-//    public void searchItemsAndSubmitButtonFromExcelFile()throws Exception, IOException, SQLException, ClassNotFoundException  {
-//        // ToDo
-//        //Read data from Excel file using Apache POI
-//        List<String> list = null;
-//        for(int i=0; i<list.size(); i++) {
-//            searchFor(list.get(i));
-//            submitSearchButton();
-//            clearInput();
-//        }
-//    }
 
     public WebElement getSearchInputField() {
         return searchBox;

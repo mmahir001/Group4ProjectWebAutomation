@@ -14,8 +14,13 @@
     <test name = "HomeDepot Home">
         <classes>
             <class name="testPages.TestHomePage"/>
-            <!--<class name="testPages.TestLogin"/>-->
-            <!--<class name="testPages.TestRegister"/>-->
+            <class name="testPages.TestLogin"/>
+            <class name="testPages.TestRegister"/>
+            <class name="testPages.DatabaseTest"/>
+            <class name="testPages.TestAllDepartments"/>
+            <class name="testPages.TestHomeDecorFurniture"/>
+            <class name="testPages.TestSearchBox"/>
+            <class name="testPages.TestSearchFromDb"/>
         </classes>
     </test>
 </suite>

@@ -71,7 +71,6 @@ public class Register extends MainAPI {
         String text = driver.getTitle();
         return text;
     }
-
     public String clickOrderandPurchases(){
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         myAccount.click();

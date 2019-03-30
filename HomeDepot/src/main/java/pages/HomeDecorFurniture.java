@@ -35,9 +35,6 @@ public class HomeDecorFurniture extends MainAPI {
     @FindBy(xpath = "//a[@class='homeDecorFurniture__endpoint'][contains(text(),'Bath Towels')]")
     WebElement bathTowels;
 
-
-
-
     public String clickBeddingBath(){
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homeDecorOutdoor.click();
@@ -67,7 +64,6 @@ public class HomeDecorFurniture extends MainAPI {
         String text = driver.getTitle();
         return text;
     }
-
     public String clickHomeDecor(){
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions action = new Actions(driver);
@@ -91,7 +87,6 @@ public class HomeDecorFurniture extends MainAPI {
         String text = kitchenDining.getText();
         return text;
     }
-
     public String HoverOverWallAccents(){
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions action = new Actions(driver);
@@ -118,7 +113,6 @@ public class HomeDecorFurniture extends MainAPI {
         String text = diningChairs.getText();
         return text;
     }
-
     public String HoverOverCookwareSets(){
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions action = new Actions(driver);

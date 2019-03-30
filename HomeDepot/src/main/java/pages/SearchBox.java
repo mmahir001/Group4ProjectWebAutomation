@@ -5,12 +5,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-import org.testng.annotations.Test;
-
 
 public class SearchBox extends MainAPI  {
-
-
     @FindBy(xpath = "//input[@id='headerSearch']")
     WebElement searchBox;
     

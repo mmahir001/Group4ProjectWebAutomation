@@ -18,25 +18,25 @@ public class HomePage extends MainAPI {
         Assert.assertEquals(expected, actual);
     }
     @FindBy (xpath = "//span[@class='MyStore__label']")
-    public static WebElement myStore;
+    WebElement myStore;
     @FindBy(xpath = "//a[@class='TaskLinks__link'][contains(text(),'Gift Cards')]")
-    public static WebElement giftCard;
+    WebElement giftCard;
     @FindBy(xpath = "//a[@class='TaskLinks__link'][contains(text(),'Store Finder')]")
-    public static WebElement storeFinder;
+    WebElement storeFinder;
     @FindBy (xpath = "//a[@class='TaskLinks__link'][contains(text(),'Truck & Tool Rental')]")
-    public static WebElement truckToolRent;
+    WebElement truckToolRent;
     @FindBy (xpath = "//a[@class='TaskLinks__link'][contains(text(),'For the Pro')]")
-    public static WebElement forThePro;
+    WebElement forThePro;
     @FindBy(xpath = "//a[@class='TaskLinks__link'][contains(text(),'Credit Services')]")
-    public static WebElement creditServices;
+    WebElement creditServices;
     @FindBy (xpath = "//a[@class='TaskLinks__link'][contains(text(),'Favorites')]")
-    public static WebElement favorites;
+    WebElement favorites;
     @FindBy (xpath = "//a[@id='headerOrderStatus'][contains(text(),'Track Order')]")
-    public static WebElement trackOrder;
+    WebElement trackOrder;
     @FindBy (xpath = "//a[@class='TaskLinks__link'][contains(text(),'Help')]")
-    public static WebElement help;
+    WebElement help;
     @FindBy (xpath = "//span[@class='MyCart__label'][contains(text(),'Cart')]")
-    public static WebElement myCart;
+    WebElement myCart;
     @FindBy(xpath = "//a[@data-id='homeServices']")
     WebElement homeService;
     @FindBy(xpath = "//a[@class='list__link diyFlyout__level3link'][contains(text(),'Sheds')]")
@@ -139,6 +139,9 @@ public class HomePage extends MainAPI {
         String text = localAd.getText();
         return text;
     }
+
+    /////////////////////////////  Xlsx ///////////////////////////////////////////////
+
 
     public List webElementList() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
