@@ -17,7 +17,6 @@ public class TestCategories extends MainAPI {
         newCat = PageFactory.initElements(driver, Categories.class);
     }
 
-
     @Test
     public void testWomen()throws Exception{
         newCat.clickWomenTab();
