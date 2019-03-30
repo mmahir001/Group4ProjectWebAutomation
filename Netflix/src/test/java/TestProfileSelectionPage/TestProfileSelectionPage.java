@@ -23,7 +23,7 @@ public class TestProfileSelectionPage extends ProfileSelectionPage {
         HomePage = PageFactory.initElements(driver, HomePage.class);
         TestSignInPage = PageFactory.initElements(driver, TestSignInPage.class);
         ProfileSelectionPage = PageFactory.initElements(driver, ProfileSelectionPage.class);
-        setUrl("http://www.Netflix.com");
+        //setUrl("http://www.Netflix.com");
         HomePage.clickSignInButton();
         TestSignInPage.testSignInButtonOnSignInPage(); }
     @Test

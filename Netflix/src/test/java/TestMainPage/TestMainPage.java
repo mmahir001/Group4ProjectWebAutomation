@@ -14,10 +14,10 @@ import reporting.TestLogger;
 import static org.testng.AssertJUnit.assertEquals;
 
 public class TestMainPage extends MainPage {
-    //SignInPage SignInPage;
+    SignInPage SignInPage;
     HomePage HomePage;
     MainPage MainPage;
-    //TestSignInPage TestSignInPage;
+    TestSignInPage TestSignInPage;
     ProfileSelectionPage ProfileSelectionPage;
     TestProfileSelectionPage TestProfileSelectionPage;
 
@@ -31,7 +31,7 @@ public class TestMainPage extends MainPage {
         TestSignInPage = PageFactory.initElements(driver, TestSignInPage.class);
         ProfileSelectionPage = PageFactory.initElements(driver, ProfileSelectionPage.class);
         TestProfileSelectionPage = PageFactory.initElements(driver, TestProfileSelectionPage.class);
-        setUrl("http://www.Netflix.com");
+        //setUrl("http://www.Netflix.com");
         HomePage.clickSignInButton();
         TestSignInPage.testSignInButtonOnSignInPage();
         TestProfileSelectionPage.testSelectProfile();

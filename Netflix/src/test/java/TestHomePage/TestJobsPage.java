@@ -15,7 +15,7 @@ public class TestJobsPage extends JobsPage {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         JobsPage = PageFactory.initElements(driver, JobsPage.class);
-        setUrl("https://jobs.netflix.com/");
+        //setUrl("https://jobs.netflix.com/");
     }
     @Test
     public void testURL() {

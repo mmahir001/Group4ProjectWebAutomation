@@ -1,87 +1,85 @@
-package TestMainPage;
+package TestSignInPage;
 import HomePage.HomePage;
-import MainPage.MainPage;
-import MainPage.MainPageFooter;
-import ProfileSelectionPage.ProfileSelectionPage;
 import SignInPage.SignInPage;
-import TestProfileSelectionPage.TestProfileSelectionPage;
-import TestSignInPage.TestSignInPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
-import static base.MainAPI.convertToString;
 
-public class TestMainPageFooter extends MainPageFooter {
+import static org.testng.AssertJUnit.assertEquals;
+
+public class TestSignInPage extends SignInPage{
     SignInPage SignInPage;
     HomePage HomePage;
-    MainPage MainPage;
-    TestSignInPage TestSignInPage;
-    ProfileSelectionPage ProfileSelectionPage;
-    TestProfileSelectionPage TestProfileSelectionPage;
-    @BeforeMethod
+   @BeforeMethod
     public void initElements() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         SignInPage = PageFactory.initElements(driver, SignInPage.class);
         HomePage = PageFactory.initElements(driver, HomePage.class);
-        MainPage = PageFactory.initElements(driver, MainPage.class);
-        TestSignInPage = PageFactory.initElements(driver, TestSignInPage.class);
-        ProfileSelectionPage = PageFactory.initElements(driver, ProfileSelectionPage.class);
-        TestProfileSelectionPage = PageFactory.initElements(driver, TestProfileSelectionPage.class);
         //setUrl("http://www.Netflix.com");
-        HomePage.clickSignInButton();
-        TestSignInPage.testSignInButtonOnSignInPage();
-        TestProfileSelectionPage.testSelectProfile(); }
-
+        HomePage.clickSignInButton(); }
     @Test
-    public void testLegalNoticesMP(){
+    public void testURL() {
+        TestLogger.log(getClass().getSimpleName()+ ": "+ convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        String homeUrl = driver.getCurrentUrl();
+        assertEquals(homeUrl, "https://www.netflix.com/login"); }
+    @Test (priority=1)
+        public void testEnterEmailAddress(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        HomePage.clickLegalNoticesLink(); }
-    @Test
-    public void testJobsMP(){
+        enterEmail("Ilias@yahoo.com"); }
+    @Test (priority=2)
+        public void testEnterSignInPassword(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        HomePage.clickJobs(); }
-    @Test
-    public void testHelpCentersMP(){
+        enterPassword("abc123"); }
+    @Test (priority=3)
+        public void testRememberMe(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        HomePage.clickHelpCenter(); }
-    @Test
-    public void testMediaCentersMP(){
+        checkRememberMe(); }
+    @Test (priority = 4)
+        public void testNeedHelpLink(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        HomePage.clickMediaCenter(); }
-    @Test
-    public void testPrivacyMP(){
+        needHelp(); }
+    @Test (priority = 5)
+        public void testLoginWithFacebook(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        HomePage.clickPrivacy(); }
-    @Test
-    public void testCookiesMP(){
+        loginWithFacebook();}
+    @Test (priority = 6)
+        public void testSignUp(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        HomePage.clickCookiePreferences(); }
-    @Test
-    public void testContactUsMP(){
+        signUpLink();}
+    @Test (priority = 7)
+        public void testGiftCardTerms(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        HomePage.clickContactUs(); }
-    @Test
-    public void testInvestorRelationsMP(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        HomePage.clickInvestorRelationsLink(); }
-    @Test
-    public void testTermsOfUseMP(){
+        giftCardTermsLink(); }
+    @Test (priority = 8)
+        public void testTermsOfUseSignInPage() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         HomePage.clickTermsOfUse(); }
-    @Test
-    public void testCorporateInfoMP(){
+    @Test(priority = 9)
+        public void testPrivacyStatement(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        HomePage.clickCorporateInformation(); }
+        privacyStatementLink(); }
+    @Test (priority = 10)
+    public void testLanguageSignInPage() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        HomePage.clickLanguageSelector(); }
+    @Test (priority = 11)
+    public void testSignInButtonOnSignInPage() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        enterEmail("ilias247mohammed@yahoo.com");
+        enterPassword("L@k3r$");
+        signInButtonSIPButton();
+    }
 }

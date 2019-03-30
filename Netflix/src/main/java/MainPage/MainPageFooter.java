@@ -1,9 +1,10 @@
 package MainPage;
-import base.BaseUtil;
+import base.MainAPI;
+import base.MainAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class MainPageFooter extends BaseUtil {
+public class MainPageFooter extends MainAPI {
     @FindBy(linkText = "/browse/subtitles")
     public static WebElement audioAndSubtitles;
     public void clickAudioAndSubtitles(){ audioAndSubtitles.click();
