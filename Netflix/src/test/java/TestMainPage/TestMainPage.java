@@ -14,10 +14,10 @@ import reporting.TestLogger;
 import static org.testng.AssertJUnit.assertEquals;
 
 public class TestMainPage extends MainPage {
-    SignInPage SignInPage;
+    //SignInPage SignInPage;
     HomePage HomePage;
     MainPage MainPage;
-    TestSignInPage TestSignInPage;
+    //TestSignInPage TestSignInPage;
     ProfileSelectionPage ProfileSelectionPage;
     TestProfileSelectionPage TestProfileSelectionPage;
 
