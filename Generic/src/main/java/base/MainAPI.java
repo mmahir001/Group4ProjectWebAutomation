@@ -91,14 +91,14 @@ public class MainAPI {
 
     //WebDriver Instance
     public static WebDriver driver = null;
-    public String browserstack_username= "";
-    public String browserstack_accesskey = "";
-    public String saucelabs_username = "";
-    public String saucelabs_accesskey = "";
+    public String browserstack_username= "muhtasimmahir1";
+    public String browserstack_accesskey = "2Lxbs9uqPmpygD86tzsz";
+    public String saucelabs_username = "mmahi001";
+    public String saucelabs_accesskey = "7f71f117-cc99-4699-abb3-3372875703f4";
 
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
     @BeforeMethod
-    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
+    public void setUp(@Optional("true") boolean useCloudEnv, @Optional("true")String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
                               String browserVersion, @Optional("http://www.instagram.com") String url)throws IOException {
         //System.setProperty("webdriver.chrome.driver", "/Users/peoplentech/eclipse-workspace-March2018/SeleniumProject1/driver/chromedriver");
@@ -112,9 +112,9 @@ public class MainAPI {
             getLocalDriver(os, browserName);
         }
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        //driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.get(url);
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
     }
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName){
         if(browserName.equalsIgnoreCase("chrome")){

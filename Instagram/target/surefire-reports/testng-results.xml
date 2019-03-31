@@ -1,108 +1,1383 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
   <reporter-output>
+    <line>
+      <![CDATA[Extent Report Directory/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/target/surefire-reports/html]]>
+    </line>
   </reporter-output>
-  <suite name="Amazon Automation Script " duration-ms="25" started-at="2019-03-20T20:00:01Z" finished-at="2019-03-20T20:00:01Z">
+  <suite name="Amazon Automation Script " duration-ms="69163" started-at="2019-03-31T07:14:32Z" finished-at="2019-03-31T07:15:41Z">
     <groups>
     </groups>
-    <test name="Instagram Home Page" duration-ms="25" started-at="2019-03-20T20:00:01Z" finished-at="2019-03-20T20:00:01Z">
+    <test name="Instagram Home Page" duration-ms="69163" started-at="2019-03-31T07:14:32Z" finished-at="2019-03-31T07:15:41Z">
       <class name="tests.InstaTester">
-        <test-method status="FAIL" signature="setUp(java.lang.String)[pri:0, instance:tests.InstaTester@735f7ae5]" name="setUp" is-config="true" duration-ms="0" started-at="2019-03-20T20:00:01Z" finished-at="2019-03-20T20:00:01Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated setUp.
-For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated setUp.
-For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
-at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
-at org.testng.internal.Parameters.createParameters(Parameters.java:635)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:tests.InstaTester@2669b199]" name="extentSetup" is-config="true" duration-ms="129" started-at="2019-03-31T07:14:32Z" finished-at="2019-03-31T07:14:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38704ff0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/target/surefire-reports/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.InstaTester@2669b199]" name="setUp" is-config="true" duration-ms="2863" started-at="2019-03-31T07:14:32Z" finished-at="2019-03-31T07:14:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.instagram.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="title()[pri:0, instance:tests.InstaTester@735f7ae5]" name="title" duration-ms="0" started-at="2019-03-20T20:00:01Z" finished-at="2019-03-20T20:00:01Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated setUp.
-For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated setUp.
-For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
-at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
-at org.testng.internal.Parameters.createParameters(Parameters.java:635)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.InstaTester@2669b199]" name="startExtent" is-config="true" duration-ms="3" started-at="2019-03-31T07:14:35Z" finished-at="2019-03-31T07:14:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstaTester.ClickAPI()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- title -->
-        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:tests.InstaTester@735f7ae5]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-20T20:00:01Z" finished-at="2019-03-20T20:00:01Z">
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initilizeSignUpPage()[pri:0, instance:tests.InstaTester@2669b199]" name="initilizeSignUpPage" is-config="true" duration-ms="22" started-at="2019-03-31T07:14:35Z" finished-at="2019-03-31T07:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeSignUpPage -->
+        <test-method status="PASS" signature="ClickAPI()[pri:0, instance:tests.InstaTester@2669b199]" name="ClickAPI" duration-ms="383" started-at="2019-03-31T07:14:35Z" finished-at="2019-03-31T07:14:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickAPI -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.InstaTester@2669b199]" name="afterEachTestMethod" is-config="true" duration-ms="303" started-at="2019-03-31T07:14:36Z" finished-at="2019-03-31T07:14:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickAPI status=SUCCESS method=InstaTester.ClickAPI()[pri:0, instance:tests.InstaTester@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.InstaTester@2669b199]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-31T07:14:36Z" finished-at="2019-03-31T07:14:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.InstaTester@2669b199]" name="setUp" is-config="true" duration-ms="2218" started-at="2019-03-31T07:14:36Z" finished-at="2019-03-31T07:14:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.instagram.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.InstaTester@2669b199]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-03-31T07:14:38Z" finished-at="2019-03-31T07:14:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstaTester.ClickAboutUs()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="ClickAboutUs()[pri:0, instance:tests.InstaTester@2669b199]" name="ClickAboutUs" duration-ms="342" started-at="2019-03-31T07:14:38Z" finished-at="2019-03-31T07:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickAboutUs -->
+        <test-method status="PASS" signature="initilizeSignUpPage()[pri:0, instance:tests.InstaTester@2669b199]" name="initilizeSignUpPage" is-config="true" duration-ms="0" started-at="2019-03-31T07:14:38Z" finished-at="2019-03-31T07:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeSignUpPage -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.InstaTester@2669b199]" name="afterEachTestMethod" is-config="true" duration-ms="107" started-at="2019-03-31T07:14:38Z" finished-at="2019-03-31T07:14:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickAboutUs status=SUCCESS method=InstaTester.ClickAboutUs()[pri:0, instance:tests.InstaTester@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.InstaTester@2669b199]" name="setUp" is-config="true" duration-ms="2360" started-at="2019-03-31T07:14:39Z" finished-at="2019-03-31T07:14:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.instagram.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.InstaTester@2669b199]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-31T07:14:39Z" finished-at="2019-03-31T07:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.InstaTester@2669b199]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-31T07:14:41Z" finished-at="2019-03-31T07:14:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstaTester.ClickDirectory()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initilizeSignUpPage()[pri:0, instance:tests.InstaTester@2669b199]" name="initilizeSignUpPage" is-config="true" duration-ms="1" started-at="2019-03-31T07:14:41Z" finished-at="2019-03-31T07:14:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeSignUpPage -->
+        <test-method status="PASS" signature="ClickDirectory()[pri:0, instance:tests.InstaTester@2669b199]" name="ClickDirectory" duration-ms="326" started-at="2019-03-31T07:14:41Z" finished-at="2019-03-31T07:14:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickDirectory -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.InstaTester@2669b199]" name="afterEachTestMethod" is-config="true" duration-ms="104" started-at="2019-03-31T07:14:41Z" finished-at="2019-03-31T07:14:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickDirectory status=SUCCESS method=InstaTester.ClickDirectory()[pri:0, instance:tests.InstaTester@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.InstaTester@2669b199]" name="cleanUp" is-config="true" duration-ms="1" started-at="2019-03-31T07:14:41Z" finished-at="2019-03-31T07:14:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.InstaTester@2669b199]" name="setUp" is-config="true" duration-ms="4429" started-at="2019-03-31T07:14:41Z" finished-at="2019-03-31T07:14:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.instagram.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.InstaTester@2669b199]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-03-31T07:14:46Z" finished-at="2019-03-31T07:14:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstaTester.ClickHashtags()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="ClickHashtags()[pri:0, instance:tests.InstaTester@2669b199]" name="ClickHashtags" duration-ms="420" started-at="2019-03-31T07:14:46Z" finished-at="2019-03-31T07:14:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickHashtags -->
+        <test-method status="PASS" signature="initilizeSignUpPage()[pri:0, instance:tests.InstaTester@2669b199]" name="initilizeSignUpPage" is-config="true" duration-ms="0" started-at="2019-03-31T07:14:46Z" finished-at="2019-03-31T07:14:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeSignUpPage -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.InstaTester@2669b199]" name="afterEachTestMethod" is-config="true" duration-ms="106" started-at="2019-03-31T07:14:46Z" finished-at="2019-03-31T07:14:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickHashtags status=SUCCESS method=InstaTester.ClickHashtags()[pri:0, instance:tests.InstaTester@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.InstaTester@2669b199]" name="setUp" is-config="true" duration-ms="2393" started-at="2019-03-31T07:14:46Z" finished-at="2019-03-31T07:14:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.instagram.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.InstaTester@2669b199]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-31T07:14:46Z" finished-at="2019-03-31T07:14:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.InstaTester@2669b199]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-31T07:14:49Z" finished-at="2019-03-31T07:14:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstaTester.ClickJobs()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initilizeSignUpPage()[pri:0, instance:tests.InstaTester@2669b199]" name="initilizeSignUpPage" is-config="true" duration-ms="1" started-at="2019-03-31T07:14:49Z" finished-at="2019-03-31T07:14:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeSignUpPage -->
+        <test-method status="PASS" signature="ClickJobs()[pri:0, instance:tests.InstaTester@2669b199]" name="ClickJobs" duration-ms="663" started-at="2019-03-31T07:14:49Z" finished-at="2019-03-31T07:14:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickJobs -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.InstaTester@2669b199]" name="afterEachTestMethod" is-config="true" duration-ms="109" started-at="2019-03-31T07:14:49Z" finished-at="2019-03-31T07:14:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickJobs status=SUCCESS method=InstaTester.ClickJobs()[pri:0, instance:tests.InstaTester@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.InstaTester@2669b199]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-31T07:14:49Z" finished-at="2019-03-31T07:14:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.InstaTester@2669b199]" name="setUp" is-config="true" duration-ms="2043" started-at="2019-03-31T07:14:49Z" finished-at="2019-03-31T07:14:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.instagram.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.InstaTester@2669b199]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-31T07:14:51Z" finished-at="2019-03-31T07:14:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstaTester.ClickLanguage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initilizeSignUpPage()[pri:0, instance:tests.InstaTester@2669b199]" name="initilizeSignUpPage" is-config="true" duration-ms="1" started-at="2019-03-31T07:14:51Z" finished-at="2019-03-31T07:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeSignUpPage -->
+        <test-method status="PASS" signature="ClickLanguage()[pri:0, instance:tests.InstaTester@2669b199]" name="ClickLanguage" duration-ms="192" started-at="2019-03-31T07:14:51Z" finished-at="2019-03-31T07:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickLanguage -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.InstaTester@2669b199]" name="afterEachTestMethod" is-config="true" duration-ms="105" started-at="2019-03-31T07:14:52Z" finished-at="2019-03-31T07:14:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickLanguage status=SUCCESS method=InstaTester.ClickLanguage()[pri:0, instance:tests.InstaTester@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.InstaTester@2669b199]" name="cleanUp" is-config="true" duration-ms="1" started-at="2019-03-31T07:14:52Z" finished-at="2019-03-31T07:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.InstaTester@2669b199]" name="setUp" is-config="true" duration-ms="2175" started-at="2019-03-31T07:14:52Z" finished-at="2019-03-31T07:14:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.instagram.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initilizeSignUpPage()[pri:0, instance:tests.InstaTester@2669b199]" name="initilizeSignUpPage" is-config="true" duration-ms="1" started-at="2019-03-31T07:14:54Z" finished-at="2019-03-31T07:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeSignUpPage -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.InstaTester@2669b199]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-31T07:14:54Z" finished-at="2019-03-31T07:14:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstaTester.ClickLogIn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="ClickLogIn()[pri:0, instance:tests.InstaTester@2669b199]" name="ClickLogIn" duration-ms="108" started-at="2019-03-31T07:14:54Z" finished-at="2019-03-31T07:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickLogIn -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.InstaTester@2669b199]" name="afterEachTestMethod" is-config="true" duration-ms="99" started-at="2019-03-31T07:14:54Z" finished-at="2019-03-31T07:14:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickLogIn status=SUCCESS method=InstaTester.ClickLogIn()[pri:0, instance:tests.InstaTester@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.InstaTester@2669b199]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-31T07:14:54Z" finished-at="2019-03-31T07:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.InstaTester@2669b199]" name="setUp" is-config="true" duration-ms="2313" started-at="2019-03-31T07:14:54Z" finished-at="2019-03-31T07:14:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.instagram.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.InstaTester@2669b199]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-31T07:14:56Z" finished-at="2019-03-31T07:14:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstaTester.ClickPress()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initilizeSignUpPage()[pri:0, instance:tests.InstaTester@2669b199]" name="initilizeSignUpPage" is-config="true" duration-ms="1" started-at="2019-03-31T07:14:56Z" finished-at="2019-03-31T07:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeSignUpPage -->
+        <test-method status="PASS" signature="ClickPress()[pri:0, instance:tests.InstaTester@2669b199]" name="ClickPress" duration-ms="607" started-at="2019-03-31T07:14:56Z" finished-at="2019-03-31T07:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickPress -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.InstaTester@2669b199]" name="afterEachTestMethod" is-config="true" duration-ms="102" started-at="2019-03-31T07:14:57Z" finished-at="2019-03-31T07:14:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickPress status=SUCCESS method=InstaTester.ClickPress()[pri:0, instance:tests.InstaTester@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.InstaTester@2669b199]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-31T07:14:57Z" finished-at="2019-03-31T07:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.InstaTester@2669b199]" name="setUp" is-config="true" duration-ms="2326" started-at="2019-03-31T07:14:57Z" finished-at="2019-03-31T07:15:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.instagram.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.InstaTester@2669b199]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-03-31T07:15:00Z" finished-at="2019-03-31T07:15:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstaTester.ClickPrivacy()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="ClickPrivacy()[pri:0, instance:tests.InstaTester@2669b199]" name="ClickPrivacy" duration-ms="6936" started-at="2019-03-31T07:15:00Z" finished-at="2019-03-31T07:15:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickPrivacy -->
+        <test-method status="PASS" signature="initilizeSignUpPage()[pri:0, instance:tests.InstaTester@2669b199]" name="initilizeSignUpPage" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:00Z" finished-at="2019-03-31T07:15:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeSignUpPage -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.InstaTester@2669b199]" name="afterEachTestMethod" is-config="true" duration-ms="111" started-at="2019-03-31T07:15:06Z" finished-at="2019-03-31T07:15:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickPrivacy status=SUCCESS method=InstaTester.ClickPrivacy()[pri:0, instance:tests.InstaTester@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.InstaTester@2669b199]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:07Z" finished-at="2019-03-31T07:15:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.InstaTester@2669b199]" name="setUp" is-config="true" duration-ms="2067" started-at="2019-03-31T07:15:07Z" finished-at="2019-03-31T07:15:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.instagram.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.InstaTester@2669b199]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-03-31T07:15:09Z" finished-at="2019-03-31T07:15:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstaTester.ClickProfiles()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initilizeSignUpPage()[pri:0, instance:tests.InstaTester@2669b199]" name="initilizeSignUpPage" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:09Z" finished-at="2019-03-31T07:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeSignUpPage -->
+        <test-method status="PASS" signature="ClickProfiles()[pri:0, instance:tests.InstaTester@2669b199]" name="ClickProfiles" duration-ms="467" started-at="2019-03-31T07:15:09Z" finished-at="2019-03-31T07:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickProfiles -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.InstaTester@2669b199]" name="afterEachTestMethod" is-config="true" duration-ms="101" started-at="2019-03-31T07:15:09Z" finished-at="2019-03-31T07:15:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickProfiles status=SUCCESS method=InstaTester.ClickProfiles()[pri:0, instance:tests.InstaTester@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.InstaTester@2669b199]" name="setUp" is-config="true" duration-ms="2048" started-at="2019-03-31T07:15:09Z" finished-at="2019-03-31T07:15:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.instagram.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.InstaTester@2669b199]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:09Z" finished-at="2019-03-31T07:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="ClickSignUp()[pri:0, instance:tests.InstaTester@2669b199]" name="ClickSignUp" duration-ms="89" started-at="2019-03-31T07:15:11Z" finished-at="2019-03-31T07:15:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSignUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.InstaTester@2669b199]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:11Z" finished-at="2019-03-31T07:15:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstaTester.ClickSignUp()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initilizeSignUpPage()[pri:0, instance:tests.InstaTester@2669b199]" name="initilizeSignUpPage" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:11Z" finished-at="2019-03-31T07:15:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeSignUpPage -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.InstaTester@2669b199]" name="afterEachTestMethod" is-config="true" duration-ms="102" started-at="2019-03-31T07:15:11Z" finished-at="2019-03-31T07:15:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickSignUp status=SUCCESS method=InstaTester.ClickSignUp()[pri:0, instance:tests.InstaTester@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.InstaTester@2669b199]" name="setUp" is-config="true" duration-ms="2220" started-at="2019-03-31T07:15:11Z" finished-at="2019-03-31T07:15:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.instagram.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.InstaTester@2669b199]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:11Z" finished-at="2019-03-31T07:15:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="ClickSupport()[pri:0, instance:tests.InstaTester@2669b199]" name="ClickSupport" duration-ms="5578" started-at="2019-03-31T07:15:14Z" finished-at="2019-03-31T07:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSupport -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.InstaTester@2669b199]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:14Z" finished-at="2019-03-31T07:15:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstaTester.ClickSupport()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initilizeSignUpPage()[pri:0, instance:tests.InstaTester@2669b199]" name="initilizeSignUpPage" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:14Z" finished-at="2019-03-31T07:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeSignUpPage -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.InstaTester@2669b199]" name="afterEachTestMethod" is-config="true" duration-ms="110" started-at="2019-03-31T07:15:19Z" finished-at="2019-03-31T07:15:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickSupport status=SUCCESS method=InstaTester.ClickSupport()[pri:0, instance:tests.InstaTester@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.InstaTester@2669b199]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:19Z" finished-at="2019-03-31T07:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.InstaTester@2669b199]" name="setUp" is-config="true" duration-ms="2193" started-at="2019-03-31T07:15:19Z" finished-at="2019-03-31T07:15:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.instagram.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.InstaTester@2669b199]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-03-31T07:15:22Z" finished-at="2019-03-31T07:15:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstaTester.ClickTerms()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initilizeSignUpPage()[pri:0, instance:tests.InstaTester@2669b199]" name="initilizeSignUpPage" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:22Z" finished-at="2019-03-31T07:15:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeSignUpPage -->
+        <test-method status="PASS" signature="ClickTerms()[pri:0, instance:tests.InstaTester@2669b199]" name="ClickTerms" duration-ms="6991" started-at="2019-03-31T07:15:22Z" finished-at="2019-03-31T07:15:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickTerms -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.InstaTester@2669b199]" name="afterEachTestMethod" is-config="true" duration-ms="109" started-at="2019-03-31T07:15:29Z" finished-at="2019-03-31T07:15:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickTerms status=SUCCESS method=InstaTester.ClickTerms()[pri:0, instance:tests.InstaTester@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.InstaTester@2669b199]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:29Z" finished-at="2019-03-31T07:15:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.InstaTester@2669b199]" name="setUp" is-config="true" duration-ms="2412" started-at="2019-03-31T07:15:29Z" finished-at="2019-03-31T07:15:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.instagram.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initilizeSignUpPage()[pri:0, instance:tests.InstaTester@2669b199]" name="initilizeSignUpPage" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:31Z" finished-at="2019-03-31T07:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeSignUpPage -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.InstaTester@2669b199]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:31Z" finished-at="2019-03-31T07:15:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstaTester.EnterEmailOrPhone()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="EnterEmailOrPhone()[pri:0, instance:tests.InstaTester@2669b199]" name="EnterEmailOrPhone" duration-ms="204" started-at="2019-03-31T07:15:31Z" finished-at="2019-03-31T07:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterEmailOrPhone -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.InstaTester@2669b199]" name="afterEachTestMethod" is-config="true" duration-ms="98" started-at="2019-03-31T07:15:31Z" finished-at="2019-03-31T07:15:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EnterEmailOrPhone status=SUCCESS method=InstaTester.EnterEmailOrPhone()[pri:0, instance:tests.InstaTester@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.InstaTester@2669b199]" name="cleanUp" is-config="true" duration-ms="1" started-at="2019-03-31T07:15:31Z" finished-at="2019-03-31T07:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.InstaTester@2669b199]" name="setUp" is-config="true" duration-ms="2455" started-at="2019-03-31T07:15:31Z" finished-at="2019-03-31T07:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.instagram.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.InstaTester@2669b199]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:34Z" finished-at="2019-03-31T07:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstaTester.EnterFullName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initilizeSignUpPage()[pri:0, instance:tests.InstaTester@2669b199]" name="initilizeSignUpPage" is-config="true" duration-ms="1" started-at="2019-03-31T07:15:34Z" finished-at="2019-03-31T07:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeSignUpPage -->
+        <test-method status="PASS" signature="EnterFullName()[pri:0, instance:tests.InstaTester@2669b199]" name="EnterFullName" duration-ms="156" started-at="2019-03-31T07:15:34Z" finished-at="2019-03-31T07:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterFullName -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.InstaTester@2669b199]" name="afterEachTestMethod" is-config="true" duration-ms="99" started-at="2019-03-31T07:15:34Z" finished-at="2019-03-31T07:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EnterFullName status=SUCCESS method=InstaTester.EnterFullName()[pri:0, instance:tests.InstaTester@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.InstaTester@2669b199]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:34Z" finished-at="2019-03-31T07:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.InstaTester@2669b199]" name="setUp" is-config="true" duration-ms="2217" started-at="2019-03-31T07:15:34Z" finished-at="2019-03-31T07:15:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.instagram.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.InstaTester@2669b199]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-03-31T07:15:36Z" finished-at="2019-03-31T07:15:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstaTester.EnterPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initilizeSignUpPage()[pri:0, instance:tests.InstaTester@2669b199]" name="initilizeSignUpPage" is-config="true" duration-ms="1" started-at="2019-03-31T07:15:36Z" finished-at="2019-03-31T07:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeSignUpPage -->
+        <test-method status="PASS" signature="EnterPassword()[pri:0, instance:tests.InstaTester@2669b199]" name="EnterPassword" duration-ms="161" started-at="2019-03-31T07:15:36Z" finished-at="2019-03-31T07:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterPassword -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.InstaTester@2669b199]" name="afterEachTestMethod" is-config="true" duration-ms="102" started-at="2019-03-31T07:15:36Z" finished-at="2019-03-31T07:15:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EnterPassword status=SUCCESS method=InstaTester.EnterPassword()[pri:0, instance:tests.InstaTester@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.InstaTester@2669b199]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:37Z" finished-at="2019-03-31T07:15:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.InstaTester@2669b199]" name="setUp" is-config="true" duration-ms="2190" started-at="2019-03-31T07:15:37Z" finished-at="2019-03-31T07:15:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.instagram.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.InstaTester@2669b199]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-03-31T07:15:39Z" finished-at="2019-03-31T07:15:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstaTester.EnterUsername()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initilizeSignUpPage()[pri:0, instance:tests.InstaTester@2669b199]" name="initilizeSignUpPage" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:39Z" finished-at="2019-03-31T07:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeSignUpPage -->
+        <test-method status="PASS" signature="EnterUsername()[pri:0, instance:tests.InstaTester@2669b199]" name="EnterUsername" duration-ms="139" started-at="2019-03-31T07:15:39Z" finished-at="2019-03-31T07:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterUsername -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.InstaTester@2669b199]" name="afterEachTestMethod" is-config="true" duration-ms="95" started-at="2019-03-31T07:15:39Z" finished-at="2019-03-31T07:15:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EnterUsername status=SUCCESS method=InstaTester.EnterUsername()[pri:0, instance:tests.InstaTester@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.InstaTester@2669b199]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:39Z" finished-at="2019-03-31T07:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.InstaTester@2669b199]" name="setUp" is-config="true" duration-ms="2345" started-at="2019-03-31T07:15:39Z" finished-at="2019-03-31T07:15:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.instagram.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:tests.InstaTester@2669b199]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-03-31T07:15:41Z" finished-at="2019-03-31T07:15:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.InstaTester.VerifyTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initilizeSignUpPage()[pri:0, instance:tests.InstaTester@2669b199]" name="initilizeSignUpPage" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:41Z" finished-at="2019-03-31T07:15:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeSignUpPage -->
+        <test-method status="PASS" signature="VerifyTitle()[pri:0, instance:tests.InstaTester@2669b199]" name="VerifyTitle" duration-ms="20" started-at="2019-03-31T07:15:41Z" finished-at="2019-03-31T07:15:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:tests.InstaTester@2669b199]" name="afterEachTestMethod" is-config="true" duration-ms="94" started-at="2019-03-31T07:15:41Z" finished-at="2019-03-31T07:15:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTitle status=SUCCESS method=InstaTester.VerifyTitle()[pri:0, instance:tests.InstaTester@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.InstaTester@2669b199]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-03-31T07:15:41Z" finished-at="2019-03-31T07:15:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:tests.InstaTester@2669b199]" name="generateReport" is-config="true" duration-ms="15" started-at="2019-03-31T07:15:41Z" finished-at="2019-03-31T07:15:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
       </class> <!-- tests.InstaTester -->
     </test> <!-- Instagram Home Page -->
   </suite> <!-- Amazon Automation Script  -->

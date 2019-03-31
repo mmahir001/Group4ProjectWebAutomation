@@ -2,52 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3d131f9-3904-4cb5-896e-d288f3a48fde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Youtube/lib/youtubeData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/src/main/java/searchDB/SearchWithExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/ExcelSearchTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/cloud.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoxNews/Extent-Report/ExtentReport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoxNews/FoxNews.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoxNews/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoxNews/src/main/java/homePageTests/FoxHome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoxNews/src/test/java/homePageTests/FoxHomeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoxNews/src/test/resources/FoxNewsTestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoxNews/target/FoxNews-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoxNews/target/classes/homePageTests/FoxHome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoxNews/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoxNews/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoxNews/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoxNews/target/test-classes/FoxNewsTestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoxNews/target/test-classes/homePageTests/FoxHomeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Instagram/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/src/main/java/pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/src/main/java/pages/SignUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/src/main/test/tests/InstaTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/src/main/test/tests/InstaTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/src/main/test/tests/LogInTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/src/main/test/tests/LogInTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/target/Instagram-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/target/Instagram-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instagram/src/main/test/resources/InstaTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/src/main/test/resources/InstaTestRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Youtube/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Youtube/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SearchUsingDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SearchUsingDb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Youtube/target/Youtube-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/Youtube-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/youtubePages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/classes/youtubePages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/youtubePages/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/classes/youtubePages/SearchPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/youtubePages/SearchUsingDb$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/classes/youtubePages/SearchUsingDb$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/youtubePages/SearchUsingDb$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/classes/youtubePages/SearchUsingDb$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/youtubePages/SearchUsingDb$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/classes/youtubePages/SearchUsingDb$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/youtubePages/SearchUsingDb$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/classes/youtubePages/SearchUsingDb$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/youtubePages/SearchUsingDb$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/classes/youtubePages/SearchUsingDb$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/youtubePages/SearchUsingDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/classes/youtubePages/SearchUsingDb.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Youtube/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Youtube/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/test-classes/YoutubeTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/test-classes/YoutubeTestRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,10 +33,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/searchDB/DbSearch.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+            <state relative-caret-position="422">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-577">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Instagram/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Youtube/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/secret.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="111" column="44" lean-forward="true" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,37 +90,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/searchDB/SearchWithExcel.java">
+        <entry file="file://$PROJECT_DIR$/Instagram/src/main/test/resources/InstaTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/SearchUsingDbTester.java">
+        <entry file="file://$PROJECT_DIR$/Generic/src/cloud.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/ExcelSearchTester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -115,68 +110,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            <state relative-caret-position="75">
+              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
               <folding>
-                <marker date="1554008714486" expanded="true" signature="584:698" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SearchUsingDb.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1554016466998" expanded="true" signature="583:686" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SearchPage.java">
+        <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/HomepageTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="653">
+              <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/youtubePages/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -206,19 +156,15 @@
         <option value="$PROJECT_DIR$/Instagram/src/test/java/tests/InstaTester.java" />
         <option value="$PROJECT_DIR$/Instagram/src/test/resources/InstaTestRunner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" />
-        <option value="$PROJECT_DIR$/Instagram/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
         <option value="$PROJECT_DIR$/Instagram/src/main/java/datasource/DataBase.java" />
         <option value="$PROJECT_DIR$/Instagram/src/main/java/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/Instagram/src/main/test/java/tests/InstaTester.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" />
         <option value="$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/HomepageTester.java" />
         <option value="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SearchPageData.java" />
         <option value="$PROJECT_DIR$/Generic/src/secret.properties" />
-        <option value="$PROJECT_DIR$/Instagram/src/main/test/resources/InstaTestRunner.xml" />
         <option value="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/LookUpVideos.java" />
-        <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/NYTimes/pom.xml" />
         <option value="$PROJECT_DIR$/NYTimes/src/test/resources/NYTimesTestRunner.xml" />
         <option value="$PROJECT_DIR$/NYTimes/src/main/java/homePage/NYTimeHome.java" />
@@ -240,14 +186,20 @@
         <option value="$PROJECT_DIR$/Instagram/src/main/test/tests/LogInTester.java" />
         <option value="$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/SearchUsingDbTester.java" />
         <option value="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SearchPage.java" />
-        <option value="$PROJECT_DIR$/Youtube/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Youtube/src/main/java/searchDB/SearchWithExcel.java" />
         <option value="$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/ExcelSearchTester.java" />
-        <option value="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" />
         <option value="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/HomePage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/Readxls.java" />
         <option value="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SearchUsingDb.java" />
+        <option value="$PROJECT_DIR$/Generic/src/cloud.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Generic/pom.xml" />
+        <option value="$PROJECT_DIR$/Instagram/pom.xml" />
+        <option value="$PROJECT_DIR$/Youtube/pom.xml" />
+        <option value="$PROJECT_DIR$/Instagram/src/main/test/resources/InstaTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" />
       </list>
     </option>
   </component>
@@ -272,6 +224,15 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Group4ProjectWebAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Group4ProjectWebAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Instagram" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -279,14 +240,23 @@
           <item name="Instagram" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Youtube" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Youtube" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="435" />
+    <option name="x" value="174" />
     <option name="y" value="23" />
-    <option name="width" value="1247" />
+    <option name="width" value="1508" />
     <option name="height" value="972" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -335,57 +305,62 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="databases" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Youtube" type="462c0819:PsiDirectoryNode" />
+              <item name="Instagram" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Youtube" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Youtube" type="462c0819:PsiDirectoryNode" />
+              <item name="Instagram" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Youtube" type="462c0819:PsiDirectoryNode" />
+              <item name="Instagram" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Youtube" type="462c0819:PsiDirectoryNode" />
+              <item name="Instagram" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Instagram" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Youtube" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="Youtube" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="searchDB" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Youtube" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="youtubePages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
@@ -393,23 +368,6 @@
               <item name="Youtube" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Youtube" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Youtube" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="youtubeTests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
@@ -428,7 +386,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554009132267" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554016707686" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -469,7 +427,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml">
+  <component name="RunManager" selected="Maven.Instagram [test]">
     <configuration name="ConnectToSqlDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="databases.ConnectToSqlDB" />
       <module name="Generic" />
@@ -483,23 +441,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DbSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searchDB.DbSearch" />
+    <configuration name="Instagram [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Instagram" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="ExcelSearchTester" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Youtube" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="searchDB.*" />
+          <option name="PATTERN" value="youtubeTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/FoxNews/src/test/resources/FoxNewsTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FoxNews" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/FoxNews/src/test/resources/FoxNewsTestRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PACKAGE_NAME" value="youtubeTests" />
+      <option name="MAIN_CLASS_NAME" value="youtubeTests.ExcelSearchTester" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -528,11 +505,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Maven.Instagram [test]" />
         <item itemvalue="TestNG./Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" />
+        <item itemvalue="TestNG.ExcelSearchTester" />
         <item itemvalue="Application.ConnectToSqlDB" />
         <item itemvalue="TestNG./Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/src/main/test/resources/InstaTestRunner.xml" />
-        <item itemvalue="Application.DbSearch" />
-        <item itemvalue="TestNG./Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/FoxNews/src/test/resources/FoxNewsTestRunner.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -550,24 +527,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.03.30 at 14h 20m 59s.xml">
-      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.03.30 at 14h 24m 34s.xml">
-      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.03.30 at 14h 26m 00s.xml">
-      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.03.30 at 14h 28m 44s.xml">
-      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.03.30 at 14h 36m 43s.xml">
-      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.03.30 at 15h 01m 49s.xml">
-      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Instagram_src_main_test_resources_InstaTestRunner_xml - 2019.03.30 at 15h 08m 12s.xml">
       <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/src/main/test/resources/InstaTestRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -578,6 +537,24 @@
       <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.03.31 at 01h 08m 58s.xml">
+      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.03.31 at 01h 12m 24s.xml">
+      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExcelSearchTester - 2019.03.31 at 01h 40m 33s.xml">
+      <configuration name="ExcelSearchTester" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.03.31 at 01h 41m 07s.xml">
+      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.03.31 at 02h 28m 52s.xml">
+      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.03.31 at 02h 30m 26s.xml">
+      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.03.31 at 02h 31m 49s.xml">
       <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -591,10 +568,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="435" y="23" width="1247" height="972" extended-state="0" />
+    <frame x="174" y="23" width="1508" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18506224" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.11664393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -604,12 +581,12 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" type="SLIDING" weight="0.96590906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.18522727" />
+      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="7" type="SLIDING" weight="0.7375" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32954547" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32954547" />
@@ -617,13 +594,13 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.1097561" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.1377899" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2010929" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11664393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -633,12 +610,12 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" type="SLIDING" visible="true" weight="0.96590906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32954547" />
+      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="7" type="SLIDING" weight="0.7375" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32954547" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32954547" />
@@ -646,14 +623,13 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.08196721" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.1377899" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Instagram/src/main/java/datasource/DataBase.java" />
     <entry file="file://$PROJECT_DIR$/Instagram/src/main/java/pages/HomePage.java" />
     <entry file="file://$PROJECT_DIR$/Instagram/src/main/test/java/tests/MainPageTester.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class">
@@ -681,13 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="566">
           <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/secret.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -737,13 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Instagram/src/main/test/resources/InstaTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -849,13 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Instagram/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Instagram/src/main/java/pages/SignUpPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1792">
@@ -879,74 +834,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="89" column="10" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Youtube/src/secret.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-777">
-          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
-          <caret line="113" column="69" selection-start-line="113" selection-start-column="69" selection-end-line="113" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/Readxls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="124" column="15" selection-start-line="124" selection-start-column="15" selection-end-line="124" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/SearchTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/HomepageTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -960,70 +854,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/SearchUsingDbTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/ExcelSearchTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding>
-            <marker date="1554008714486" expanded="true" signature="584:698" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/searchDB/DbSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/searchDB/SearchWithExcel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/youtubePages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1040,10 +874,159 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1505">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-680">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/Readxls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1176">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/searchDB/DbSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/searchDB/SearchWithExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/SearchUsingDbTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SearchUsingDb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+        <state relative-caret-position="176">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/ExcelSearchTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/HomepageTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-577">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/cloud.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/secret.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram/src/main/test/resources/InstaTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding>
+            <marker date="1554016466998" expanded="true" signature="583:686" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="111" column="44" lean-forward="true" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
