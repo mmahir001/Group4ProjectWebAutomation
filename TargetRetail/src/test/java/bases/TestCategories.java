@@ -7,14 +7,19 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class TestCategories extends MainAPI {
-    Categories newCat;
+    Categories    newCat;
+
+
     String catUrl = "https://www.target.com/?clkid=36998e8eN501111e9ba56060acead98a1&lnm=79373&afid=CitizenHawk&ref=tgt_adv_xasd0002";
 
 
     @BeforeMethod
     public void initialize() {
-        driver.navigate().to(catUrl);
         newCat = PageFactory.initElements(driver, Categories.class);
+
+
+        driver.navigate().to(catUrl);
+//        newCat = PageFactory.initElements(driver, Categories.class);
     }
 
     @Test

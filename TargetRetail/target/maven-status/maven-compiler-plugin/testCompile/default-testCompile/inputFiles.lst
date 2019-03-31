@@ -1,2 +1,5 @@
+/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/java/bases/TastDatabase.java
 /Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/java/bases/TestHome.java
-/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/java/bases/TestSearch.java
+/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/java/bases/TestCategories.java
+/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/java/bases/TestSignIn.java
+/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/java/bases/TestSearchBox.java

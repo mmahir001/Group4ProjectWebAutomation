@@ -1,9 +1,9 @@
 package base;
 
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
-
 public class Home extends MainAPI {
 
     @FindBy(xpath = "//input[@placeholder='Search']")
@@ -28,6 +28,7 @@ public class Home extends MainAPI {
 
     @FindBy(xpath = "//nav[@id='headerMain']//a[@id='account']")
     WebElement signIn;
+
     public String clickSignIn(){
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
@@ -37,6 +38,7 @@ public class Home extends MainAPI {
 
     @FindBy(xpath = "//a[@id='trending']")
     WebElement treading;
+
     public String clickTreading(){
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         treading.click();
@@ -46,6 +48,7 @@ public class Home extends MainAPI {
 
     @FindBy (xpath = "//a[@id='secondary']")
     WebElement deals;
+
     public String clickDeals(){
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         deals.click();
@@ -55,6 +58,7 @@ public class Home extends MainAPI {
 
     @FindBy(xpath = "//a[@class='Link-sc-1khjl8b-0 lifmEv'][contains(text(),'Find Stores')]")
     WebElement findStore;
+
     public String clickFindStore (){
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         findStore.click();
@@ -64,6 +68,7 @@ public class Home extends MainAPI {
 
     @FindBy(xpath = "//a[@class='Link-sc-1khjl8b-0 lifmEv'][contains(text(),'Gift Cards')]")
     WebElement targetGiftCard;
+
     public String clickTargetGiftCard(){
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         targetGiftCard.click();
@@ -73,6 +78,7 @@ public class Home extends MainAPI {
 
     @FindBy(xpath = "//a[@class='Link-sc-1khjl8b-0 lifmEv'][contains(text(),'Weekly Ad')]")
     WebElement weeklyAd;
+
     public String clickWeeklyAd(){
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         weeklyAd.click();
@@ -82,6 +88,7 @@ public class Home extends MainAPI {
 
     @FindBy(xpath = "//a[@class='Link-sc-1khjl8b-0 lifmEv'][contains(text(),'Registries & Lists')]")
     WebElement registriesLists;
+
     public String clickRegistriesList(){
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         registriesLists.click();
@@ -91,6 +98,7 @@ public class Home extends MainAPI {
 
     @FindBy(xpath = "//a[@class='Link-sc-1khjl8b-0 lifmEv'][contains(text(),'Orders')]")
     WebElement order;
+
     public String clickOrder(){
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         order.click();

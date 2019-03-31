@@ -1,8 +1,8 @@
 /Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/Generic/src/main/java/databases/User.java
 /Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/Generic/src/main/java/base/MainAPI.java
 /Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/Generic/src/main/java/reporting/ExtentTestManager.java
+/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/Generic/src/main/java/utility/Readxls.java
 /Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/Generic/src/main/java/reporting/ApplicationLog.java
-/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/Generic/src/main/java/databases/ConnectToMongoDB.java
 /Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/Generic/src/main/java/databases/ConnectToSqlDB.java
 /Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/Generic/src/main/java/reporting/ExtentManager.java
 /Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/Generic/src/main/java/utility/DataReader.java

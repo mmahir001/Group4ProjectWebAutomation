@@ -1,14 +1,11 @@
 package base;
 
-import base.MainAPI;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
+import databaseSearch.DbSearch;
+import databaseSearch.SearchExcel;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
 import org.testng.Assert;
 import reporting.TestLogger;
-
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -16,12 +13,13 @@ import java.util.List;
 
 public class SearchUsingDb extends MainAPI {
 
-   DatabaseSearch db = new DatabaseSearch();
+   DbSearch db = new DbSearch();
+   SearchExcel se = new SearchExcel();
 
     @FindBy(xpath = "//input[@id='search']")
     public static WebElement searchBox;
 
-    @FindBy(xpath = "//button[@id='search-icon-legacy']")
+    @FindBy(xpath = "//button[@type='submit']")
     public static WebElement searchButton;
 
     public WebElement getSearchInputWebElement() {
@@ -59,19 +57,9 @@ public class SearchUsingDb extends MainAPI {
         Assert.assertEquals(value,value);
     }
 
-    public void searchItemsAndSubmitButton(WebDriver driver1)throws Exception, IOException, SQLException, ClassNotFoundException{
-        List<String> list = db.getUserDatafromDB();
-        for(int i=0; i<list.size(); i++) {
-            searchFor(list.get(i));
-            submitSearchButton();
-            clearInput();
-        }
-    }
 
     public void searchItemsAndSubmitButtonFromExcelFile()throws Exception, IOException, SQLException, ClassNotFoundException  {
-        // ToDo
-        //Read data from Excel file using Apache POI
-        List<String> list = null;
+        List<String> list = se.expectedWebElement();
         for(int i=0; i<list.size(); i++) {
             searchFor(list.get(i));
             submitSearchButton();
@@ -79,21 +67,5 @@ public class SearchUsingDb extends MainAPI {
         }
     }
 
-    public WebElement getSearchInputField() {
-        return searchBox;
-    }
-
-    public void setSearchInputField(WebElement searchInputField) {
-        this.searchBox = searchInputField;
-    }
-
-    public void searchItems()throws Exception, IOException, SQLException, ClassNotFoundException {
-        List<String> itemList = db.getUserDatafromDB();
-        for(String st: itemList) {
-            getSearchInputField().sendKeys(st, Keys.ENTER);
-            getSearchInputField().clear();
-            //validate items
-        }
-    }
 
 }

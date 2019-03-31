@@ -3,7 +3,6 @@ package base;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import reporting.TestLogger;
 
 public class Categories extends MainAPI {
@@ -13,7 +12,6 @@ public class Categories extends MainAPI {
     public void clickCategories() throws Exception{
         categories.click();
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-
 
     }
 
@@ -75,7 +73,6 @@ public class Categories extends MainAPI {
         actions.moveToElement(home).perform();
     }
 
-
     @FindBy (xpath = "//div[@class='Row-uds8za-0 kjjHUt'][contains(text(),'Furniture')]")
     public static WebElement furniture;
     public void clickFurniture() throws Exception{
@@ -114,6 +111,7 @@ public class Categories extends MainAPI {
         actions.moveToElement(categories).click();
         actions.moveToElement(electronics).perform();
     }
+
     @FindBy (xpath = "//div[contains(text(),'Video Games')]")
     public static WebElement videoGames;
     public void clickVideoGames() throws Exception{
@@ -145,6 +143,7 @@ public class Categories extends MainAPI {
         actions.moveToElement(categories).click();
         actions.moveToElement(beauty).perform();
     }
+
     @FindBy (xpath = "//div[contains(text(),'Health')]")
     public static WebElement health;
     public void clickHealth() throws Exception{
