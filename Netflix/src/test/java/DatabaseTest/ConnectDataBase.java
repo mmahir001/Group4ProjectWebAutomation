@@ -1,6 +1,7 @@
 package DatabaseTest;
 
 import Databases.ConnectDB;
+import HomePage.HomePage;
 import base.MainAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -11,13 +12,15 @@ import reporting.TestLogger;
 import java.util.List;
 
 public class ConnectDataBase extends MainAPI {
-    Databases.ConnectDB connectDB;
-
+ConnectDB connectDB;
+    HomePage HomePage;
     @BeforeMethod
     public void setUp() {
-        connectDB = PageFactory.initElements(driver, Databases.ConnectDB.class);
-    }
-
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        HomePage = PageFactory.initElements(driver, HomePage.class);
+      //  setUrl("http://www.Netflix.com");
+        connectDB = PageFactory.initElements(driver, ConnectDB.class); }
     @Test
     public void webElementName() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
