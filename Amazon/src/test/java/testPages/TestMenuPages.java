@@ -217,6 +217,128 @@ public class TestMenuPages extends MainAPI {
         String expected = "hmenu hmenu-visible hmenu-translateX";
         Assert.assertEquals(actual,expected);
     }
+    @Test
+    public void sports_outdoors() {
+        String actual = mp.clicksports_outdoors();
+        String expected = "hmenu hmenu-translateX hmenu-visible";
+        Assert.assertEquals(actual, expected);
+    }
+    @Test
+    public void automative_industrial() {
+        String actual = mp.clickautomative_industrial();
+        String expected = "Automotive & Industrial";
+        Assert.assertEquals(actual, expected);
+    }
+    @Test
+    public void whole_food_market(){
+        String actual = mp.clickwhole_foods_market();
+        String expected = "Whole Foods Market";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void make_money_with_amazon(){
+        String actual = mp.clickmake_money_with_amazon();
+        String expected = "menu-visible";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void home_service(){
+        String actual = mp.clickmake_money_with_amazon();
+        String expected = "Home Services";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void credit_payment_products(){
+        String actual = mp.clickcredit_payment_products();
+        String expected = "redit & Payment Products";
+        Assert.assertEquals(actual,expected);
+    }
+
+    @Test
+    public void amazon_business(){
+        String actual = mp.clickamazon_business();
+        String expected = "hmenu hmenu-visible";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void amazon_launchpad(){
+        String actual = mp.clickamazon_launchpad();
+        String expected = "Amazon Launchpad";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void subscrive_with_amazon(){
+        String actual = mp.clicksubscrive_with_amazon();
+        String expected = "Subscribe with Amazon";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void amazon_live(){
+        String actual = mp.clickamazon_live();
+        String expected = "Amazon Live";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void treasure_truck(){
+        String actual = mp.clicktreasure_truck();
+        String expected = "Treasure Truck";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void international_shopping(){
+        String actual = mp.clickinternationa_shopping();
+        String expected = "International Shopping";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void amazon_photos(){
+        String actual = mp.clickamazon_photos();
+        String expected = "Amazon Photos and Prints";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void small_medium_business(){
+        String actual = mp.clicksmall_medium_business();
+        String expected = "Small & Medium Businesses";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void full_store_directory(){
+        String actual = mp.clickfull_store_directory();
+        String expected = "Full Store Directory";
+        Assert.assertEquals(actual,expected);
+    }
+    @Test
+    public void full_store_directory(){
+        String actual = mp.clickfull_store_directory();
+        String expected = "";
+        Assert.assertEquals(actual,expected);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

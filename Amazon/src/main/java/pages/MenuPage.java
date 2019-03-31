@@ -322,6 +322,176 @@ public class MenuPage extends MainAPI {
         return text;
 
     }
+    @FindBy(xpath = "//ul[@class='hmenu hmenu-translateX hmenu-visible']//li[22]//a[1]")
+    public static  WebElement sports_outdoors;
+
+    public String clicksports_outdoors(){
+        hamburgerTab.click();
+        sports_outdoors.click();
+        String text = sports_outdoors.getText();
+        return text;
+    }
+    @FindBy(xpath = "//div[contains(text(),'Automotive & Industrial')]")
+    public static WebElement automative_industrial;
+
+    public String clickautomative_industrial(){
+        hamburgerTab.click();
+        automative_industrial.click();
+        String text = automative_industrial.getText();
+        return text;
+
+
+    }
+    @FindBy(xpath = "//ul[contains(@class,'hmenu-visible')]//div[contains(text(),'Whole Foods Market')]")
+    public static WebElement whole_foods_market;
+
+    public String clickwhole_foods_market(){
+        hamburgerTab.click();
+        whole_foods_market.click();
+        String text = whole_foods_market.getText();
+        return text;
+    }
+    @FindBy(xpath = "//ul[contains(@class,'hmenu-visible')]//li[26]//a[1]")
+    public static WebElement make_money_with_amazon;
+
+    public String clickmake_money_with_amazon(){
+        hamburgerTab.click();
+        make_money_with_amazon.click();
+        String text = make_money_with_amazon.getText();
+        return text;
+    }
+    @FindBy(xpath = "//ul[@class='hmenu hmenu-visible']//div[contains(text(),'Home Services')]")
+    public static WebElement home_services;
+
+    public String clickhome_service(){
+        hamburgerTab.click();
+        home_services.click();
+        String text = home_services.getText();
+        return text;
+    }
+    @FindBy(xpath = "//div[contains(text(),'Credit & Payment Products')]")
+    public static WebElement credit_payment_products ;
+
+    public String clickcredit_payment_products(){
+        hamburgerTab.click();
+        credit_payment_products.click();
+        String text = credit_payment_products.getText();
+        return text;
+    }
+    @FindBy(xpath = "//ul[@class='hmenu hmenu-visible']//li[29]//a[1]")
+    public static WebElement amazon_business ;
+
+    public String clickamazon_business(){
+        hamburgerTab.click();
+        amazon_business.click();
+        String text = amazon_business.getText();
+        return text;
+    }
+    @FindBy(xpath = "//ul[@class='hmenu hmenu-translateX hmenu-visible']//div[contains(text(),'Amazon Launchpad')]")
+    public static WebElement amazon_launchpad;
+
+    public String clickamazon_launchpad(){
+        hamburgerTab.click();
+        amazon_launchpad.click();
+        String text = amazon_launchpad.getText();
+        return text;
+    }
+    @FindBy(xpath = "//ul[@class='hmenu hmenu-translateX hmenu-visible']//div[contains(text(),'Amazon Exclusives')]")
+    public static WebElement amazon_exclusives;
+
+    public String clickamazon_exclusives(){
+        hamburgerTab.click();
+        amazon_exclusives.click();
+        String text = amazon_exclusives.getText();
+        return text;
+    }
+    @FindBy(xpath = "//div[contains(text(),'Subscribe with Amazon')]")
+    public static WebElement subscribe_with_amazon ;
+
+    public String clicksubscrive_with_amazon(){
+        hamburgerTab.click();
+        subscribe_with_amazon.click();
+        String text = subscribe_with_amazon.getText();
+        return text;
+    }
+    @FindBy(xpath = "//div[contains(text(),'Amazon Live')]")
+    public static WebElement amazon_live;
+
+    public String clickamazon_live(){
+        hamburgerTab.click();
+        amazon_live.click();
+        String text = amazon_live.getText();
+        return text;
+    }
+    @FindBy(xpath = "//div[contains(text(),'Treasure Truck')]")
+    public static WebElement treasure_truck;
+
+    public String clicktreasure_truck(){
+        hamburgerTab.click();
+        treasure_truck.click();
+        String text = treasure_truck.getText();
+        return text;
+    }
+    @FindBy(xpath = "//div[contains(text(),'International Shopping')]")
+    public static WebElement international_shopping;
+
+    public String clickinternationa_shopping(){
+        hamburgerTab.click();
+        international_shopping.click();
+        String text = international_shopping.getText();
+        return text;
+    }
+    @FindBy(xpath = "//div[contains(text(),'Amazon Photos and Prints')]")
+    public static WebElement amazon_photos;
+
+    public String clickamazon_photos(){
+        hamburgerTab.click();
+        amazon_photos.click();
+        String text = amazon_photos.getText();
+        return text;
+    }
+    @FindBy(xpath = "//ul[contains(@class,'hmenu-visible')]//div[contains(text(),'Small & Medium Businesses')]")
+    public static WebElement small_medium_business;
+
+    public String clicksmall_medium_business(){
+        hamburgerTab.click();
+        small_medium_business.click();
+        String text = small_medium_business.getText();
+        return text;
+    }
+    @FindBy(xpath = "//div[contains(text(),'Full Store Directory')]")
+    public static WebElement full_store_directory;
+
+    public String clickfull_store_directory(){
+        hamburgerTab.click();
+        full_store_directory.click();
+        String text = full_store_directory.getText();
+        return text;
+    }
+    @FindBy(xpath = "")
+    public static WebElement ;
+
+    public String (){
+        hamburgerTab.click();
+        .click();
+        String text = .getText();
+        return text;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
