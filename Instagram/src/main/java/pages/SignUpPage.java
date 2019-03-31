@@ -137,8 +137,6 @@ public class SignUpPage extends MainAPI {
     public void ClickLanguage(){
         Language.click();
         }
-
-
 }
 
 

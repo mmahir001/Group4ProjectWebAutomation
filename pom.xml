@@ -12,10 +12,7 @@
         <module>Generic</module>
         <module>Instagram</module>
         <module>Youtube</module>
-
-        <module>FoxNews</module>
     </modules>
-
 
     <dependencyManagement>
         <dependencies>
@@ -104,10 +101,7 @@
                 <artifactId>xmlbeans</artifactId>
                 <version>2.6.0</version>
             </dependency>
-
         </dependencies>
-
-
     </dependencyManagement>
 
     <build>

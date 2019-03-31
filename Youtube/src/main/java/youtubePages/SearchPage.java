@@ -12,7 +12,6 @@ public class SearchPage extends MainAPI {
     @FindBy(xpath = "//input[@id='search']")
     WebElement searchBox;
 
-
     public void insertValue(String insertValue) {
         searchBox.sendKeys(insertValue);
     }
@@ -23,6 +22,4 @@ public class SearchPage extends MainAPI {
     public void clickSearchButton(){
         searchButton.click();
     }
-
-
 }

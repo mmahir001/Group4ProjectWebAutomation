@@ -11,7 +11,6 @@ import pages.SignUpPage;
 public class InstaTester extends MainAPI {
     SignUpPage signUpPage;
 
-
     @BeforeMethod
    public void initilizeSignUpPage(){
        signUpPage = PageFactory.initElements(driver, SignUpPage.class);
@@ -25,7 +24,6 @@ public class InstaTester extends MainAPI {
     @Test
     public void EnterEmailOrPhone(){
         signUpPage.insertEmail("mahirmuhtasim@mybihs.org");
-
     }
 
     @Test
@@ -102,7 +100,6 @@ public class InstaTester extends MainAPI {
     @Test
     public void ClickTerms(){
         signUpPage.ClickTerms();
-
     }
 
     @Test
@@ -129,6 +126,5 @@ public class InstaTester extends MainAPI {
     @Test
     public void ClickLanguage(){
         signUpPage.ClickLanguage();
-
     }
 }

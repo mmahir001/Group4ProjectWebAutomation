@@ -16,12 +16,7 @@ public class LogInTester extends MainAPI {
     @Test
     public void ClickLogIn()throws Exception{
     logInPage.ClickLoginKey();
-
         }
-
-
-
-
 }
 
 

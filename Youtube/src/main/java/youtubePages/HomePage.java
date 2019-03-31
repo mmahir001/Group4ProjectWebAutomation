@@ -5,8 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
-import javax.xml.xpath.XPath;
-
 public class HomePage extends MainAPI {
 
     @FindBy(xpath = "//div[@id='container']//yt-icon[@id='guide-icon']")
@@ -54,9 +52,7 @@ public class HomePage extends MainAPI {
         System.out.println(driver.getTitle());
         String expected = "YouTube";
         Assert.assertEquals(expected, actual);
-
     }
-
 
     public String clickTrending(){
         drop.click();
