@@ -2,25 +2,24 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Geico Automation Script " parallel="false">
 
-    <!--<parameter name="useCloudEnv" value="false"/>-->
-    <!--<parameter name="cloudEnvName" value="browserstack"/>-->
-    <!--<parameter name="os" value="OS X"/>-->
-    <parameter name="os" value="windows"/>
-    <parameter name="os_version" value="Sierra"/>
-    <parameter name="browserName" value="chrome"/>
-    <parameter name="browserVersion" value="30.0"/>
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="userName" value="mtsharif92"/>
+    <parameter name="key" value="d2c4cefe-1afa-4fac-b37a-546c6fefd8c5"/>
+    <parameter name="os" value="Windows 10"/>
+    <parameter name="browser" value="googlechrome"/>
+    <parameter name="browserVersion" value="73.0"/>
     <parameter name="url" value="https://www.homedepot.com/"/>
 
     <test name = "HomeDepot Home">
         <classes>
             <class name="testPages.TestHomePage"/>
-            <class name="testPages.TestLogin"/>
-            <class name="testPages.TestRegister"/>
-            <class name="testPages.DatabaseTest"/>
-            <class name="testPages.TestAllDepartments"/>
-            <class name="testPages.TestHomeDecorFurniture"/>
-            <class name="testPages.TestSearchBox"/>
-            <class name="testPages.TestSearchFromDb"/>
+            <!--<class name="testPages.TestLogin"/>-->
+            <!--<class name="testPages.TestRegister"/>-->
+            <!--<class name="testPages.DatabaseTest"/>-->
+            <!--<class name="testPages.TestAllDepartments"/>-->
+            <!--<class name="testPages.TestHomeDecorFurniture"/>-->
+            <!--<class name="testPages.TestSearchBox"/>-->
+            <!--<class name="testPages.TestSearchFromDb"/>-->
         </classes>
     </test>
 </suite>

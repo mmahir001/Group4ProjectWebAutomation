@@ -3,35 +3,90 @@
 <suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
   <test thread-count="1" verbose="0" name="Surefire test(failed)">
     <classes>
+      <class name="testPages.TestHomeDecorFurniture">
+        <methods>
+          <include name="testHoverOverCookwareSets"/>
+          <include name="initialize"/>
+          <include name="setUp"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testHoverOverAccents"/>
+          <include name="testHoverOverDiningChairs"/>
+          <include name="testClickWindowTreatment"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- testPages.TestHomeDecorFurniture -->
+      <class name="testPages.TestHomePage">
+        <methods>
+          <include name="testClickTruckTollRent"/>
+          <include name="setUp"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="initialize"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- testPages.TestHomePage -->
+      <class name="testPages.TestLogin">
+        <methods>
+          <include name="setUp"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="initialize"/>
+          <include name="testWithoutEmailandPass"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- testPages.TestLogin -->
+      <class name="testPages.TestRegister">
+        <methods>
+          <include name="TestFindList"/>
+          <include name="TestAccountProfile"/>
+          <include name="setUp"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="TestMySubscriptions"/>
+          <include name="TestCreateAccount"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="startExtent"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- testPages.TestRegister -->
+      <class name="testPages.TestAllDepartments">
+        <methods>
+          <include name="setUp"/>
+          <include name="initialize"/>
+          <include name="extentSetup"/>
+          <include name="testHoverAppliances"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testHoverOverapplienceSpecialBuys"/>
+          <include name="testHoverOverbathroomFaucets"/>
+          <include name="testHoverOverCustomBlinds"/>
+          <include name="testHoverOverGateKits"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- testPages.TestAllDepartments -->
       <class name="testPages.TestSearchBox">
         <methods>
           <include name="setUp"/>
+          <include name="extentSetup"/>
           <include name="search8"/>
+          <include name="afterEachTestMethod"/>
           <include name="search7"/>
           <include name="search6"/>
+          <include name="generateReport"/>
           <include name="cleanUp"/>
+          <include name="startExtent"/>
           <include name="initialize"/>
         </methods>
       </class> <!-- testPages.TestSearchBox -->
-      <class name="testPages.TestLogin">
-        <methods>
-          <include name="testClickLogin"/>
-          <include name="setUp"/>
-          <include name="testEnterEmailId"/>
-          <include name="testClickMyAccount"/>
-          <include name="initialize"/>
-          <include name="cleanUp"/>
-        </methods>
-      </class> <!-- testPages.TestLogin -->
-      <class name="testPages.TestHomePage">
-        <methods>
-          <include name="testCheckCart"/>
-          <include name="setUp"/>
-          <include name="initialize"/>
-          <include name="cleanUp"/>
-          <include name="testMyStore"/>
-        </methods>
-      </class> <!-- testPages.TestHomePage -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

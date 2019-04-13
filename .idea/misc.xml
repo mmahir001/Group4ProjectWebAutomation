@@ -9,6 +9,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Geico/pom.xml" />
         <option value="$PROJECT_DIR$/eBay/pom.xml" />
       </set>
     </option>

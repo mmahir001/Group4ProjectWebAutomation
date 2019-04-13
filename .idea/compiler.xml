@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Amex" />
-        <module name="Geico" />
         <module name="Generic" />
         <module name="HomeDepot" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Geico" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
