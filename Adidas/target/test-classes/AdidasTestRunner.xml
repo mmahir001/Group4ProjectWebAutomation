@@ -14,7 +14,8 @@
     <test name = "Adidas Home Page">
         <classes>
 <!--            <class name="tests.MainPageTester"/>-->
-            <class name="tests.SearchPageTester"/>
+<!--            <class name="tests.SearchPageTester"/>-->
+            <class name="tests.WomensPageTester"/>
         </classes>
     </test>
 

@@ -2,97 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3d131f9-3904-4cb5-896e-d288f3a48fde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Adidas/Adidas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Adidas/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Adidas/src/main/java/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Adidas/src/main/java/pages/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Adidas/src/test/java/tests/MainPageTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Adidas/src/test/java/tests/SearchPageTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Adidas/src/test/resources/AdidasTestRunner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/Resources/client_secret.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/GoogleAPI/GoogleSheetReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/src/main/java/googleSheet/GoogleSheetsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/Icons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/InfoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SettingMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/YTMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/GoogleSheetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/IconsTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/InfoPageTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/SettingMenuTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/YTMenuTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Adidas/src/test/java/tests/WomensPageTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/cloud.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/cloud.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/META-INF/Generic.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/MainAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/MainAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/src/main/test/resources/InstaTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/src/main/test/resources/InstaTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/target/Instagram-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/target/Instagram-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/target/classes/META-INF/Instagram.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/target/surefire-reports/Amazon Automation Script /Instagram Home Page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/target/surefire-reports/Amazon Automation Script /Instagram Home Page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/target/surefire-reports/Amazon Automation Script /Instagram Home Page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/target/surefire-reports/Amazon Automation Script /Instagram Home Page.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/target/surefire-reports/junitreports/TEST-tests.InstaTester.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/target/surefire-reports/junitreports/TEST-tests.InstaTester.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/target/surefire-reports/old/Amazon Automation Script /methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/target/surefire-reports/old/Amazon Automation Script /methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/target/surefire-reports/old/Amazon Automation Script /methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/target/surefire-reports/old/Amazon Automation Script /methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/target/test-classes/InstaTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/target/test-classes/InstaTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/target/test-classes/META-INF/Instagram.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/target/test-classes/resources/InstaTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/target/test-classes/resources/InstaTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/target/test-classes/tests/InstaTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/target/test-classes/tests/InstaTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram/target/test-classes/tests/LogInTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram/target/test-classes/tests/LogInTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Youtube.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/searchDB/DbSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/src/main/java/searchDB/DbSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SearchUsingDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SearchUsingDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/SearchTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/SearchTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/Youtube-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/Youtube-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/META-INF/Youtube.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/searchDB/DbSearch$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/classes/searchDB/DbSearch$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/searchDB/DbSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/classes/searchDB/DbSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/youtubePages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/classes/youtubePages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/youtubePages/SearchUsingDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/classes/youtubePages/SearchUsingDb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/Amazon Automation Script /Youtube Home Page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/Amazon Automation Script /Youtube Home Page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/Amazon Automation Script /Youtube Home Page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/Amazon Automation Script /Youtube Home Page.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/junitreports/TEST-youtubeTests.ExcelSearchTester.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/junitreports/TEST-youtubeTests.ExcelSearchTester.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/junitreports/TEST-youtubeTests.HomepageTester.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/junitreports/TEST-youtubeTests.HomepageTester.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/junitreports/TEST-youtubeTests.SearchTester.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/junitreports/TEST-youtubeTests.SearchTester.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/junitreports/TEST-youtubeTests.SearchUsingDbTester.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/junitreports/TEST-youtubeTests.SearchUsingDbTester.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Amazon Automation Script /classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Amazon Automation Script /classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Amazon Automation Script /methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Amazon Automation Script /methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Amazon Automation Script /methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Amazon Automation Script /methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Amazon Automation Script /methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Amazon Automation Script /methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Amazon Automation Script /reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Amazon Automation Script /reporter-output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Amazon Automation Script /testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Amazon Automation Script /testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Amazon Automation Script /toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Amazon Automation Script /toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/test-classes/YoutubeTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/test-classes/YoutubeTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/test-classes/youtubeTests/SearchTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/target/test-classes/youtubeTests/SearchTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adidas/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Adidas/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adidas/src/main/java/pages/WomensPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Adidas/src/main/java/pages/WomensPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adidas/src/test/java/tests/WomentsPageTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adidas/src/test/resources/AdidasTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Adidas/src/test/resources/AdidasTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adidas/target/test-classes/AdidasTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Adidas/target/test-classes/AdidasTestRunner.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -139,36 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Adidas/src/test/resources/AdidasTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/youtubePages/InfoPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="227" selection-start-line="227" selection-end-line="227" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/InfoPageTester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1695">
-              <caret line="113" column="9" lean-forward="true" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -185,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Adidas/src/test/java/tests/SearchPageTester.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -219,11 +107,37 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Adidas/src/main/java/pages/WomensPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="356" column="19" selection-start-line="356" selection-start-column="19" selection-end-line="356" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Adidas/src/test/java/tests/WomensPageTester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="149" column="41" selection-start-line="149" selection-start-column="41" selection-end-line="149" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Adidas/src/test/java/tests/MainPageTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="804">
-              <caret line="214" column="5" selection-start-line="214" selection-start-column="5" selection-end-line="214" selection-end-column="5" />
+            <state relative-caret-position="422">
+              <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#338#339#0" expanded="true" />
@@ -236,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Adidas/src/main/java/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="158" selection-start-line="158" selection-end-line="158" />
+            <state relative-caret-position="227">
+              <caret line="375" column="5" selection-start-line="375" selection-start-column="5" selection-end-line="375" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -285,9 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NYTimes/src/main/java/homePageTests/NYTimeHome.java" />
-        <option value="$PROJECT_DIR$/NYTimes/src/test/java/homePageTests/NYTimeHomeTest.java" />
-        <option value="$PROJECT_DIR$/Youtube/src/main/java/searchDB/SearchPageData.java" />
         <option value="$PROJECT_DIR$/FoxNews/src/main/java/homePageTests/FoxHome.java" />
         <option value="$PROJECT_DIR$/FoxNews/src/test/java/homePageTests/FoxHomeTest.java" />
         <option value="$PROJECT_DIR$/Youtube/src/main/java/searchDB/dbSearch.java" />
@@ -333,9 +244,12 @@
         <option value="$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/InfoPageTester.java" />
         <option value="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SearchPage.java" />
         <option value="$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/SearchTester.java" />
-        <option value="$PROJECT_DIR$/Adidas/src/test/resources/AdidasTestRunner.xml" />
         <option value="$PROJECT_DIR$/Adidas/src/main/java/pages/SearchPage.java" />
         <option value="$PROJECT_DIR$/Adidas/src/test/java/tests/SearchPageTester.java" />
+        <option value="$PROJECT_DIR$/Adidas/src/test/java/tests/WomentsPageTester.java" />
+        <option value="$PROJECT_DIR$/Adidas/src/test/resources/AdidasTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Adidas/src/main/java/pages/WomensPage.java" />
+        <option value="$PROJECT_DIR$/Adidas/src/test/java/tests/WomensPageTester.java" />
       </list>
     </option>
   </component>
@@ -399,8 +313,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="159" />
-    <option name="width" value="1680" />
+    <option name="x" value="543" />
+    <option name="y" value="75" />
+    <option name="width" value="1176" />
     <option name="height" value="836" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -618,16 +533,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchUsingDbTester" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Youtube" />
+    <configuration name="WomensPageTester" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Adidas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="youtubeTests.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="youtubeTests" />
-      <option name="MAIN_CLASS_NAME" value="youtubeTests.SearchUsingDbTester" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.WomensPageTester" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -668,10 +583,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Adidas/src/test/resources/AdidasTestRunner.xml" />
+        <item itemvalue="TestNG.WomensPageTester" />
         <item itemvalue="TestNG./Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" />
         <item itemvalue="TestNG./Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/src/main/test/resources/InstaTestRunner.xml" />
         <item itemvalue="Application.ConnectToSqlDB" />
-        <item itemvalue="TestNG.SearchUsingDbTester" />
       </list>
     </recent_temporary>
   </component>
@@ -689,15 +604,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.04.14 at 11h 11m 48s.xml">
-      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Adidas_src_test_resources_AdidasTestRunner_xml - 2019.04.14 at 11h 19m 02s.xml">
-      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Adidas/src/test/resources/AdidasTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.04.14 at 11h 28m 09s.xml">
-      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.04.14 at 11h 33m 10s.xml">
       <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -719,6 +625,15 @@
     <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Adidas_src_test_resources_AdidasTestRunner_xml - 2019.04.14 at 11h 57m 04s.xml">
       <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Adidas/src/test/resources/AdidasTestRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Adidas_src_test_resources_AdidasTestRunner_xml - 2019.04.14 at 12h 02m 44s.xml">
+      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Adidas/src/test/resources/AdidasTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="WomensPageTester - 2019.04.14 at 12h 12m 31s.xml">
+      <configuration name="WomensPageTester" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Adidas_src_test_resources_AdidasTestRunner_xml - 2019.04.14 at 12h 13m 02s.xml">
+      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Adidas/src/test/resources/AdidasTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -730,10 +645,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="159" width="1680" height="836" extended-state="0" />
-    <editor active="true" />
+    <frame x="543" y="75" width="1176" height="836" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1947497" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2813051" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -757,7 +671,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.16727717" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.16727717" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -816,26 +730,6 @@
     <SUITE FILE_PATH="coverage/Group4ProjectWebAutomation$_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml.ic" NAME="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml Coverage Results" MODIFIED="1555231812643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Instagram/src/main/test/tests/InstaTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/Readxls.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1176">
@@ -1287,35 +1181,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Adidas/src/test/resources/AdidasTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Adidas/src/test/java/tests/MainPageTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="804">
-          <caret line="214" column="5" selection-start-line="214" selection-start-column="5" selection-end-line="214" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Adidas/src/main/java/pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="158" selection-start-line="158" selection-end-line="158" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Adidas/src/main/java/pages/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -1354,6 +1219,57 @@
             <element signature="e#1075#1076#0" expanded="true" />
             <element signature="e#1108#1109#0" expanded="true" />
             <element signature="e#1149#1150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Adidas/src/test/resources/AdidasTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Adidas/src/main/java/pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="375" column="5" selection-start-line="375" selection-start-column="5" selection-end-line="375" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Adidas/src/test/java/tests/MainPageTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Adidas/src/test/java/tests/WomensPageTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="149" column="41" selection-start-line="149" selection-start-column="41" selection-end-line="149" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Adidas/src/main/java/pages/WomensPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="356" column="19" selection-start-line="356" selection-start-column="19" selection-end-line="356" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
