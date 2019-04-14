@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Generic" />
         <module name="Netflix" />
+        <module name="RestAPI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eBay" target="1.5" />
       <module name="Geico" target="1.5" />
+      <module name="RestAPI" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
