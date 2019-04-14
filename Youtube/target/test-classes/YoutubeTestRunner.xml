@@ -4,19 +4,24 @@
 <suite name="Amazon Automation Script " parallel="false">
 
     <parameter name="useCloudEnv" value="false"/>
-    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="cloudEnvName" value="saucelabs"/>
     <parameter name="os" value="OS X"/>
     <parameter name="os_version" value="Sierra"/>
-    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserName" value="googlechrome"/>
     <parameter name="browserVersion" value="30.0"/>
     <parameter name="url" value="https://www.youtube.com/"/>
 
     <test name = "Youtube Home Page">
         <classes>
-            <class name="youtubeTests.HomepageTester"/>
-            <class name="youtubeTests.SearchTester"/>
-            <class name="youtubeTests.SearchUsingDbTester"/>
-            <class name="youtubeTests.ExcelSearchTester"/>
+<!--            <class name="youtubeTests.HomepageTester"/>-->
+<!--            <class name="youtubeTests.SearchTester"/>-->
+<!--            <class name="youtubeTests.SearchUsingDbTester"/>-->
+<!--            <class name="youtubeTests.ExcelSearchTester"/>-->
+<!--            <class name="youtubeTests.IconsTester"/>-->
+<!--            <class name="youtubeTests.YTMenuTester"/>-->
+<!--            <class name="youtubeTests.SettingMenuTester"/>-->
+            <class name="youtubeTests.InfoPageTester"/>
+<!--            <class name="youtubeTests.GoogleSheetTest"/>-->
         </classes>
     </test>
 

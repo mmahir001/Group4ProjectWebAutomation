@@ -4,6 +4,7 @@ import base.MainAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
+import reporting.TestLogger;
 
 public class HomePage extends MainAPI {
 
@@ -55,6 +56,7 @@ public class HomePage extends MainAPI {
     }
 
     public String clickTrending(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         drop.click();
         trending.click();
         String text = trending.getText();
@@ -62,6 +64,7 @@ public class HomePage extends MainAPI {
     }
 
     public String clickHistory(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         drop.click();
         history.click();
         String text = history.getText();
@@ -69,6 +72,7 @@ public class HomePage extends MainAPI {
     }
 
     public String clickMusic(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         drop.click();
         music.click();
         String text = music.getText();
@@ -76,6 +80,7 @@ public class HomePage extends MainAPI {
     }
 
     public String clickSports(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         drop.click();
         sports.click();
         String text = sports.getText();
@@ -83,6 +88,7 @@ public class HomePage extends MainAPI {
     }
 
     public String clickGaming(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         drop.click();
         gaming.click();
         String text = gaming.getText();
@@ -90,6 +96,7 @@ public class HomePage extends MainAPI {
     }
 
     public String clickMovies(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         drop.click();
         movies.click();
         String text = movies.getText();
@@ -97,6 +104,7 @@ public class HomePage extends MainAPI {
     }
 
     public String clickTvShows(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         drop.click();
         tvShows.click();
         String text = tvShows.getText();
@@ -104,6 +112,7 @@ public class HomePage extends MainAPI {
     }
 
     public String clickNews(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         drop.click();
         news.click();
         String text = news.getText();
@@ -111,6 +120,7 @@ public class HomePage extends MainAPI {
     }
 
     public String clickLive(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         drop.click();
         liveChannel.click();
         String text = liveChannel.getText();
@@ -118,6 +128,7 @@ public class HomePage extends MainAPI {
     }
 
     public String clickSpotlight(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         drop.click();
         spotlight.click();
         String text = spotlight.getText();
@@ -125,6 +136,7 @@ public class HomePage extends MainAPI {
     }
 
     public String click360Video(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         drop.click();
         videoIn360.click();
         String text = videoIn360.getText();
@@ -132,6 +144,7 @@ public class HomePage extends MainAPI {
     }
 
     public String clickBrowseChannels(){
+        TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         drop.click();
         browseChannels.click();
         String text = browseChannels.getText();

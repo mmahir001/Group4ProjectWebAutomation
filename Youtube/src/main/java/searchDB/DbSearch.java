@@ -27,7 +27,7 @@ public class DbSearch extends MainAPI {
         search.add("Help with math");
         return search;
     }
-    public List<String> getUserDatafromDB() throws Exception {
+    public List<String> getUserDataFromDB() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + MainAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         List<String> list = new ArrayList<>();
         list = connectToSqlDB.readDataBase("search", "items");

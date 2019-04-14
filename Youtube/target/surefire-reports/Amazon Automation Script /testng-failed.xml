@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Amazon Automation Script ]">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="OS X"/>
+  <parameter name="os_version" value="Sierra"/>
+  <parameter name="browserVersion" value="30.0"/>
+  <parameter name="browserName" value="googlechrome"/>
+  <parameter name="cloudEnvName" value="saucelabs"/>
+  <parameter name="url" value="https://www.youtube.com/"/>
+  <test thread-count="5" verbose="0" name="Youtube Home Page(failed)">
+    <classes>
+      <class name="youtubeTests.HomepageTester">
+        <methods>
+          <include name="setUp"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="click360Video"/>
+          <include name="clickBrowseChannels"/>
+          <include name="initilizeHomePage"/>
+          <include name="cleanUp"/>
+          <include name="generateReport"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- youtubeTests.HomepageTester -->
+      <class name="youtubeTests.InfoPageTester">
+        <methods>
+          <include name="clickHelp"/>
+          <include name="clickTerms"/>
+          <include name="setUp"/>
+          <include name="extentSetup"/>
+          <include name="clickYP"/>
+          <include name="afterEachTestMethod"/>
+          <include name="clickPrivacy"/>
+          <include name="clickReportHistory"/>
+          <include name="clickLive2"/>
+          <include name="clickSF"/>
+          <include name="initilizeHomePage"/>
+          <include name="cleanUp"/>
+          <include name="clickCopyright"/>
+          <include name="startExtent"/>
+          <include name="clickAbout"/>
+          <include name="clickDevelopers"/>
+          <include name="clickTNF"/>
+          <include name="clickSettings"/>
+          <include name="clickAD"/>
+          <include name="clickPNS"/>
+          <include name="clickPress"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- youtubeTests.InfoPageTester -->
+    </classes>
+  </test> <!-- Youtube Home Page(failed) -->
+</suite> <!-- Failed suite [Amazon Automation Script ] -->

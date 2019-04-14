@@ -51,7 +51,7 @@ public class SearchUsingDb extends MainAPI {
 
     public void searchItemsAndSubmitButton()throws Exception, IOException, SQLException, ClassNotFoundException{
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        List<String> list = db.getUserDatafromDB();
+        List<String> list = db.getUserDataFromDB();
         for(int i=0; i<list.size(); i++) {
             searchFor(list.get(i));
             submitSearchButton();

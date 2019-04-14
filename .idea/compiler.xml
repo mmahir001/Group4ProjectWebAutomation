@@ -9,6 +9,7 @@
         <module name="Generic" />
         <module name="Instagram" />
         <module name="Youtube" />
+        <module name="Adidas" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -45,4 +45,33 @@ public class SearchTester extends MainAPI {
         searchPage.clickSearchButton();
     }
 
+    @Test
+    public void enterElement6(){
+        searchPage.insertValue("World cup");
+        searchPage.clickSearchButton();
+    }
+
+    @Test
+    public void enterElement7(){
+        searchPage.insertValue("How to hack");
+        searchPage.clickSearchButton();
+    }
+
+    @Test
+    public void enterElement8(){
+        searchPage.insertValue("Soccer");
+        searchPage.clickSearchButton();
+    }
+
+    @Test
+    public void enterElement9(){
+        searchPage.insertValue("Cricket");
+        searchPage.clickSearchButton();
+    }
+
+    @Test
+    public void enterElement10(){
+        searchPage.insertValue("How to trouble shoot mac");
+        searchPage.clickSearchButton();
+    }
 }

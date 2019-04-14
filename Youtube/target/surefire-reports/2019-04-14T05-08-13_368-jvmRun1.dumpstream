@@ -1,0 +1,17 @@
+# Created at 2019-04-14T05:09:51.919
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-04-14T05:09:51.920
+Unexpected IOException: 8,1,youtubeTests.SearchTester,setUp(youtubeTests.SearchTester),null,java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8061\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'Muhtasims-MBP.fios-router.home'\002C ip: 'fe80:0:0:0:1890:25ad:2277:411d%en0'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.14.4'\002C java.version: '1.8.0_201'\000ADriver info: driver.version: ChromeDriver,null,java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8061\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'Muhtasims-MBP.fios-router.home'\002C ip: 'fe80:0:0:0:1890:25ad:2277:411d%en0'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.14.4'\002C java.version: '1.8.0_201'\000ADriver info: driver.version: ChromeDriver,SearchTester>MainAPI.setUp:117->MainAPI.getLocalDriver:141 \00BB WebDriver java.ne...,org.openqa.selenium.WebDriverException: \000Ajava.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8061\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'Muhtasims-MBP.fios-router.home'\002C ip: 'fe80:0:0:0:1890:25ad:2277:411d%en0'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.14.4'\002C java.version: '1.8.0_201'\000ADriver info: driver.version: ChromeDriver\000ACaused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8061\000ACaused by: java.net.ConnectException: Connection refused (Connection refused)\000A
+
+
+# Created at 2019-04-14T05:09:51.921
+Unexpected IOException: 9,1,youtubeTests.SearchTester,startExtent(youtubeTests.SearchTester),null,null,null
+
+
