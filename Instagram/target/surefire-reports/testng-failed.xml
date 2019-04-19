@@ -5,18 +5,23 @@
   <parameter name="os" value="OS X"/>
   <parameter name="os_version" value="Sierra"/>
   <parameter name="browserVersion" value="30.0"/>
-  <parameter name="browserName" value="chrome"/>
+  <parameter name="browserName" value="googlechrome"/>
   <parameter name="cloudEnvName" value="browserstack"/>
   <parameter name="url" value="https://www.instagram.com/"/>
   <test thread-count="5" verbose="0" name="Instagram Home Page(failed)">
     <classes>
-      <class name="tests.InstaTester">
+      <class name="tests.LogInTester">
         <methods>
-          <include name="title"/>
           <include name="setUp"/>
+          <include name="extentSetup"/>
+          <include name="initialize"/>
+          <include name="afterEachTestMethod"/>
+          <include name="ClickLogIn"/>
+          <include name="generateReport"/>
           <include name="cleanUp"/>
+          <include name="startExtent"/>
         </methods>
-      </class> <!-- tests.InstaTester -->
+      </class> <!-- tests.LogInTester -->
     </classes>
   </test> <!-- Instagram Home Page(failed) -->
 </suite> <!-- Failed suite [Amazon Automation Script ] -->

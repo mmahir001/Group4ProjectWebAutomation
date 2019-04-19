@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Amazon_Automation_Script_">
-              <span class="suite-name border-passed">Amazon Automation Script </span>
+              <span class="suite-name border-failed">Amazon Automation Script </span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">18 methods,   18 passed</span>
+                    <span class="method-stats">19 methods, 1 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Amazon_Automation_Script_" class="hide-methods failed suite-Amazon_Automation_Script_"> (hide)</a> <!-- hide-methods failed suite-Amazon_Automation_Script_ -->
+                      <a href="#" panel-name="suite-Amazon_Automation_Script_" class="show-methods failed suite-Amazon_Automation_Script_"> (show)</a> <!-- show-methods failed suite-Amazon_Automation_Script_ -->
+                    </span>
+                    <div class="method-list-content failed suite-Amazon_Automation_Script_">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Amazon_Automation_Script_" title="tests.LogInTester" hash-for-method="ClickLogIn">ClickLogIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Amazon_Automation_Script_ -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -202,6 +216,51 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Amazon_Automation_Script_" class="panel Amazon_Automation_Script_">
+          <div class="suite-Amazon_Automation_Script_-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.LogInTester</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickLogIn">
+                  </a> <!-- ClickLogIn -->
+                  <span class="method-name">ClickLogIn</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;f17d97b343e1604&apos;]&quot;}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Muhtasims-MBP.fios-router.home&apos;, ip: &apos;fe80:0:0:0:1890:25ad:2277:411d%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/s4/_c1dgkkj4mg...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56333}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: f3645f5edec15c898ad7bec9f315af32
+*** Element info: {Using=xpath, value=//input[@id=&apos;f17d97b343e1604&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at pages.LogInPage.ClickLoginKey(LogInPage.java:30)
+	at tests.LogInTester.ClickLogIn(LogInTester.java:18)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon_Automation_Script_-class-failed -->
           <div class="suite-Amazon_Automation_Script_-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -350,12 +409,13 @@
   &lt;parameter name=&quot;os&quot; value=&quot;OS X&quot;/&gt;
   &lt;parameter name=&quot;os_version&quot; value=&quot;Sierra&quot;/&gt;
   &lt;parameter name=&quot;browserVersion&quot; value=&quot;30.0&quot;/&gt;
-  &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;googlechrome&quot;/&gt;
   &lt;parameter name=&quot;cloudEnvName&quot; value=&quot;browserstack&quot;/&gt;
   &lt;parameter name=&quot;url&quot; value=&quot;https://www.instagram.com/&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Instagram Home Page&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.InstaTester&quot;/&gt;
+      &lt;class name=&quot;tests.LogInTester&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Instagram Home Page --&gt;
 &lt;/suite&gt; &lt;!-- Amazon Automation Script  --&gt;
@@ -369,7 +429,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Instagram Home Page (1 class)</span>
+                <span class="test-name">Instagram Home Page (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -395,84 +455,88 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(18);
+data.addRows(19);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'ClickTerms')
-data.setCell(0, 2, 'tests.InstaTester')
-data.setCell(0, 3, 7125);
+data.setCell(0, 1, 'ClickLogIn')
+data.setCell(0, 2, 'tests.LogInTester')
+data.setCell(0, 3, 10139);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ClickSupport')
+data.setCell(1, 1, 'ClickPrivacy')
 data.setCell(1, 2, 'tests.InstaTester')
-data.setCell(1, 3, 2051);
+data.setCell(1, 3, 7063);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'ClickPrivacy')
+data.setCell(2, 1, 'ClickTerms')
 data.setCell(2, 2, 'tests.InstaTester')
-data.setCell(2, 3, 1606);
+data.setCell(2, 3, 7044);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'ClickJobs')
+data.setCell(3, 1, 'ClickSupport')
 data.setCell(3, 2, 'tests.InstaTester')
-data.setCell(3, 3, 762);
+data.setCell(3, 3, 6840);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'ClickPress')
+data.setCell(4, 1, 'ClickJobs')
 data.setCell(4, 2, 'tests.InstaTester')
-data.setCell(4, 3, 602);
+data.setCell(4, 3, 706);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'ClickDirectory')
+data.setCell(5, 1, 'ClickPress')
 data.setCell(5, 2, 'tests.InstaTester')
-data.setCell(5, 3, 456);
+data.setCell(5, 3, 568);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'ClickProfiles')
+data.setCell(6, 1, 'ClickDirectory')
 data.setCell(6, 2, 'tests.InstaTester')
-data.setCell(6, 3, 439);
+data.setCell(6, 3, 458);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'ClickHashtags')
+data.setCell(7, 1, 'ClickAboutUs')
 data.setCell(7, 2, 'tests.InstaTester')
-data.setCell(7, 3, 416);
+data.setCell(7, 3, 451);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'ClickAPI')
+data.setCell(8, 1, 'ClickProfiles')
 data.setCell(8, 2, 'tests.InstaTester')
-data.setCell(8, 3, 344);
+data.setCell(8, 3, 443);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'ClickLanguage')
+data.setCell(9, 1, 'ClickHashtags')
 data.setCell(9, 2, 'tests.InstaTester')
-data.setCell(9, 3, 317);
+data.setCell(9, 3, 425);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'ClickAboutUs')
+data.setCell(10, 1, 'ClickAPI')
 data.setCell(10, 2, 'tests.InstaTester')
-data.setCell(10, 3, 291);
+data.setCell(10, 3, 383);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'EnterEmailOrPhone')
 data.setCell(11, 2, 'tests.InstaTester')
-data.setCell(11, 3, 167);
+data.setCell(11, 3, 215);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'EnterFullName')
+data.setCell(12, 1, 'ClickLanguage')
 data.setCell(12, 2, 'tests.InstaTester')
-data.setCell(12, 3, 142);
+data.setCell(12, 3, 155);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'EnterUsername')
+data.setCell(13, 1, 'EnterFullName')
 data.setCell(13, 2, 'tests.InstaTester')
-data.setCell(13, 3, 122);
+data.setCell(13, 3, 145);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'ClickLogIn')
+data.setCell(14, 1, 'EnterPassword')
 data.setCell(14, 2, 'tests.InstaTester')
-data.setCell(14, 3, 108);
+data.setCell(14, 3, 129);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'EnterPassword')
+data.setCell(15, 1, 'EnterUsername')
 data.setCell(15, 2, 'tests.InstaTester')
-data.setCell(15, 3, 107);
+data.setCell(15, 3, 127);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'ClickSignUp')
+data.setCell(16, 1, 'ClickLogIn')
 data.setCell(16, 2, 'tests.InstaTester')
-data.setCell(16, 3, 96);
+data.setCell(16, 3, 107);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'VerifyTitle')
+data.setCell(17, 1, 'ClickSignUp')
 data.setCell(17, 2, 'tests.InstaTester')
-data.setCell(17, 3, 5);
+data.setCell(17, 3, 93);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'VerifyTitle')
+data.setCell(18, 2, 'tests.InstaTester')
+data.setCell(18, 3, 6);
 window.suiteTableData['Amazon_Automation_Script_']= { tableData: data, tableDiv: 'times-div-Amazon_Automation_Script_'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
               <div id="times-div-Amazon_Automation_Script_">
               </div> <!-- times-div-Amazon_Automation_Script_ -->
             </div> <!-- times-div -->
@@ -487,9 +551,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Amazon_Automation_Script_" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.LogInTester</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Amazon_Automation_Script_" class="panel">
@@ -500,444 +573,476 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">tests.InstaTester</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">extentSetup(org.testng.TestRunner@6e57b5e9)</span>
+                <span class="method-name">extentSetup(org.testng.TestRunner@65ec8b24)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 30.0, https://www.instagram.com/)</span>
-                <span class="method-start">156 ms</span>
+                <span class="method-name">setUp(false, mmahir001, 2f3eaddb-6af6-4b06-9dc8-2084b05379f8, OS X, googlechrome, 30.0, https://www.instag...)</span>
+                <span class="method-start">112 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void tests.InstaTester.ClickAPI())</span>
-                <span class="method-start">2928 ms</span>
+                <span class="method-start">2510 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initilizeSignUpPage</span>
-                <span class="method-start">2932 ms</span>
+                <span class="method-start">2513 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ClickAPI</span>
-                <span class="method-start">2951 ms</span>
+                <span class="method-start">2531 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=ClickAPI status=SUCCESS method=InstaTester.ClickAPI()[pri:0, instance:tests.InstaTe...)</span>
-                <span class="method-start">3295 ms</span>
+                <span class="method-start">2914 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">3604 ms</span>
+                <span class="method-start">3200 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 30.0, https://www.instagram.com/)</span>
-                <span class="method-start">3604 ms</span>
+                <span class="method-name">setUp(false, mmahir001, 2f3eaddb-6af6-4b06-9dc8-2084b05379f8, OS X, googlechrome, 30.0, https://www.instag...)</span>
+                <span class="method-start">3200 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void tests.InstaTester.ClickAboutUs())</span>
-                <span class="method-start">5567 ms</span>
+                <span class="method-start">5167 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initilizeSignUpPage</span>
-                <span class="method-start">5567 ms</span>
+                <span class="method-start">5167 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ClickAboutUs</span>
-                <span class="method-start">5568 ms</span>
+                <span class="method-start">5168 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=ClickAboutUs status=SUCCESS method=InstaTester.ClickAboutUs()[pri:0, instance:tests...)</span>
-                <span class="method-start">5859 ms</span>
+                <span class="method-start">5619 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">5964 ms</span>
+                <span class="method-start">5731 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 30.0, https://www.instagram.com/)</span>
-                <span class="method-start">5964 ms</span>
+                <span class="method-name">setUp(false, mmahir001, 2f3eaddb-6af6-4b06-9dc8-2084b05379f8, OS X, googlechrome, 30.0, https://www.instag...)</span>
+                <span class="method-start">5732 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void tests.InstaTester.ClickDirectory())</span>
-                <span class="method-start">7921 ms</span>
+                <span class="method-start">9750 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initilizeSignUpPage</span>
-                <span class="method-start">7922 ms</span>
+                <span class="method-start">9750 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ClickDirectory</span>
-                <span class="method-start">7922 ms</span>
+                <span class="method-start">9751 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=ClickDirectory status=SUCCESS method=InstaTester.ClickDirectory()[pri:0, instance:t...)</span>
-                <span class="method-start">8378 ms</span>
+                <span class="method-start">10209 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">8479 ms</span>
+                <span class="method-start">10315 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 30.0, https://www.instagram.com/)</span>
-                <span class="method-start">8480 ms</span>
+                <span class="method-name">setUp(false, mmahir001, 2f3eaddb-6af6-4b06-9dc8-2084b05379f8, OS X, googlechrome, 30.0, https://www.instag...)</span>
+                <span class="method-start">10316 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void tests.InstaTester.ClickHashtags())</span>
-                <span class="method-start">10394 ms</span>
+                <span class="method-start">12134 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initilizeSignUpPage</span>
-                <span class="method-start">10394 ms</span>
+                <span class="method-start">12134 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ClickHashtags</span>
-                <span class="method-start">10395 ms</span>
+                <span class="method-start">12135 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=ClickHashtags status=SUCCESS method=InstaTester.ClickHashtags()[pri:0, instance:tes...)</span>
-                <span class="method-start">10811 ms</span>
+                <span class="method-start">12560 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">10914 ms</span>
+                <span class="method-start">12666 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 30.0, https://www.instagram.com/)</span>
-                <span class="method-start">10914 ms</span>
+                <span class="method-name">setUp(false, mmahir001, 2f3eaddb-6af6-4b06-9dc8-2084b05379f8, OS X, googlechrome, 30.0, https://www.instag...)</span>
+                <span class="method-start">12666 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void tests.InstaTester.ClickJobs())</span>
-                <span class="method-start">12875 ms</span>
+                <span class="method-start">14543 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initilizeSignUpPage</span>
-                <span class="method-start">12876 ms</span>
+                <span class="method-start">14543 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ClickJobs</span>
-                <span class="method-start">12876 ms</span>
+                <span class="method-start">14543 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=ClickJobs status=SUCCESS method=InstaTester.ClickJobs()[pri:0, instance:tests.Insta...)</span>
-                <span class="method-start">13639 ms</span>
+                <span class="method-start">15249 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">13746 ms</span>
+                <span class="method-start">15361 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 30.0, https://www.instagram.com/)</span>
-                <span class="method-start">13746 ms</span>
+                <span class="method-name">setUp(false, mmahir001, 2f3eaddb-6af6-4b06-9dc8-2084b05379f8, OS X, googlechrome, 30.0, https://www.instag...)</span>
+                <span class="method-start">15362 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void tests.InstaTester.ClickLanguage())</span>
-                <span class="method-start">15578 ms</span>
+                <span class="method-start">17213 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initilizeSignUpPage</span>
-                <span class="method-start">15578 ms</span>
+                <span class="method-start">17213 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ClickLanguage</span>
-                <span class="method-start">15579 ms</span>
+                <span class="method-start">17214 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=ClickLanguage status=SUCCESS method=InstaTester.ClickLanguage()[pri:0, instance:tes...)</span>
-                <span class="method-start">15896 ms</span>
+                <span class="method-start">17369 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">15997 ms</span>
+                <span class="method-start">17472 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 30.0, https://www.instagram.com/)</span>
-                <span class="method-start">15998 ms</span>
+                <span class="method-name">setUp(false, mmahir001, 2f3eaddb-6af6-4b06-9dc8-2084b05379f8, OS X, googlechrome, 30.0, https://www.instag...)</span>
+                <span class="method-start">17473 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void tests.InstaTester.ClickLogIn())</span>
-                <span class="method-start">17977 ms</span>
+                <span class="method-start">19379 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initilizeSignUpPage</span>
-                <span class="method-start">17977 ms</span>
+                <span class="method-start">19380 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ClickLogIn</span>
-                <span class="method-start">17978 ms</span>
+                <span class="method-start">19380 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=ClickLogIn status=SUCCESS method=InstaTester.ClickLogIn()[pri:0, instance:tests.Ins...)</span>
-                <span class="method-start">18086 ms</span>
+                <span class="method-start">19487 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">18186 ms</span>
+                <span class="method-start">19588 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 30.0, https://www.instagram.com/)</span>
-                <span class="method-start">18187 ms</span>
+                <span class="method-name">setUp(false, mmahir001, 2f3eaddb-6af6-4b06-9dc8-2084b05379f8, OS X, googlechrome, 30.0, https://www.instag...)</span>
+                <span class="method-start">19588 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void tests.InstaTester.ClickPress())</span>
-                <span class="method-start">20098 ms</span>
+                <span class="method-start">21590 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initilizeSignUpPage</span>
-                <span class="method-start">20099 ms</span>
+                <span class="method-start">21590 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ClickPress</span>
-                <span class="method-start">20099 ms</span>
+                <span class="method-start">21591 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=ClickPress status=SUCCESS method=InstaTester.ClickPress()[pri:0, instance:tests.Ins...)</span>
-                <span class="method-start">20701 ms</span>
+                <span class="method-start">22159 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">20802 ms</span>
+                <span class="method-start">22263 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 30.0, https://www.instagram.com/)</span>
-                <span class="method-start">20802 ms</span>
+                <span class="method-name">setUp(false, mmahir001, 2f3eaddb-6af6-4b06-9dc8-2084b05379f8, OS X, googlechrome, 30.0, https://www.instag...)</span>
+                <span class="method-start">22263 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void tests.InstaTester.ClickPrivacy())</span>
-                <span class="method-start">22711 ms</span>
+                <span class="method-start">24173 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initilizeSignUpPage</span>
-                <span class="method-start">22711 ms</span>
+                <span class="method-start">24173 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ClickPrivacy</span>
-                <span class="method-start">22712 ms</span>
+                <span class="method-start">24173 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=ClickPrivacy status=SUCCESS method=InstaTester.ClickPrivacy()[pri:0, instance:tests...)</span>
-                <span class="method-start">24318 ms</span>
+                <span class="method-start">31236 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">24428 ms</span>
+                <span class="method-start">31343 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 30.0, https://www.instagram.com/)</span>
-                <span class="method-start">24429 ms</span>
+                <span class="method-name">setUp(false, mmahir001, 2f3eaddb-6af6-4b06-9dc8-2084b05379f8, OS X, googlechrome, 30.0, https://www.instag...)</span>
+                <span class="method-start">31344 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void tests.InstaTester.ClickProfiles())</span>
-                <span class="method-start">26360 ms</span>
+                <span class="method-start">33202 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initilizeSignUpPage</span>
-                <span class="method-start">26361 ms</span>
+                <span class="method-start">33202 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ClickProfiles</span>
-                <span class="method-start">26361 ms</span>
+                <span class="method-start">33203 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=ClickProfiles status=SUCCESS method=InstaTester.ClickProfiles()[pri:0, instance:tes...)</span>
-                <span class="method-start">26800 ms</span>
+                <span class="method-start">33646 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">26898 ms</span>
+                <span class="method-start">33748 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 30.0, https://www.instagram.com/)</span>
-                <span class="method-start">26899 ms</span>
+                <span class="method-name">setUp(false, mmahir001, 2f3eaddb-6af6-4b06-9dc8-2084b05379f8, OS X, googlechrome, 30.0, https://www.instag...)</span>
+                <span class="method-start">33748 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void tests.InstaTester.ClickSignUp())</span>
-                <span class="method-start">28721 ms</span>
+                <span class="method-start">35610 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initilizeSignUpPage</span>
-                <span class="method-start">28721 ms</span>
+                <span class="method-start">35610 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ClickSignUp</span>
-                <span class="method-start">28721 ms</span>
+                <span class="method-start">35611 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=ClickSignUp status=SUCCESS method=InstaTester.ClickSignUp()[pri:0, instance:tests.I...)</span>
-                <span class="method-start">28817 ms</span>
+                <span class="method-start">35704 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">28916 ms</span>
+                <span class="method-start">35802 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 30.0, https://www.instagram.com/)</span>
-                <span class="method-start">28916 ms</span>
+                <span class="method-name">setUp(false, mmahir001, 2f3eaddb-6af6-4b06-9dc8-2084b05379f8, OS X, googlechrome, 30.0, https://www.instag...)</span>
+                <span class="method-start">35803 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void tests.InstaTester.ClickSupport())</span>
-                <span class="method-start">30667 ms</span>
+                <span class="method-start">37737 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initilizeSignUpPage</span>
-                <span class="method-start">30667 ms</span>
+                <span class="method-start">37737 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ClickSupport</span>
-                <span class="method-start">30667 ms</span>
+                <span class="method-start">37738 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=ClickSupport status=SUCCESS method=InstaTester.ClickSupport()[pri:0, instance:tests...)</span>
-                <span class="method-start">32718 ms</span>
+                <span class="method-start">44578 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">32825 ms</span>
+                <span class="method-start">44690 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 30.0, https://www.instagram.com/)</span>
-                <span class="method-start">32826 ms</span>
+                <span class="method-name">setUp(false, mmahir001, 2f3eaddb-6af6-4b06-9dc8-2084b05379f8, OS X, googlechrome, 30.0, https://www.instag...)</span>
+                <span class="method-start">44691 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void tests.InstaTester.ClickTerms())</span>
-                <span class="method-start">34706 ms</span>
+                <span class="method-start">46711 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initilizeSignUpPage</span>
-                <span class="method-start">34707 ms</span>
+                <span class="method-start">46712 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ClickTerms</span>
-                <span class="method-start">34707 ms</span>
+                <span class="method-start">46712 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=ClickTerms status=SUCCESS method=InstaTester.ClickTerms()[pri:0, instance:tests.Ins...)</span>
-                <span class="method-start">41832 ms</span>
+                <span class="method-start">53757 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">41936 ms</span>
+                <span class="method-start">53869 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 30.0, https://www.instagram.com/)</span>
-                <span class="method-start">41936 ms</span>
+                <span class="method-name">setUp(false, mmahir001, 2f3eaddb-6af6-4b06-9dc8-2084b05379f8, OS X, googlechrome, 30.0, https://www.instag...)</span>
+                <span class="method-start">53869 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void tests.InstaTester.EnterEmailOrPhone())</span>
-                <span class="method-start">43843 ms</span>
+                <span class="method-start">55895 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initilizeSignUpPage</span>
-                <span class="method-start">43843 ms</span>
+                <span class="method-start">55895 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">EnterEmailOrPhone</span>
-                <span class="method-start">43844 ms</span>
+                <span class="method-start">55896 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=EnterEmailOrPhone status=SUCCESS method=InstaTester.EnterEmailOrPhone()[pri:0, inst...)</span>
-                <span class="method-start">44011 ms</span>
+                <span class="method-start">56112 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">44108 ms</span>
+                <span class="method-start">56210 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 30.0, https://www.instagram.com/)</span>
-                <span class="method-start">44109 ms</span>
+                <span class="method-name">setUp(false, mmahir001, 2f3eaddb-6af6-4b06-9dc8-2084b05379f8, OS X, googlechrome, 30.0, https://www.instag...)</span>
+                <span class="method-start">56210 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void tests.InstaTester.EnterFullName())</span>
-                <span class="method-start">46046 ms</span>
+                <span class="method-start">58193 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initilizeSignUpPage</span>
-                <span class="method-start">46046 ms</span>
+                <span class="method-start">58194 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">EnterFullName</span>
-                <span class="method-start">46047 ms</span>
+                <span class="method-start">58194 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=EnterFullName status=SUCCESS method=InstaTester.EnterFullName()[pri:0, instance:tes...)</span>
-                <span class="method-start">46189 ms</span>
+                <span class="method-start">58339 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">46293 ms</span>
+                <span class="method-start">58453 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 30.0, https://www.instagram.com/)</span>
-                <span class="method-start">46294 ms</span>
+                <span class="method-name">setUp(false, mmahir001, 2f3eaddb-6af6-4b06-9dc8-2084b05379f8, OS X, googlechrome, 30.0, https://www.instag...)</span>
+                <span class="method-start">58454 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void tests.InstaTester.EnterPassword())</span>
-                <span class="method-start">48089 ms</span>
+                <span class="method-start">60323 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initilizeSignUpPage</span>
-                <span class="method-start">48090 ms</span>
+                <span class="method-start">60324 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">EnterPassword</span>
-                <span class="method-start">48090 ms</span>
+                <span class="method-start">60324 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=EnterPassword status=SUCCESS method=InstaTester.EnterPassword()[pri:0, instance:tes...)</span>
-                <span class="method-start">48198 ms</span>
+                <span class="method-start">60453 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">48298 ms</span>
+                <span class="method-start">60554 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 30.0, https://www.instagram.com/)</span>
-                <span class="method-start">48298 ms</span>
+                <span class="method-name">setUp(false, mmahir001, 2f3eaddb-6af6-4b06-9dc8-2084b05379f8, OS X, googlechrome, 30.0, https://www.instag...)</span>
+                <span class="method-start">60555 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void tests.InstaTester.EnterUsername())</span>
-                <span class="method-start">50104 ms</span>
+                <span class="method-start">62420 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initilizeSignUpPage</span>
-                <span class="method-start">50104 ms</span>
+                <span class="method-start">62420 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">EnterUsername</span>
-                <span class="method-start">50104 ms</span>
+                <span class="method-start">62421 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=EnterUsername status=SUCCESS method=InstaTester.EnterUsername()[pri:0, instance:tes...)</span>
-                <span class="method-start">50226 ms</span>
+                <span class="method-start">62548 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">50321 ms</span>
+                <span class="method-start">62645 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 30.0, https://www.instagram.com/)</span>
-                <span class="method-start">50321 ms</span>
+                <span class="method-name">setUp(false, mmahir001, 2f3eaddb-6af6-4b06-9dc8-2084b05379f8, OS X, googlechrome, 30.0, https://www.instag...)</span>
+                <span class="method-start">62646 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void tests.InstaTester.VerifyTitle())</span>
-                <span class="method-start">52026 ms</span>
+                <span class="method-start">64579 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initilizeSignUpPage</span>
-                <span class="method-start">52026 ms</span>
+                <span class="method-start">64579 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyTitle</span>
-                <span class="method-start">52026 ms</span>
+                <span class="method-start">64579 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=VerifyTitle status=SUCCESS method=InstaTester.VerifyTitle()[pri:0, instance:tests.I...)</span>
-                <span class="method-start">52031 ms</span>
+                <span class="method-start">64585 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">52126 ms</span>
+                <span class="method-start">64684 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LogInTester</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, mmahir001, 2f3eaddb-6af6-4b06-9dc8-2084b05379f8, OS X, googlechrome, 30.0, https://www.instag...)</span>
+                <span class="method-start">64686 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void tests.LogInTester.ClickLogIn() throws java.lang.Exception)</span>
+                <span class="method-start">66628 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">66629 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ClickLogIn</span>
+                <span class="method-start">66629 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=ClickLogIn status=FAILURE method=LogInTester.ClickLogIn()[pri:0, instance:tests.Log...)</span>
+                <span class="method-start">76772 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">77298 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.InstaTester</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">generateReport</span>
-                <span class="method-start">52148 ms</span>
+                <span class="method-start">77323 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

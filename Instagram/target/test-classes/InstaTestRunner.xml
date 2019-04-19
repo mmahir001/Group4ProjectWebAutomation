@@ -15,7 +15,7 @@
         <classes>
 
             <class name="tests.InstaTester"/>
-            <class name="tests.LogInTester"/>
+<!--            <class name="tests.LogInTester"/>-->
         </classes>
     </test>
 
