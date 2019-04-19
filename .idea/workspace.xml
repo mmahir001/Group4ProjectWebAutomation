@@ -2,73 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3d131f9-3904-4cb5-896e-d288f3a48fde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/utility/Readxls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TargetRetail/lib/TargetSearch.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TargetRetail/src/main/java/databaseSearch/SearchExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TargetRetail/src/secret.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSearchExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/secret.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/secret.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProHealthCare/ProHealthCare.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProHealthCare/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProHealthCare/src/main/java/page/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProHealthCare/src/test/java/pages/TestHomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProHealthCare/src/test/resources/TargetTestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/META-INF/Generic.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/MainAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/MainAPI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TargetRetail/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/TargetRetail.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/src/main/java/base/Categories.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/src/main/java/base/Categories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/src/main/java/base/DatabaseSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/src/main/java/databaseSearch/DbSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/src/main/java/base/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/src/main/java/base/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/src/main/java/base/SearchBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/src/main/java/base/SearchBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TargetRetail/src/main/java/base/SearchUsingDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/src/main/java/base/SearchUsingDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestCategories.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestCategories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestDataBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestHome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSearchBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSearchBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TastDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestDatabase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSignIn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TargetRetail/src/test/resources/TargetTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/src/test/resources/TargetTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/TargetRetail-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/TargetRetail-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/classes/base/Categories$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/classes/base/Categories$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/classes/base/Categories$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/classes/base/Categories$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/classes/base/Categories.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/classes/base/Categories.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/classes/base/DatabaseSearch$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/classes/base/DatabaseSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/classes/base/Home$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/classes/base/Home$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/classes/base/Home$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/classes/base/Home$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/classes/base/Home$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/classes/base/Home$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/classes/base/Home$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/classes/base/Home$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/classes/base/Home$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/classes/base/Home$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/classes/base/Home$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/classes/base/Home$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/classes/base/Home$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/classes/base/Home$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/classes/base/Home$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/classes/base/Home$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/classes/base/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/classes/base/Home.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/classes/base/SearchBox$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/classes/base/SearchBox$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/classes/base/SearchBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/classes/base/SearchBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TargetRetail/target/classes/META-INF/TargetRetail.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TargetRetail/target/classes/base/SearchUsingDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/classes/base/SearchUsingDb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TargetRetail/target/test-classes/META-INF/TargetRetail.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TargetRetail/target/test-classes/TargetTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/test-classes/TargetTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/test-classes/bases/TestCategories.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/test-classes/bases/TestCategories.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/test-classes/bases/TestHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/test-classes/bases/TestHome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/test-classes/bases/TestSearchBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/test-classes/bases/TestSearchBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetRetail/target/test-classes/bases/TestSignIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetRetail/target/test-classes/bases/TestSignIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TargetRetail/target/test-classes/bases/TastDatabase$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TargetRetail/target/test-classes/bases/TastDatabase.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -82,45 +30,51 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/databaseSearch/DbSearch.java">
+        <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/resources/TargetTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="135">
+              <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/databaseSearch/SearchExcel.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1785">
+              <caret line="119" column="12" selection-start-line="119" selection-start-column="12" selection-end-line="119" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/SearchUsingDb.java">
+        <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="79" column="22" lean-forward="true" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSearchExcel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="60">
               <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -130,10 +84,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/SearchBox.java">
+        <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/databaseSearch/DbSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-260">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="60">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/databaseSearch/SearchExcel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,10 +105,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TastDatabase.java">
+        <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="150">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,43 +117,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSignIn.java">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <marker date="1554067402145" expanded="true" signature="205:739" ph="..." />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestCategories.java">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/Readxls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TargetRetail/src/secret.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/resources/TargetTestRunner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            <state relative-caret-position="60">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -218,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" />
         <option value="$PROJECT_DIR$/ProHealthCare/pom.xml" />
         <option value="$PROJECT_DIR$/TargetRetail/src/main/java/base/DatabaseSearch.java" />
         <option value="$PROJECT_DIR$/TargetRetail/src/test/java/dataBase/DbSearch.java" />
@@ -258,17 +196,18 @@
         <option value="$PROJECT_DIR$/TargetRetail/src/main/java/base/Home.java" />
         <option value="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestHome.java" />
         <option value="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSearchBox.java" />
-        <option value="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSignIn.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/TargetRetail/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
         <option value="$PROJECT_DIR$/TargetRetail/src/main/java/base/SearchBox.java" />
         <option value="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TastDatabase.java" />
         <option value="$PROJECT_DIR$/TargetRetail/src/main/java/databaseSearch/DbSearch.java" />
-        <option value="$PROJECT_DIR$/TargetRetail/src/test/resources/TargetTestRunner.xml" />
         <option value="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSearchExcel.java" />
         <option value="$PROJECT_DIR$/TargetRetail/src/main/java/databaseSearch/SearchExcel.java" />
         <option value="$PROJECT_DIR$/TargetRetail/src/main/java/base/SearchUsingDb.java" />
+        <option value="$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSignIn.java" />
+        <option value="$PROJECT_DIR$/TargetRetail/src/test/resources/TargetTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" />
       </list>
     </option>
   </component>
@@ -302,17 +241,17 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Group4ProjectWebAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="TargetRetail" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="327" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="821" />
+    <option name="width" value="1113" />
+    <option name="height" value="814" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -320,7 +259,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -373,46 +311,7 @@
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="TargetRetail" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="TargetRetail" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="TargetRetail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="TargetRetail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="TargetRetail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="TargetRetail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="databaseSearch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
@@ -420,23 +319,6 @@
               <item name="TargetRetail" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="TargetRetail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="TargetRetail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bases" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
@@ -450,21 +332,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554074395467" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555270582414" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Target/src/test" />
-      <recent name="$PROJECT_DIR$/ProHealthCare/src/test" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="page" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="dataBase" />
@@ -481,8 +364,11 @@
       <recent name="bases" />
       <recent name="databaseSearch" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="page" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Generic" />
+      <recent name="$PROJECT_DIR$/Generic/target" />
+      <recent name="$PROJECT_DIR$/Target/src/test" />
+      <recent name="$PROJECT_DIR$/ProHealthCare/src/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -497,7 +383,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestSearchExcel.search">
+  <component name="RunManager" selected="TestNG./Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml">
     <configuration name="DbSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="databaseSearch.DbSearch" />
       <module name="TargetRetail" />
@@ -511,7 +397,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TastDatabase.search" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDatabase.search" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TargetRetail" />
       <extension name="coverage">
         <pattern>
@@ -520,7 +406,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="bases" />
-      <option name="MAIN_CLASS_NAME" value="bases.TastDatabase" />
+      <option name="MAIN_CLASS_NAME" value="bases.TestDatabase" />
       <option name="METHOD_NAME" value="search" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -529,7 +415,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCategories.testWomen" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSearchBox.search9" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TargetRetail" />
       <extension name="coverage">
         <pattern>
@@ -538,26 +424,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="bases" />
-      <option name="MAIN_CLASS_NAME" value="bases.TestCategories" />
-      <option name="METHOD_NAME" value="testWomen" />
+      <option name="MAIN_CLASS_NAME" value="bases.TestSearchBox" />
+      <option name="METHOD_NAME" value="search9" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSearchExcel" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TargetRetail" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bases" />
-      <option name="MAIN_CLASS_NAME" value="bases.TestSearchExcel" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -582,13 +451,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TargetRetail" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TargetRetail/src/test/resources/TargetTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestSearchExcel.search" />
-        <item itemvalue="TestNG.TestSearchExcel" />
-        <item itemvalue="TestNG.TestCategories.testWomen" />
-        <item itemvalue="TestNG.TastDatabase.search" />
+        <item itemvalue="TestNG./Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" />
+        <item itemvalue="TestNG.TestDatabase.search" />
         <item itemvalue="Application.DbSearch" />
+        <item itemvalue="TestNG.TestSearchExcel.search" />
+        <item itemvalue="TestNG.TestSearchBox.search9" />
       </list>
     </recent_temporary>
   </component>
@@ -622,50 +501,70 @@
       <workItem from="1554012969314" duration="70000" />
       <workItem from="1554013044092" duration="376000" />
       <workItem from="1554013592437" duration="3100000" />
-      <workItem from="1554058243146" duration="14342000" />
+      <workItem from="1554058243146" duration="14478000" />
+      <workItem from="1554074536112" duration="773000" />
+      <workItem from="1554124599736" duration="965000" />
+      <workItem from="1554144956969" duration="128000" />
+      <workItem from="1554319377269" duration="663000" />
+      <workItem from="1554325657567" duration="405000" />
+      <workItem from="1554412175426" duration="1348000" />
+      <workItem from="1554841030770" duration="1225000" />
+      <workItem from="1554842838541" duration="15000" />
+      <workItem from="1555125640862" duration="1732000" />
+      <workItem from="1555127430307" duration="555000" />
+      <workItem from="1555175106932" duration="902000" />
+      <workItem from="1555189644903" duration="143000" />
+      <workItem from="1555261697892" duration="426000" />
+      <workItem from="1555266419932" duration="708000" />
+      <workItem from="1555267153744" duration="1771000" />
+      <workItem from="1555268966598" duration="1668000" />
+      <workItem from="1555270800032" duration="302000" />
+      <workItem from="1555272609245" duration="270000" />
+      <workItem from="1555275011429" duration="461000" />
+      <workItem from="1555276829928" duration="63000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TastDatabase_search - 2019.03.31 at 17h 48m 09s.xml">
-      <configuration name="TastDatabase.search" configurationId="TestNG" />
+    <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.04.14 at 14h 47m 30s.xml">
+      <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TastDatabase_search - 2019.03.31 at 17h 51m 45s.xml">
-      <configuration name="TastDatabase.search" configurationId="TestNG" />
+    <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.04.14 at 15h 06m 07s.xml">
+      <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TastDatabase_search - 2019.03.31 at 17h 52m 24s.xml">
-      <configuration name="TastDatabase.search" configurationId="TestNG" />
+    <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.04.14 at 15h 17m 10s.xml">
+      <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCategories_testWomen - 2019.03.31 at 17h 57m 35s.xml">
-      <configuration name="TestCategories.testWomen" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestSearchExcel_search - 2019.03.31 at 18h 42m 09s.xml">
+    <history-entry file="TestSearchExcel_search - 2019.04.16 at 20h 45m 41s.xml">
       <configuration name="TestSearchExcel.search" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSearchExcel_search - 2019.03.31 at 18h 45m 40s.xml">
-      <configuration name="TestSearchExcel.search" configurationId="TestNG" />
+    <history-entry file="TestDatabase_search - 2019.04.16 at 22h 33m 25s.xml">
+      <configuration name="TestDatabase.search" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSearchExcel_search - 2019.03.31 at 18h 46m 48s.xml">
-      <configuration name="TestSearchExcel.search" configurationId="TestNG" />
+    <history-entry file="TestDatabase_search - 2019.04.16 at 22h 35m 01s.xml">
+      <configuration name="TestDatabase.search" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSearchExcel_search - 2019.03.31 at 18h 50m 24s.xml">
-      <configuration name="TestSearchExcel.search" configurationId="TestNG" />
+    <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.04.19 at 00h 42m 47s.xml">
+      <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSearchExcel - 2019.03.31 at 18h 51m 44s.xml">
-      <configuration name="TestSearchExcel" configurationId="TestNG" />
+    <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.04.19 at 00h 44m 01s.xml">
+      <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSearchExcel_search - 2019.03.31 at 19h 12m 19s.xml">
-      <configuration name="TestSearchExcel.search" configurationId="TestNG" />
+    <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.04.19 at 00h 49m 34s.xml">
+      <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_nancyrashid_IdeaProjects_Group4ProjectWebAutomation_TargetRetail_src_test_resources_TargetTestRunner_xml - 2019.04.19 at 00h 50m 45s.xml">
+      <configuration name="/Users/nancyrashid/IdeaProjects/Group4ProjectWebAutomation/TargetRetail/src/test/resources/TargetTestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128910000" />
+    <option name="totallyTimeSpent" value="143569000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="821" extended-state="0" />
+    <frame x="327" y="23" width="1113" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16881259" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26610646" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -675,19 +574,19 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.62947065" weight="0.35939643" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8795518" visible="true" weight="0.17174515" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.39643347" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.17146777" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.12044818" side_tool="true" visible="true" weight="0.17174515" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32921812" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4994012" visible="true" weight="0.32921812" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4994012" weight="0.32825485" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Maven" order="1" visible="true" weight="0.29613733" />
+      <window_info anchor="right" id="Maven" order="1" weight="0.13137996" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
@@ -733,188 +632,26 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/Readxls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="152" column="24" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target/src/main/java/java/base/Home.java" />
-    <entry file="file://$PROJECT_DIR$/Target/src/main/java/base/Categories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="249" lean-forward="true" selection-start-line="249" selection-end-line="249" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target/src/main/java/base/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target/src/main/java/base/SearchBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target/src/main/java/base/SignIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Target/src/test/java/TestDatabase.java" />
     <entry file="file://$PROJECT_DIR$/Target/src/test/java/TestCategories.java" />
     <entry file="file://$PROJECT_DIR$/Target/src/test/java/TestHome.java" />
     <entry file="file://$PROJECT_DIR$/Target/src/test/java/TestSearchBox.java" />
     <entry file="file://$PROJECT_DIR$/Target/src/test/java/TestSignIn.java" />
     <entry file="file://$PROJECT_DIR$/Target/src/test/resources/TargetTestRunner" />
-    <entry file="file://$PROJECT_DIR$/Target/src/test/java/bases/TestCategories.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target/src/test/java/bases/TestDatabase.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target/src/test/java/bases/TestHome.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target/src/test/java/bases/TestSearchBox.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target/src/test/java/bases/TestSignIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target/Extent-Report/ExtentReport.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TargetRetail/TargetRetail.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target/src/main/java/SearchDB/DbSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target/src/main/java/SearchDB/SearchWithExcel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target/src/main/java/base/SearchUsingDb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="99" column="3" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#4029#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target/src/test/java/bases/ExcelSearchTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TargetRetail/Extent-Report/ExtentReport.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="190" column="36" selection-start-line="190" selection-start-column="36" selection-end-line="190" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target/src/test/resources/TargetTestRunner.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test1/java/base/TastDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/Categories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2551">
-          <caret line="189" column="33" selection-start-line="189" selection-start-column="30" selection-end-line="189" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Target/src/test/java/bases/TestCategories.java" />
+    <entry file="file://$PROJECT_DIR$/Target/src/test/java/bases/TestDatabase.java" />
+    <entry file="file://$PROJECT_DIR$/Target/src/test/java/bases/TestHome.java" />
+    <entry file="file://$PROJECT_DIR$/Target/src/test/java/bases/TestSearchBox.java" />
+    <entry file="file://$PROJECT_DIR$/Target/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/Target/src/test/java/bases/TestSignIn.java" />
+    <entry file="file://$PROJECT_DIR$/Target/Extent-Report/ExtentReport.html" />
+    <entry file="file://$PROJECT_DIR$/TargetRetail/TargetRetail.iml" />
+    <entry file="file://$PROJECT_DIR$/Target/src/main/java/SearchDB/DbSearch.java" />
+    <entry file="file://$PROJECT_DIR$/Target/src/main/java/SearchDB/SearchWithExcel.java" />
+    <entry file="file://$PROJECT_DIR$/Target/src/main/java/base/SearchUsingDb.java" />
+    <entry file="file://$PROJECT_DIR$/Target/src/test/java/bases/ExcelSearchTester.java" />
+    <entry file="file://$PROJECT_DIR$/Target/src/test/resources/TargetTestRunner.xsl" />
+    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test1/java/base/TastDatabase.java" />
     <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/SignIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -938,27 +675,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TargetRetail/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" />
     <entry file="file://$PROJECT_DIR$/Generic/src/secret.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -966,34 +683,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/SearchUsingDb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="135" selection-start-line="20" selection-start-column="135" selection-end-line="20" selection-end-column="135" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1507#1515#0" expanded="true" />
-            <element signature="e#2055#2063#0" expanded="true" />
-            <element signature="e#2948#2956#0" expanded="true" />
-            <element signature="e#3305#3313#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSearchBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="405">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
+    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSignIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="114" column="14" selection-start-line="114" selection-start-column="14" selection-end-line="114" selection-end-column="14" />
+        <state relative-caret-position="135">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <marker date="1554841632212" expanded="true" signature="206:740" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/Categories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2790">
+          <caret line="189" column="33" selection-start-line="189" selection-start-column="30" selection-end-line="189" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/SearchBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestCategories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1004,47 +778,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/resources/TargetTestRunner.xml">
+    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSearchBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestCategories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        <state relative-caret-position="90">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSignIn.java">
+    <entry file="file://$PROJECT_DIR$/TargetRetail/Extent-Report/ExtentReport.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <marker date="1554067402145" expanded="true" signature="205:739" ph="..." />
-          </folding>
+        <state relative-caret-position="4425">
+          <caret line="295" column="30" selection-start-line="295" selection-start-column="30" selection-end-line="295" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/SearchBox.java">
+    <entry file="file://$PROJECT_DIR$/TargetRetail/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="615">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TastDatabase.java">
+    <entry file="file://$PROJECT_DIR$/Generic/Generic.iml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="1785">
+          <caret line="119" column="12" selection-start-line="119" selection-start-column="12" selection-end-line="119" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSearchExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1053,38 +839,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/databaseSearch/DbSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/databaseSearch/SearchExcel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        <state relative-caret-position="165">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TargetRetail/src/main/java/base/SearchUsingDb.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/Readxls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/java/bases/TestSearchExcel.java">
+    <entry file="file://$PROJECT_DIR$/TargetRetail/src/test/resources/TargetTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="79" column="22" lean-forward="true" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
         </state>
       </provider>
     </entry>

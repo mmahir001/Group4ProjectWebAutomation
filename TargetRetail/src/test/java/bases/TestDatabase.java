@@ -10,7 +10,7 @@ import reporting.TestLogger;
 import java.io.IOException;
 import java.sql.SQLException;
 
-public class TastDatabase extends MainAPI {
+public class TestDatabase extends MainAPI {
 
    @Test
     public void search()throws Exception, IOException, SQLException, ClassNotFoundException{

@@ -21,7 +21,6 @@ import org.testng.annotations.*;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
 
-
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -94,31 +93,48 @@ public class MainAPI {
     public static WebDriver driver = null;
     public String browserstack_username= "";
     public String browserstack_accesskey = "";
-    public String saucelabs_username = "";
-    public String saucelabs_accesskey = "";
+    public String saucelabs_username = "nancyrashid";
+    public String saucelabs_accesskey = "6a756210-debd-4399-8611-959698750b3c";
 
-    @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
+
+    @Parameters({"useCloudEnv","userName","key","os","browser","browserVersion","url"})
     @BeforeMethod
-    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
-                      @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
+    public void setUp(@Optional("false") boolean useCloudEnv,@Optional("nancyrashid") String userName,@Optional("6a756210-debd-4399-8611-959698750b3c") String key,
+                      @Optional("OS X") String os, @Optional("googlechrome") String browser, @Optional("73.0")
                               String browserVersion, @Optional("https://www.target.com/") String url)throws IOException {
         //System.setProperty("webdriver.chrome.driver", "/Users/peoplentech/eclipse-workspace-March2018/SeleniumProject1/driver/chromedriver");
-        if(useCloudEnv==true){
-            if(cloudEnvName.equalsIgnoreCase("browserstack")) {
-                getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
-            }else if (cloudEnvName.equalsIgnoreCase("saucelabs")){
-                getCloudDriver(cloudEnvName,saucelabs_username, saucelabs_accesskey,os,os_version, browserName, browserVersion);
-            }
+
+        if(useCloudEnv == true){
+            //run on cloud
+//            logger.setLevel(Level.INFO);
+//            logger.info("Test is running on cloud env");
+            getCloudDriver(userName,key,os,browser,browserVersion);
+            System.out.println("Tests is running on Saucelabs, please wait for result");
+
         }else{
-            getLocalDriver(os, browserName);
+            //run on local
+//            logger.setLevel(Level.INFO);
+//            logger.info("Test is running on local env");
+            getLocalDriver(os,browser);
+            System.out.println("Test is running on local environment");
         }
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        //driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
+//        if(useCloudEnv==true){
+//            if(cloudEnvName.equalsIgnoreCase("browserstack")) {
+//                getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
+//            }else if (cloudEnvName.equalsIgnoreCase("saucelabs")){
+//                getCloudDriver(cloudEnvName,saucelabs_username, saucelabs_accesskey,os,os_version, browserName, browserVersion);
+//            }
+//        }else{
+//            getLocalDriver(os, browserName);
+//        }
+//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.get(url);
         //driver.manage().window().maximize();
     }
+
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName){
-        if(browserName.equalsIgnoreCase("chrome")){
+        if(browserName.equalsIgnoreCase("googlechrome")){
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
@@ -153,22 +169,16 @@ public class MainAPI {
     }
 
 
-    public WebDriver getCloudDriver(String envName,String envUsername, String envAccessKey,String os, String os_version,String browserName,
-                                    String browserVersion)throws IOException {
+    public WebDriver getCloudDriver(String userName,String key,
+                                    String OS,String browser,String browserVersion)throws IOException{
         DesiredCapabilities cap = new DesiredCapabilities();
-        cap.setCapability("browser",browserName);
-        cap.setCapability("browser_version",browserVersion);
-        cap.setCapability("os", os);
-        cap.setCapability("os_version", os_version);
-        if(envName.equalsIgnoreCase("Saucelabs")){
-            //resolution for Saucelabs
-            driver = new RemoteWebDriver(new URL("http://"+envUsername+":"+envAccessKey+
-                    "@ondemand.saucelabs.com:80/wd/hub"), cap);
-        }else if(envName.equalsIgnoreCase("Browserstack")) {
-            cap.setCapability("resolution", "1024x768");
-            driver = new RemoteWebDriver(new URL("http://" + envUsername + ":" + envAccessKey +
-                    "@hub-cloud.browserstack.com/wd/hub"), cap);
-        }
+        cap.setCapability("platform", "OS X");
+        cap.setCapability("version", "73.0");
+        cap.setBrowserName(browser);
+        cap.setCapability("name","Target TestRunner");
+
+        this.driver = new RemoteWebDriver(new URL("http://"+userName+":"+key+"@ondemand.saucelabs.com:80/wd/hub"), cap);
+
         return driver;
     }
 

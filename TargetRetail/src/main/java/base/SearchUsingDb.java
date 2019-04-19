@@ -63,6 +63,7 @@ public class SearchUsingDb extends MainAPI {
         for(int i=0; i<list.size(); i++) {
             searchFor(list.get(i));
             submitSearchButton();
+            Thread.sleep(2000);
             clearInput();
         }
     }

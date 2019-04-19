@@ -7,8 +7,8 @@ public class TestSignIn extends MainAPI {
 
 
 
-   // @BeforeMethod
-
+//   @BeforeMethod
+//
 //    public void initialize() {
 //        =PageFactory.initElements(driver,.class);
 //    }
