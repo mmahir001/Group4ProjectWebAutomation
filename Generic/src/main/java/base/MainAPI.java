@@ -99,7 +99,7 @@ public class MainAPI {
     @Parameters({"useCloudEnv","userName","key","os","browser","browserVersion","url"})
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv,@Optional("mmahir001") String userName,@Optional("2f3eaddb-6af6-4b06-9dc8-2084b05379f8") String key,
-                      @Optional("OS X") String os, @Optional("googlechrome") String browser, @Optional("73.0")
+                      @Optional("OS X") String os, @Optional("chrome-options") String browser, @Optional("73.0")
                               String browserVersion, @Optional("https://www.instagram.com/") String url)throws IOException {
         //System.setProperty("webdriver.chrome.driver", "/Users/peoplentech/eclipse-workspace-March2018/SeleniumProject1/driver/chromedriver");
 

@@ -13,15 +13,15 @@
 
     <test name = "Youtube Home Page">
         <classes>
-            <class name="youtubeTests.HomepageTester"/>
-            <class name="youtubeTests.SearchTester"/>
-            <class name="youtubeTests.SearchUsingDbTester"/>
-            <class name="youtubeTests.ExcelSearchTester"/>
-            <class name="youtubeTests.IconsTester"/>
-            <class name="youtubeTests.YTMenuTester"/>
-            <class name="youtubeTests.SettingMenuTester"/>
-            <class name="youtubeTests.InfoPageTester"/>
-<!--            <class name="youtubeTests.GoogleSheetTest"/>-->
+<!--            <class name="youtubeTests.HomepageTester"/>-->
+<!--            <class name="youtubeTests.SearchTester"/>-->
+<!--            <class name="youtubeTests.SearchUsingDbTester"/>-->
+<!--            <class name="youtubeTests.ExcelSearchTester"/>-->
+<!--            <class name="youtubeTests.IconsTester"/>-->
+<!--            <class name="youtubeTests.YTMenuTester"/>-->
+<!--            <class name="youtubeTests.SettingMenuTester"/>-->
+<!--            <class name="youtubeTests.InfoPageTester"/>-->
+            <class name="youtubeTests.GoogleSheetTest"/>
         </classes>
     </test>
 
