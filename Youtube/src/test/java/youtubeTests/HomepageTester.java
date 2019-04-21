@@ -3,16 +3,23 @@ package youtubeTests;
 import base.MainAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import youtubePages.HomePage;
 
 public class HomepageTester extends MainAPI {
+    String Url ="https://www.youtube.com/";
     HomePage hp;
 
     @BeforeMethod
     public void initilizeHomePage(){
         hp = PageFactory.initElements(driver, HomePage.class);
+    }
+
+    @AfterMethod
+    public void initurl(){
+        driver.get(Url);
     }
 
     @Test

@@ -4,6 +4,8 @@
     <list default="true" id="b3d131f9-3904-4cb5-896e-d288f3a48fde" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youtube/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/HomepageTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/HomepageTester.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -24,19 +26,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Adidas/src/test/resources/AdidasTestRunner.xml">
+        <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/HomepageTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="-844">
+              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Instagram/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/SearchUsingDbTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+            <state relative-caret-position="195">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="144" column="42" selection-start-line="144" selection-start-column="42" selection-end-line="144" selection-end-column="42" />
+            <state relative-caret-position="134">
+              <caret line="134" column="44" selection-start-line="134" selection-start-column="44" selection-end-line="134" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3084#3085#0" expanded="true" />
@@ -56,37 +68,59 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/IconsTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="495">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/YTMenuTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1605">
-              <caret line="107" selection-start-line="107" selection-end-line="107" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Youtube/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/googleSheet/GoogleSheetsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+            <state relative-caret-position="512">
+              <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Instagram/src/main/test/resources/InstaTestRunner.xml">
+        <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SettingMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="82">
+              <caret line="33" column="88" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="88" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,22 +128,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+            <state relative-caret-position="405">
+              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
               <folding>
-                <marker date="1555260926886" expanded="true" signature="587:690" ph="..." />
+                <marker date="1555874352171" expanded="true" signature="587:690" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+        <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SearchUsingDb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" column="137" selection-start-line="20" selection-start-column="137" selection-end-line="20" selection-end-column="137" />
+            <state relative-caret-position="660">
+              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/InfoPageTester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="113" column="9" lean-forward="true" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,7 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FoxNews/src/main/java/homePageTests/FoxHome.java" />
         <option value="$PROJECT_DIR$/FoxNews/src/test/java/homePageTests/FoxHomeTest.java" />
         <option value="$PROJECT_DIR$/Youtube/src/main/java/searchDB/dbSearch.java" />
         <option value="$PROJECT_DIR$/Youtube/src/main/java/youtubePages/searchUsingDb.java" />
@@ -187,8 +236,9 @@
         <option value="$PROJECT_DIR$/Youtube/pom.xml" />
         <option value="$PROJECT_DIR$/Adidas/pom.xml" />
         <option value="$PROJECT_DIR$/Adidas/src/test/resources/AdidasTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" />
         <option value="$PROJECT_DIR$/Instagram/src/main/test/resources/InstaTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/HomepageTester.java" />
+        <option value="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" />
       </list>
     </option>
@@ -263,48 +313,53 @@
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Adidas" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="browser-driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Instagram" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Instagram" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Instagram" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="Instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Youtube" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -356,29 +411,16 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG./Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml">
-    <configuration name="ConnectToSqlDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="databases.ConnectToSqlDB" />
-      <module name="Generic" />
+    <configuration name="HomepageTester" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Youtube" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="databases.*" />
+          <option name="PATTERN" value="youtubeTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WomensPageTester" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Adidas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.WomensPageTester" />
+      <option name="PACKAGE_NAME" value="youtubeTests" />
+      <option name="MAIN_CLASS_NAME" value="youtubeTests.HomepageTester" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -386,20 +428,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Adidas/src/test/resources/AdidasTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Adidas" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Adidas/src/test/resources/AdidasTestRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+    <configuration name="HomepageTester.clickGaming" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Youtube" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="youtubeTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="youtubeTests" />
+      <option name="MAIN_CLASS_NAME" value="youtubeTests.HomepageTester" />
+      <option name="METHOD_NAME" value="clickGaming" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/src/main/test/resources/InstaTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Instagram" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Instagram/src/main/test/resources/InstaTestRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+    <configuration name="HomepageTester.clickSpotlight" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Youtube" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="youtubeTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="youtubeTests" />
+      <option name="MAIN_CLASS_NAME" value="youtubeTests.HomepageTester" />
+      <option name="METHOD_NAME" value="clickSpotlight" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomepageTester.clickTrending" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Youtube" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="youtubeTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="youtubeTests" />
+      <option name="MAIN_CLASS_NAME" value="youtubeTests.HomepageTester" />
+      <option name="METHOD_NAME" value="clickTrending" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -419,10 +495,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" />
-        <item itemvalue="TestNG./Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/src/main/test/resources/InstaTestRunner.xml" />
-        <item itemvalue="TestNG./Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Adidas/src/test/resources/AdidasTestRunner.xml" />
-        <item itemvalue="TestNG.WomensPageTester" />
-        <item itemvalue="Application.ConnectToSqlDB" />
+        <item itemvalue="TestNG.HomepageTester.clickSpotlight" />
+        <item itemvalue="TestNG.HomepageTester.clickTrending" />
+        <item itemvalue="TestNG.HomepageTester.clickGaming" />
+        <item itemvalue="TestNG.HomepageTester" />
       </list>
     </recent_temporary>
   </component>
@@ -440,35 +516,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.04.14 at 11h 37m 59s.xml">
+    <history-entry file="InfoPageTester_clickLive2 - 2019.04.20 at 03h 16m 13s.xml">
+      <configuration name="InfoPageTester.clickLive2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="IconsTester_TestUpoladIcon - 2019.04.20 at 03h 23m 05s.xml">
+      <configuration name="IconsTester.TestUpoladIcon" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomepageTester_clickTrending - 2019.04.20 at 03h 30m 35s.xml">
+      <configuration name="HomepageTester.clickTrending" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomepageTester - 2019.04.20 at 03h 31m 39s.xml">
+      <configuration name="HomepageTester" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomepageTester_clickTrending - 2019.04.20 at 03h 32m 04s.xml">
+      <configuration name="HomepageTester.clickTrending" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomepageTester_clickGaming - 2019.04.20 at 03h 33m 03s.xml">
+      <configuration name="HomepageTester.clickGaming" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomepageTester_clickTrending - 2019.04.20 at 03h 43m 05s.xml">
+      <configuration name="HomepageTester.clickTrending" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomepageTester_clickSpotlight - 2019.04.20 at 03h 44m 03s.xml">
+      <configuration name="HomepageTester.clickSpotlight" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.04.20 at 03h 44m 35s.xml">
       <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Adidas_src_test_resources_AdidasTestRunner_xml - 2019.04.14 at 11h 57m 04s.xml">
-      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Adidas/src/test/resources/AdidasTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Adidas_src_test_resources_AdidasTestRunner_xml - 2019.04.14 at 12h 02m 44s.xml">
-      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Adidas/src/test/resources/AdidasTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WomensPageTester - 2019.04.14 at 12h 12m 31s.xml">
-      <configuration name="WomensPageTester" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Adidas_src_test_resources_AdidasTestRunner_xml - 2019.04.14 at 12h 13m 02s.xml">
-      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Adidas/src/test/resources/AdidasTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Adidas_src_test_resources_AdidasTestRunner_xml - 2019.04.14 at 12h 46m 59s.xml">
-      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Adidas/src/test/resources/AdidasTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Adidas_src_test_resources_AdidasTestRunner_xml - 2019.04.14 at 13h 04m 18s.xml">
-      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Adidas/src/test/resources/AdidasTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Instagram_src_main_test_resources_InstaTestRunner_xml - 2019.04.14 at 13h 06m 47s.xml">
-      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/src/main/test/resources/InstaTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.04.14 at 13h 13m 21s.xml">
+    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.04.20 at 17h 14m 10s.xml">
       <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Instagram_src_main_test_resources_InstaTestRunner_xml - 2019.04.19 at 00h 46m 18s.xml">
-      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Instagram/src/main/test/resources/InstaTestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -484,7 +560,7 @@
     <frame x="2" y="32" width="1364" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2473525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2473525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -507,7 +583,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.1429652" />
+      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.1429652" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -574,16 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/SearchUsingDbTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -595,16 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/ExcelSearchTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -639,40 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="58" column="142" selection-start-line="58" selection-start-column="142" selection-end-line="58" selection-end-column="142" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/YTMenuTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SettingMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1130">
-          <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -726,43 +748,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/IconsTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/youtubePages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
           <caret line="152" selection-start-line="152" selection-end-line="152" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/HomepageTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -812,26 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/googleSheet/GoogleSheetsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/GoogleSheetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/Resources/client_secret.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -843,30 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
           <caret line="227" selection-start-line="227" selection-end-line="227" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/InfoPageTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1695">
-          <caret line="113" column="9" lean-forward="true" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SearchUsingDb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -935,16 +882,6 @@
             <element signature="e#1075#1076#0" expanded="true" />
             <element signature="e#1108#1109#0" expanded="true" />
             <element signature="e#1149#1150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Adidas/src/main/java/pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="375" column="5" selection-start-line="375" selection-start-column="5" selection-end-line="375" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1032,23 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Instagram/src/main/test/resources/InstaTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-          <folding>
-            <marker date="1555260926886" expanded="true" signature="587:690" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1059,17 +979,162 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram/src/main/test/resources/InstaTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/ExcelSearchTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/GoogleSheetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="-870">
           <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Adidas/src/main/java/pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="147" column="6" selection-start-line="147" selection-start-column="6" selection-end-line="147" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/IconsTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/InfoPageTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="113" column="9" lean-forward="true" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/HomepageTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-844">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/SearchUsingDbTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/YTMenuTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/googleSheet/GoogleSheetsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SettingMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="33" column="88" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding>
+            <marker date="1555874352171" expanded="true" signature="587:690" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SearchUsingDb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="144" column="42" selection-start-line="144" selection-start-column="42" selection-end-line="144" selection-end-column="42" />
+        <state relative-caret-position="134">
+          <caret line="134" column="44" selection-start-line="134" selection-start-column="44" selection-end-line="134" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3084#3085#0" expanded="true" />

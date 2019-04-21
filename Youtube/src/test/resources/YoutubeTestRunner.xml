@@ -21,7 +21,7 @@
             <class name="youtubeTests.YTMenuTester"/>
             <class name="youtubeTests.SettingMenuTester"/>
             <class name="youtubeTests.InfoPageTester"/>
-<!--            <class name="youtubeTests.GoogleSheetTest"/>-->
+            <class name="youtubeTests.GoogleSheetTest"/>
         </classes>
     </test>
 
