@@ -139,7 +139,7 @@ public class MainAPI {
                 System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
             }
             driver = new ChromeDriver();
-        } else if(browserName.equalsIgnoreCase("chrome-options")){
+        } else if(browserName.equalsIgnoreCase("googlechrome")){
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
             if(OS.equalsIgnoreCase("OS X")){

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3d131f9-3904-4cb5-896e-d288f3a48fde" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/HomepageTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/HomepageTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -53,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="134">
@@ -125,13 +122,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+            <state relative-caret-position="120">
+              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
               <folding>
-                <marker date="1555874352171" expanded="true" signature="587:690" ph="..." />
+                <marker date="1555887261754" expanded="true" signature="587:690" ph="..." />
+                <marker date="1555887261754" expanded="true" signature="699:1032" ph="..." />
               </folding>
             </state>
           </provider>
@@ -238,8 +236,8 @@
         <option value="$PROJECT_DIR$/Adidas/src/test/resources/AdidasTestRunner.xml" />
         <option value="$PROJECT_DIR$/Instagram/src/main/test/resources/InstaTestRunner.xml" />
         <option value="$PROJECT_DIR$/Youtube/src/test/java/youtubeTests/HomepageTester.java" />
-        <option value="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/MainAPI.java" />
+        <option value="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" />
       </list>
     </option>
   </component>
@@ -360,6 +358,47 @@
               <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="Youtube" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Youtube" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Youtube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Youtube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Youtube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Youtube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group4ProjectWebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group4ProjectWebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Youtube" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -516,9 +555,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InfoPageTester_clickLive2 - 2019.04.20 at 03h 16m 13s.xml">
-      <configuration name="InfoPageTester.clickLive2" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="IconsTester_TestUpoladIcon - 2019.04.20 at 03h 23m 05s.xml">
       <configuration name="IconsTester.TestUpoladIcon" configurationId="TestNG" />
     </history-entry>
@@ -544,6 +580,9 @@
       <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.04.20 at 17h 14m 10s.xml">
+      <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_muhtasimmahir_IdeaProjects_Group4ProjectWebAutomation_Youtube_src_test_resources_YoutubeTestRunner_xml - 2019.04.21 at 18h 49m 28s.xml">
       <configuration name="/Users/muhtasimmahir/IdeaProjects/Group4ProjectWebAutomation/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -583,7 +622,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.1429652" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.1429652" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -1111,16 +1150,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-          <folding>
-            <marker date="1555874352171" expanded="true" signature="587:690" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/youtubePages/SearchUsingDb.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -1139,6 +1168,17 @@
             <element signature="imports" expanded="true" />
             <element signature="e#3084#3085#0" expanded="true" />
             <element signature="e#3114#3115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <marker date="1555887261754" expanded="true" signature="587:690" ph="..." />
+            <marker date="1555887261754" expanded="true" signature="699:1032" ph="..." />
           </folding>
         </state>
       </provider>
